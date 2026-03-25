@@ -63,17 +63,6 @@ I spent two weeks pulling the system apart. Today's guide shows you how to use i
 - **What:** Garry Tan describes his GStack workflow evolution — replacing sequential `/plan-ceo-review` + `/plan-eng-review` passes with a single `/autoplan with adversarial review`, then finishing with a dual-model adversarial code review (Claude + Codex together), which consistently produces one-shot correct implementations with full test coverage.
 
 
-## @Shpigford - Shpigford/skills: Agent Skills Collection for Claude Code and AI Coding Assistants
-> *Replying to @richiemcilroy:* just over a month ago we ripped out Intercom from @Cap and replaced it with our own in-house version. took half a day to implement, with a custom admin dashboard, saving over $3k/yr.
->
-> @richiemcilroy @cap Yasss. I did this so many times I turned it in to a /skill that you can run in your app repo and it'll build the whole thing for you!
-
-- **Tweet:** https://x.com/Shpigford/status/2036632676950474838
-- **Link:** https://github.com/Shpigford/skills/blob/main/chat-widget/SKILL.md
-- **Filed:** [shpigford-skills](./knowledge/tools/shpigford-skills.md)
-- **What:** Reply noting that building in-house chat widgets is so repeatable that Shpigford codified it as a `/skill` in his public agent skills repo — which includes a `chat-widget` skill that builds a full real-time support chat system with floating widget, WebSocket messaging, and admin dashboard for any framework.
-
-
 ## @JasonrShuman - "Do It For Me" Economy: AI Installers Will Beat SaaS Vendors for SMBs
 > Silicon Valley thinks AI agents are a $20/mo self-serve subscription.
 >
@@ -112,14 +101,6 @@ I spent two weeks pulling the system apart. Today's guide shows you how to use i
 - **Tweet:** https://x.com/amirmxt/status/2036591977177776466
 - **Quoted:** https://x.com/helloitsaustin/status/2036553581625745511
 - **What:** Breakdown of how Anthropic's growth team runs Google Ads management through Claude Cowork — a custom MCP plugin queries campaigns via GAQL, evaluates search terms, outputs audit CSVs with reasoning columns, and can apply changes (like negatives) directly from chat on desktop or Dispatch mobile.
-
-
-## @itsolelehmann - Claude Setup Rot: A Self-Audit Prompt to Cut Dead Prompting Weight
-> (X article) Your Claude setup rots over time. Detox it in 60 seconds (with this self-audit prompt): I deleted half my Claude setup last week and every output got better. Sounds backwards...but Anthropic's own prompting docs just explained exactly why this happens. Here's the one prompt that tells you what to cut...
-
-- **Tweet:** https://x.com/itsolelehmann/status/2036533756572639611
-- **Link:** https://x.com/i/article/2036433375150354432
-- **What:** X-native long-form article arguing that Claude setups accumulate contradictory, redundant rules over time — and providing a single self-audit prompt you paste into Claude to have it read your entire CLAUDE.md/skills/context and flag every instruction that is redundant, contradictory, too vague, or just a bandaid for a one-off failure.
 
 
 ## @iamsupersocks - Anthropic Engineering: Multi-Agent Harness for Long-Running Autonomous Apps
@@ -200,21 +181,6 @@ I spent two weeks pulling the system apart. Today's guide shows you how to use i
 - **What:** An optimistic philosophical take on AI-driven job displacement — arguing that most jobs are low-value busywork, and that freeing people from them (as Claude's new computer-use feature accelerates) could trigger an intellectual boom analogous to ancient Greece, where idle time enabled great advances. Prompted by Anthropic's computer-use research preview announcement.
 
 
-## @iruletheworldmo - Claude Dispatch Guide: 48 Hours Running AI Workflows from a Phone
-
-> if you haven't tried dispatch yet you need to wake up
->
-> this guide will see you free
->
-> it's a must read. must bookmark.
->
-> *Quoting @PawelHuryn:* https://t.co/WwRq4EZKh3
-
-- **Tweet:** https://x.com/iruletheworldmo/status/2036368407369506840
-- **Link:** https://x.com/i/article/2036056172810096640
-- **What:** An X article by Paweł Huryn documenting 48 hours of running Claude Dispatch — a mobile orchestrator that spawns and manages multiple Cowork sessions on a desktop from your phone. Covers setup, real PM workflows, gotchas (folder access, file transfer), and how a persistent CLAUDE.md knowledge layer makes every Claude surface compound in value.
-
-
 ## @yacineMTB - Entry Path into AI: Karpathy's Backprop Videos + PufferLib
 
 > if you are interested in getting into AI, the best way today is to start with karpathy's videos on backprop/gradient descent and then get pufferlib (puffer dot ai) and start training models
@@ -280,16 +246,6 @@ I spent two weeks pulling the system apart. Today's guide shows you how to use i
 - **What:** OpenAI's "Parameter Golf" challenge — a public competition to train the best language model that fits within 16MB, with $1M in free compute credits as backing and a public leaderboard running until April 30, 2026. Top performers get recruited directly by OpenAI researchers without a traditional application process.
 
 
-## @garrytan - GStack: /autoplan with Adversarial Review Replaces Sequential Plan Reviews
-> Building your own tools like GStack is an amazing experience. You come up with something you think might work and then two days later it replaces what you were doing before.
->
-> Instead of /plan-ceo-review and /plan-eng-review sequentially, I find myself using "/autoplan with adversarial review" every time (it is kind of like Claude's -auto-mode but for making choices that my prompts used to ask). And after I finalize the plan and exit plan mode, CC codes it all, and then I do "/review with full claude and codex, full adversarial with claude and codex"
->
-> And then it just one-shots everything from there, no bugs, 100% test coverage
-
-- **Tweet:** https://x.com/garrytan/status/2036638037908836635
-- **What:** Garry Tan describes his GStack tool workflow: /autoplan with adversarial review replaces separate sequential plan reviews, followed by /review with full Claude + Codex adversarial pass — achieving one-shot implementation with 100% test coverage.
-
 ## @Shpigford - Shpigford/skills: Agent Skills Collection for AI Coding Assistants
 > *Replying to @richiemcilroy:* just over a month ago we ripped out Intercom from @Cap and replaced it with our own in-house version. took half a day to implement, saving over $3k/yr.
 >
@@ -331,12 +287,6 @@ I spent two weeks pulling the system apart. Today's guide shows you how to use i
 - **Quoted:** https://x.com/PawelHuryn/status/2036058594433519790
 - **Link:** https://x.com/i/article/2036056172810096640
 - **What:** Endorsement of Paweł Huryn's 48-hour Dispatch test — covers setup, real PM async workflows (directing work from a bounce house sideline), gotchas, and why building a GitHub-backed knowledge layer (CLAUDE.md + skills) compounds across all Claude surfaces.
-
-## @yacineMTB - Getting Into AI: Start with Karpathy's Videos then PufferLib
-> if you are interested in getting into AI, the best way today is to start with karpathy's videos on backprop/gradient descent and then get pufferlib (puffer dot ai) and start training models
-
-- **Tweet:** https://x.com/yacineMTB/status/2036302350265020509
-- **What:** Concise beginner on-ramp: Karpathy's backprop/gradient descent videos for theory foundation, then PufferLib (puffer.ai) for hands-on model training practice.
 
 ## @shannholmberg - Karpathy's AutoResearch for Marketing Campaign Optimization
 > Karpathy's AutoResearch is changing how campaigns get optimized and most marketers haven't heard of it yet.
