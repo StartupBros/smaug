@@ -1,4 +1,76 @@
+# Wednesday, March 25, 2026
+
+## @aakashgupta - Karpathy's Autoresearch: The Spec Hidden in the Fiction
+> Karpathy buried the most important part of autoresearch in the README, and almost nobody read it. Above the installation instructions, he wrote a short fiction piece set in the future. Autonomous swarms of AI agents running across compute cluster megastructures. Generation 10,205 of a self-modifying codebase that has grown beyond human comprehension. Then the last line: "This repo is the story of how it all began." He's telling you what he thinks he built.
+>
+> *Quoting @aakashgupta:* For $25 and a single GPU, you can now run 100 experiments overnight without designing any of them. Karpathy open-sourced autoresearch. 42,000 GitHub stars in a week. Fortune called it "The Karpathy Loop." Three files. One the agent edits. One it can never touch. One instruction file from you. The roadmap: single-agent loop (shipped) → async multi-GPU collaboration → staged self-improvement pipelines.
+
+- **Tweet:** https://x.com/aakashgupta/status/2036666385099870394
+- **Quoted:** https://x.com/aakashgupta/status/2034851259442749909
+- **Filed:** [karpathy-autoresearch-guide](./knowledge/articles/karpathy-autoresearch-guide.md)
+- **What:** Aakash Gupta argues Karpathy's fictional README intro is actually the product spec — tracing the 3-step roadmap from single-agent loops to async multi-GPU swarms to staged self-improvement, with Shopify's 53% Liquid rendering gain and 42k GitHub stars as proof the distributed GPU surface already exists.
+
+---
+
 # Tuesday, March 24, 2026
+
+## @garrytan - GStack: /autoplan with Adversarial Review Replaces Sequential Plan Reviews
+> Building your own tools like GStack is an amazing experience. You come up with something you think might work and then two days later it replaces what you were doing before.
+>
+> Instead of /plan-ceo-review and /plan-eng-review sequentially, I find myself using "/autoplan with adversarial review" every time (it is kind of like Claude's -auto-mode but for making choices that my prompts used to ask). And after I finalize the plan and exit plan mode, CC codes it all, and then I do "/review with full claude and codex, full adversarial with claude and codex"
+>
+> And then it just one-shots everything from there, no bugs, 100% test coverage
+
+- **Tweet:** https://x.com/garrytan/status/2036638037908836635
+- **What:** Garry Tan describes his GStack tool workflow: /autoplan with adversarial review replaces separate sequential plan reviews, followed by /review with full Claude + Codex adversarial pass — achieving one-shot implementation with 100% test coverage.
+
+## @Shpigford - Shpigford/skills: Agent Skills Collection for AI Coding Assistants
+> *Replying to @richiemcilroy:* just over a month ago we ripped out Intercom from @Cap and replaced it with our own in-house version. took half a day to implement, saving over $3k/yr.
+>
+> @richiemcilroy @cap Yasss. I did this so many times I turned it in to a /skill that you can run in your app repo and it'll build the whole thing for you!
+
+- **Tweet:** https://x.com/Shpigford/status/2036632676950474838
+- **Parent:** https://x.com/richiemcilroy/status/2036494709372100958
+- **Filed:** [shpigford-skills](./knowledge/tools/shpigford-skills.md)
+- **What:** Josh Pigford's collection of 10 agent skills (150 stars) compatible with Claude Code, Cursor, Gemini Code Assist, and GitHub Copilot — covers chat widget builds, Rails project setup, favicon generation, marketing screenshots, READMEs, and a skeptical self-review pass.
+
+## @amirmxt - Google Ads Campaign Management via Claude Cowork + Google Ads MCP
+> austin run's anthropic's growth
+>
+> great breakdown on how he runs his campaigns with dispatch: custom claude cowork plugin connecting directly to the Google Ads API via MCP — skills for search term mining, budget optimization, and weekly reviews; GAQL queries that output CSV with reasoning column per flag; adding negatives right from chat; extends to Dispatch on mobile.
+>
+> *Quoting @helloitsaustin:* if you're a performance marketer, here's how I use a custom Claude Cowork plugin to manage Google Ads at @AnthropicAI. it connects to the Google Ads API via MCP, encodes my common paid search workflows into skills, and works on desktop and Dispatch.
+
+- **Tweet:** https://x.com/amirmxt/status/2036591977177776466
+- **Quoted:** https://x.com/helloitsaustin/status/2036553581625745511
+- **What:** Breakdown of how Anthropic's growth team uses Claude Cowork with a custom Google Ads MCP plugin — connects directly to the API via GAQL, encodes paid search workflows as reusable skills, outputs auditable CSVs with per-flag reasoning columns, and manages campaigns from mobile via Dispatch.
+
+## @itsolelehmann - Detox Your Claude Setup: Self-Audit Prompt to Cut Dead Weight Rules
+> *[X article: "Your Claude setup rots over time. Detox it in 60 seconds (with this self-audit prompt)"]*
+
+- **Tweet:** https://x.com/itsolelehmann/status/2036533756572639611
+- **Link:** https://x.com/i/article/2036433375150354432
+- **What:** Ole Lehmann argues accumulated CLAUDE.md rules degrade output quality — shares a copy-paste self-audit prompt where Claude reads its own entire setup and flags redundant, conflicting, or overly specific rules; also shows how to automate weekly audits via Cowork's built-in scheduling.
+
+## @iruletheworldmo - The Claude Dispatch Guide: 48 Hours Running AI From Your Phone
+> if you haven't tried dispatch yet you need to wake up
+>
+> this guide will see you free
+>
+> it's a must read. must bookmark.
+>
+> *Quoting @PawelHuryn:* [The Claude Dispatch Guide: 48 Hours Running AI From My Phone — testing all 4 Claude mobile surfaces, real PM async workflows, gotchas with folder access and file transfer, and why a GitHub-backed knowledge layer compounds across all surfaces]
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2036368407369506840
+- **Quoted:** https://x.com/PawelHuryn/status/2036058594433519790
+- **Link:** https://x.com/i/article/2036056172810096640
+- **What:** Endorsement of Paweł Huryn's 48-hour Dispatch test — covers setup, real PM async workflows (directing work from a bounce house sideline), gotchas, and why building a GitHub-backed knowledge layer (CLAUDE.md + skills) compounds across all Claude surfaces.
+
+## @yacineMTB - Getting Into AI: Start with Karpathy's Videos then PufferLib
+> if you are interested in getting into AI, the best way today is to start with karpathy's videos on backprop/gradient descent and then get pufferlib (puffer dot ai) and start training models
+
+- **Tweet:** https://x.com/yacineMTB/status/2036302350265020509
+- **What:** Concise beginner on-ramp: Karpathy's backprop/gradient descent videos for theory foundation, then PufferLib (puffer.ai) for hands-on model training practice.
 
 ## @shannholmberg - Karpathy's AutoResearch for Marketing Campaign Optimization
 > Karpathy's AutoResearch is changing how campaigns get optimized and most marketers haven't heard of it yet.
