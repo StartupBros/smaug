@@ -205,7 +205,6 @@
 
 ---
 
-
 ---
 
 # Monday, March 23, 2026
@@ -369,7 +368,6 @@
 
 ---
 
-
 ---
 
 # Sunday, March 22, 2026
@@ -484,7 +482,6 @@
 - **What:** Endorsement of a comprehensive guide on properly organizing the .claude/ folder structure—covering CLAUDE.md, commands, rules, skills, agents, settings.json, and the global ~/.claude/ folder.
 
 ---
-
 
 ---
 
@@ -655,7 +652,6 @@
 - **What:** Business opportunity pitch: run in-person AI training workshops for 35-60 year old corporate professionals at $500-1000/head, targeting a market underserved by online courses.
 
 ---
-
 
 ---
 
@@ -1912,7 +1908,6 @@ truly unbelievable
 
 ---
 
-
 ---
 
 # Monday, March 9, 2026
@@ -2385,16 +2380,16 @@ Because nobody kn...
 - **Quoted:** https://x.com/_Investinq/status/2029402115550970297
 - **What:**
 
-## @Shpigford - i'm basically completely booked up for the next 4-6 weeks al
-> i'm basically completely booked up for the next 4-6 weeks already but realizing i don't love doing project-based billing.
+## @Shpigford - Initial Commit - Fractional AI & Product Co-founder Service
+> you've heard of fractional CFOs, but now you can have a fractional co-founder who's an expert in AI.
 >
-> i kinda just want too say, "here's what i charge per hour. yes, it's a lot, but i guarantee every hour will be as productive as 10 humans. let's work."
+> hire me to embed w/ your team, find where AI creates real leverage, and ship it. not in months, in weeks.
 >
-> *Quoting @Shpigford:* you've heard of fractional CFOs, but now you can have a fractional co-founder who's an expert in AI....
+> 22 years. 80+ products. millions in sales.
 
-- **Tweet:** https://x.com/Shpigford/status/2029672547831185638
-- **Quoted:** https://x.com/Shpigford/status/2026711107860111600
-- **What:**
+- **Tweet:** https://x.com/Shpigford/status/2026711107860111600
+- **Link:** https://initialcommit.co/
+- **What:** Josh Pigford (of Baremetrics fame) is offering a fractional AI + product co-founder service called Initial Commit. Engagements range from a 10-hour Kickstart ($5k) to ongoing Fractional Co-founder at $10k/month, focused on embedding with teams to identify AI leverage and ship quickly.
 
 ## @AndrewWarner - https://t.co/sGOmiqGVXu
 > https://t.co/sGOmiqGVXu
@@ -2526,16 +2521,36 @@ Google Drive, Gmail, Calendar, and every Workspace API. 40+ agent skills include
 ---
 
 # Tuesday, March 3, 2026
-## @DeRonin_ - That's your opportunity and YOU'RE EARLY! if you learn AI, y...
+## @DeRonin_ - AI Services Pricing Guide for 2026 Freelancers
 > That's your opportunity and YOU'RE EARLY!
 >
-> *Quoting @damianplayer:* your timeline convinced you AI is in a bubble. talk to a boomer above the age 35 for 5 minutes. 
+> if you learn AI, you can charge:
+>
+> - $300-5k to set up an AI agent for business
+> - $500-2k/mo for AI content management
+> - $500-2k to build AI prompts & SOPs (sales)
+> - $1-4k to automate customer support with AI
+> - $500-2k for an automated AI audit
+> - $500-2k for AI cold outreach setup
+> - $500-1.5k for AI workflow training
+> - $1-3k to build internal AI assistants
+> - $300-1k for 1:1 AI consulting
+>
+> and i didn't even mention the obvious stuff like design generation, vibecoding, etc.
+>
+> these are real business use cases, things companies actually need, at least that's how it looks
+>
+> the service spectrum is even wider, but once you master this, you're already a demanded specialist in 2026
+>
+> what's better than one employee replacing five?
+>
+> only AGI replacing that one, but we're not there yet…
 
-mo
+> *Quoting @damianplayer:* your timeline convinced you AI is in a bubble. talk to a boomer above the age 35 for 5 minutes. most people don't even know what claude is. kind of wild when you zoom out.
 
 - **Tweet:** https://x.com/DeRonin_/status/2028832828952101046
 - **Quoted:** https://x.com/damianplayer/status/2025234388137468387
-- **What:** Guide to AI service offerings and pricing that businesses need in 2026.
+- **What:** Pricing breakdown for AI service offerings a freelancer or agency could sell to businesses in 2026, ranging from agent setup ($300–$5k) to consulting ($300–$1k/hr), framed around the observation that most non-tech businesses are still AI-naive and the market is early.
 
 ## @signulll - this is quite a ridiculous chart if accurate. https://t.co/8...
 > this is quite a ridiculous chart if accurate. https://t.co/8RX25Veqby
@@ -2552,199 +2567,290 @@ mo
 ---
 
 # Monday, March 2, 2026
-## @itsolelehmann - i got claude to actually sound like me, and it's kinda ruini...
+## @itsolelehmann - Voice DNA - Claude System Prompt for Matching Writing Style
 > i got claude to actually sound like me, and it's kinda ruining my ability to tell which drafts i wrote myself lol
 
-- **Tweet:** https://x.com/itsolelehmann/status/2028497454635888982
-- **What:** Tool/technique for customizing Claude's writing voice to match personal style using a Voice DNA file.
+> it's just 1 file (i'm giving the full thing to you below).
 
-## @morganlinton - If you don’t have agents working overnight, while you sleep,...
-> If you don’t have agents working overnight, while you sleep, read this.
->
-> *Quoting @johnennis:* https://t.co/8dP18DOaiZ
+> you paste it into your cowork context folder and claude stops writing like a generic AI and starts matching your actual voice
+
+> 95% of the file is already done for you (writing rules, banned phrases, formatting stuff,  etc) all pre-loaded.
+
+> kills the most obvious AI-isms out of the box
+
+> the only part you fill in is a section at the bottom where you paste examples of your own writing
+
+> that's it.
+
+> those samples are what claude actually pattern-matches against
+
+- **Tweet:** https://x.com/itsolelehmann/status/2028497454635888982
+- **What:** A shareable Claude system-prompt template ("Voice DNA") designed to eliminate generic AI writing patterns by providing writing rules, a banned-phrases list, and a slot for the user's own writing samples. The file is added to Claude's context folder so every session defaults to the user's voice.
+
+## @morganlinton - The Shoemaker's Elves - Running AI Agents Overnight
+> If you don't have agents working overnight, while you sleep, read this.
+
+> *Quoting @johnennis:* https://x.com/i/article/2025904016413061120
 
 - **Tweet:** https://x.com/morganlinton/status/2028622657927938059
 - **Quoted:** https://x.com/johnennis/status/2025904571311141215
-- **Filed:** [the-shoemakers-elves.md](./knowledge/articles/the-shoemakers-elves.md)
-- **What:** Analysis of how AI agents can work continuously to maximize productivity by utilizing off-hours.
+- **Link:** https://x.com/i/article/2025904016413061120
+- **What:** An X article by John Ennis arguing that the 12–14 idle hours each night are now a productive resource via AI agents, drawing parallels to coal/steam engines, Uber, and Airbnb. It recommends a daily 4–5pm "agent briefing" ritual and a Friday planning session to keep agents running through the weekend.
 
-## @Seanfrank - every founder I know is launching as many brands as possible...
+## @Seanfrank - AI Era as Opportunity for Brand Builders
 > every founder I know is launching as many brands as possible right now
 >
-> *Quoting @mikebeckhamsm:* A new brand is born https://t.co/d4sItwaHDH
+> every doomer I know is talking about how AI is ruining the world
+>
+> seems like a great time to get rich, just saying
+
+> *Quoting @mikebeckhamsm:* A new brand is born
 
 - **Tweet:** https://x.com/Seanfrank/status/2028665574126186986
 - **Quoted:** https://x.com/mikebeckhamsm/status/2028323491640983698
-- **What:** Observation about startup opportunities and founder strategies during AI advancement.
+- **What:** Sean Frank (founder of Ridge Wallet) observing that while discourse focuses on AI doom, entrepreneurs are quietly exploiting the AI productivity wave to launch new brands at speed.
 
-## @elvissun - zoe was burning 24M+ opus tokens/day monitoring agents that ...
+## @elvissun - OpenClaw Agent Swarm: One-Person Dev Team Setup
 > zoe was burning 24M+ opus tokens/day monitoring agents that weren't running.
 >
+> replaced her cron with a 2-layer system:
+> - bash pre-check, zero tokens when idle
+> - webhook fires opus only when needed.
+>
+> ~95% token reduction and more reliable output. details below.
+>
+> (set up a cron to watch this performance, if it works well I'll double down on this event driven stack, seems like the future)
+
 > *Quoting @elvissun:* https://t.co/DotZ3V6XhJ
 
 - **Tweet:** https://x.com/elvissun/status/2028671336219107687
 - **Quoted:** https://x.com/elvissun/status/2025920521871716562
-- **Filed:** [openclaw-codexclaudecode-agent-swarm-the-one-perso.md](./knowledge/articles/openclaw-codexclaudecode-agent-swarm-the-one-perso.md)
-- **What:** Optimization technique for reducing API token costs by using event-driven webhooks instead of polling.
+- **Link:** https://x.com/i/article/2025654698590748672
+- **What:** Detailed write-up on running an OpenClaw-orchestrated agent swarm (Zoe) that coordinates Claude Code and Codex agents across git worktrees and tmux sessions, with automated PR review pipelines and a token-efficient bash pre-check monitoring layer. The author also describes a 95% token reduction achieved by replacing a polling cron with an event-driven webhook approach.
 
-## @Bencera - wtf. $1.5M run rate. +$1M in one week. 1 founder. 0 employee...
-> wtf. $1.5M run rate. +$1M in one week. 1 founder. 0 employees. 1,500 autonomous companies. https://t.co/Ul6HFPwcva
+## @Bencera - $1.5M ARR Solo Founder Running 1,500 Autonomous Companies
+> wtf. $1.5M run rate. +$1M in one week. 1 founder. 0 employees. 1,500 autonomous companies.
 
 - **Tweet:** https://x.com/Bencera/status/2028674369447473317
-- **What:** Case study of rapid growth with autonomous company systems achieving $1.5M run rate.
+- **What:** Ben Cera sharing (apparently about himself or another founder) hitting $1.5M ARR with zero employees by running 1,500 autonomous AI-powered "companies," illustrating the extreme leverage possible with agentic systems in 2026.
 
-## @nicholasnlawton - Cal AI literally just spammed 1000 TikTok’s a week and sold ...
-> Cal AI literally just spammed 1000 TikTok’s a week and sold for 9 figures.
+## @nicholasnlawton - Cal AI's TikTok Spam-to-9-Figure-Exit Strategy
+> Cal AI literally just spammed 1000 TikTok's a week and sold for 9 figures.
+>
+> You're really not spamming enough.
 
 - **Tweet:** https://x.com/nicholasnlawton/status/2028687899336560688
-- **What:** Example of AI-generated content scaling leading to successful acquisition.
+- **What:** Observation that Cal AI's growth strategy—posting roughly 1,000 TikToks per week—drove enough user acquisition to achieve a 9-figure acquisition, making the case for high-volume content distribution over quality-first approaches.
 
-## @Nate_Google_ - this is where media buying is headed  we've already automate...
+## @Nate_Google_ - AI-Automated Media Buying with Claude Code
 > this is where media buying is headed
 
-we've already automated most of these processes with Claude Code on Google and Youtube
+> we've already automated most of these processes with Claude Code on Google and Youtube
 
-those who step up and learn AI now are going to be the ones that stay alive this
->
+> those who step up and learn AI now are going to be the ones that stay alive this
+
 > *Quoting @GaelBreton:* Spent £3K on Meta ads last month. Made $19K back.
 
-Every ad was created by Claude code in 30 minutes.
+> Every ad was created by Claude code in 30 minutes.
 
-I didn't review a single one before launching.
-...
+> I didn't review a single one before launching.
+
+> Old way: you hire an agency. They do market research, interview you, come up with angles, design creatives.
+
+> Takes weeks. Costs thousands per month and many hours of your time.
+
+> New way: you give Claude Code a landing page URL.
+
+> That's it.
+
+> Here's what my new skill does:
+
+> 👉 It extracts your brand identity
+> 👉 It Interviews you
+> 👉 It does customer roleplay where it literally thinks AS your buyer.
+> 👉 Then it reads Reddit for real frustrations.
+> 👉 It Pulls competitor ads.
+
+> Then Builds a full strategy like an expensive ads consultant would.
+
+> It comes back with 4 angles, 4 ad sets, 4 creatives each.
+
+> Apple Notes style, fake iMessage threads, meme ads, comparison tables... all the Smash hit formats of meta ads.
+
+> Ran it on my friend Tim Soulo Ahrefs product page.
+
+> It picked up the brand colors, pulled the logo, and went after competitor scoring systems as an attack angle.
+
+> Zero guidance from me.
+
+> The creatives aren't all perfect. But the strategy and angles are genuinely good.
+
+> What's really cool is this system thinks like a media buyer.
+
+> It does the same research. Reads the same forums. Analyzes the same competitor ads.
+
+> But it does it in 30 minutes instead of a week.
+
+> I've been running Meta ads for 10 years.
+
+> First time I've seen a tool that actually understands the customer instead of just generating generic copy.
+
+> 👇 Video below for the full breakdown
+
+> Comment Meta Ads to make a puppy happy 🐾
 
 - **Tweet:** https://x.com/Nate_Google_/status/2028348720933208216
 - **Quoted:** https://x.com/GaelBreton/status/2025897937134408079
-- **What:** Using Claude Code to automate advertising campaign creation for Google and YouTube, generating $19K from £3K spent by automating ad design and testing.
+- **What:** A claim that Claude Code can automate the full Meta ads pipeline — brand analysis, customer roleplay, Reddit research, competitor pulls, and creative generation — in 30 minutes, replacing agency workflows costing weeks and thousands per month.
 
-## @camolNFT - Set up my OpenClaw to land and fulfill government contracts....
+## @camolNFT - Automated Government Contract Fulfillment via Drop-Shipping
 > Set up my OpenClaw to land and fulfill government contracts.
 
-It’s actually super easy:
+> It's actually super easy:
 
-- Scrape government listing websites for new contracts 
-- Submit bids at 30-45% margin for any new listed supply contracts (most contractors do 100% margins) 
-- Order products from Amazon/Walmart and deliver directly to the appropriate address
+> - Scrape government listing websites for new contracts
+> - Submit bids at 30-45% margin for any new listed supply contracts (most contractors do 100% margins)
+> - Order products from Amazon/Walmart and deliver directly to the appropriate address
 
-Already generating over $450,000 in contracts and it’s only been a month.
+> Already generating over $450,000 in contracts and it's only been a month.
 
 - **Tweet:** https://x.com/camolNFT/status/2028469639206908393
-- **What:** Automating government contract bidding and fulfillment using web scraping and dropshipping margins to generate $450K+ in contracts within a month.
+- **What:** A claim of using an AI agent (OpenClaw) to automatically scrape government contract listings, submit low-margin bids, and fulfill orders by drop-shipping from Amazon/Walmart — reportedly generating $450K in contracts within a month.
 
-## @scaling01 - He's back with an improved "BullshitBench V2"  Anthropic mod...
+## @scaling01 - bullshit-benchmark - AI Model Nonsense Detection Leaderboard
 > He's back with an improved "BullshitBench V2"
 
-Anthropic models are still dominating everything https://t.co/8Wi203Syg5
->
-> *Quoting @petergostev:* BullshitBench v2 is out! It is one of the few benchmarks where models are generally not getting better (except Claude) and where reasoning isn't helpi...
+> Anthropic models are still dominating everything
+
+> *Quoting @petergostev:* BullshitBench v2 is out! It is one of the few benchmarks where models are generally not getting better (except Claude) and where reasoning isn't helping.
+
+> What's new: 100 new questions, by domain (coding (40 Q's), medical (15), legal (15), finance (15), physics(15)), 70+ model variants tested. BullshitBench is already at 380 starts on GitHub - all questions, scripts, responses and judgements are there so check it out.
+
+> TL;DR:
+>  - Results replicated -  @AnthropicAI latest models are scoring exceptionally well
+>  - @Alibaba_Qwen is another very strong performer
+>  - OpenAI and Google models are not doing well and are not improving
+>  - Domains do not show much difference - rates of BS detection are about the same across all domains
+>  - Reasoning, if anything, has negative effect
+>  - Newer models don't do that much better than older ones (except Anthropic)
+
+> Links:
+> - Data explorer: https://petergpt.github.io/bullshit-benchmark/viewer/index.v2.html
+> - GitHub: https://github.com/petergpt/bullshit-benchmark
 
 - **Tweet:** https://x.com/scaling01/status/2028494129710133725
 - **Quoted:** https://x.com/petergostev/status/2028492834693677377
-- **What:** Benchmark results showing Anthropic's Claude models continuing to dominate across reasoning tasks, one of the few benchmarks where models keep improving.
-
+- **Link:** https://petergpt.github.io/bullshit-benchmark/viewer/index.v2.html
+- **Link:** https://github.com/petergpt/bullshit-benchmark
+- **What:** BullshitBench v2 is a benchmark measuring whether AI models detect and reject nonsensical prompts rather than confidently answering them. Anthropic models lead significantly; OpenAI and Google models are not improving, and extended reasoning has a negative effect on nonsense detection.
 
 ---
 
 # Sunday, March 1, 2026
 
-## @aakashgupta - Point Claude Code to this and you have a multi-billion dolla...
-> *Quoting @gemchange_ltd:* https://t.co/YbXzSpFE31
->
+## @aakashgupta - Claude Code as a Multi-Billion Dollar Quant Desk
 > Point Claude Code to this and you have a multi-billion dollar quant desk at your fingertips.
+>
+> *Quoting @gemchange_ltd:* https://t.co/YbXzSpFE31
 
 - **Tweet:** https://x.com/aakashgupta/status/2027976558313709679
 - **Quoted:** https://x.com/gemchange_ltd/status/2027744530124951831
-- **What:** Point Claude Code to this and you have a multi-billion dollar quant desk at your fingertips.
-- **Filed:** [[how-to-simulate-like-a-quant-desk-every-model-every-formula-runnable-code]]
+- **Link:** https://x.com/i/article/2027371960175386624
+- **What:** Quote-tweet promoting the "How to Simulate Like a Quant Desk" X article (by @aakashgupta himself), framing it as institutional-grade simulation infrastructure that Claude Code can run directly. The article covers Monte Carlo, particle filters, copulas, and agent-based market simulation in runnable Python.
 
-## @ideabrowser - How to make $1M in 2026 using Claude Memory (step by step business plan)
+## @ideabrowser - Claude Migration as a Service — $1M Business Playbook
 > https://t.co/OV5IxVU8s9
 
 - **Tweet:** https://x.com/ideabrowser/status/2028111088449896826
-- **What:** A step-by-step business playbook for building a $1M/year AI consulting business using Claude's ecosystem and agent capabilities for specific verticals.
+- **Link:** https://x.com/i/article/2028096369391452160
+- **What:** A step-by-step business plan for building a $1M/yr "Claude Migration as a Service" agency, capitalizing on Claude's new memory import feature. The playbook involves picking a niche vertical, documenting workflows, converting them to Claude skills and agents, and selling workshops, retainers, and custom dashboards at $2.5K–$10K/month.
 
-## @Hxlfed14 - Agent Harness is the Real Product
+## @Hxlfed14 - Agent Harness Is the Real Product
 > https://t.co/0qcaPF7bGi
 
 - **Tweet:** https://x.com/Hxlfed14/status/2028116431876116660
-- **What:** Deep dive into how AI agent frameworks are designed, comparing Claude Code, Cursor, Manus, and others. The key insight: the scaffolding around the model matters more than the model itself.
+- **Link:** https://x.com/i/article/2028095934169780224
+- **What:** A deep-dive X article analyzing the agent harness architectures of Claude Code, Cursor, Manus, SWE-Agent, Devin, and others — arguing the scaffolding (loop, tool design, progressive context disclosure) matters more than the model. Includes quantitative evidence: same model scores 42% vs 78% on CORE-Bench depending solely on harness design.
 
-## @dimitarangg - how to exploit X, email & linkedin ToS' loopholes to scale past 7-figures a year with cold outreach
+## @dimitarangg - Cold Outreach ToS Loopholes for Scaling Past 7-Figures
 > https://t.co/ZTygcPBcFu
 
 - **Tweet:** https://x.com/dimitarangg/status/2028126366659412078
-- **What:** Strategies for scaling cold outreach businesses while navigating platform terms of service constraints.
+- **Link:** https://x.com/i/article/2018440537347366913
+- **What:** Long-form article outlining tactics for exploiting undocumented platform limits on cold email, LinkedIn, and Twitter to scale outreach volume. Covers domain rotation, multi-account strategies, trigger-based timing, and bypassing search/connection limits to reach higher reply rates.
 
-## @mustang_akin - Beginner vibe coder:  - installs claude code/antigravity/cod...
-> Beginner vibe coder: 
-- installs claude code/antigravity/codex/cursor
-- thinks about what to build 
-- prompts Claude 
-- begin build
-- generates an AI slob and debugs endlessly 
-
-Not so beginner vibe coder: 
-- installs claude code/antigravity/codex/cursor
-- setup personal preferences and agent memory 
-- setup agent skills and rules
-- integrate connectors and mcp servers 
-- test agent out
-- thinks about what to build
--creates a project in Claude and brainstorm about the idea
-- generate a PRD for the build 
-- plan build with agent and delegate tasks 
--begin build 
-- generate a good mvp of 70% functionality to start with and debug till a fully functional app. 
-
-Vibe Coding is a skill that’s being slept on
+## @mustang_akin - Beginner vs Experienced Vibe Coder Setup Workflow
+> Beginner vibe coder:
+> - installs claude code/antigravity/codex/cursor
+> - thinks about what to build
+> - prompts Claude
+> - begin build
+> - generates an AI slob and debugs endlessly
+>
+> Not so beginner vibe coder:
+> - installs claude code/antigravity/codex/cursor
+> - setup personal preferences and agent memory
+> - setup agent skills and rules
+> - integrate connectors and mcp servers
+> - test agent out
+> - thinks about what to build
+> -creates a project in Claude and brainstorm about the idea
+> - generate a PRD for the build
+> - plan build with agent and delegate tasks
+> -begin build
+> - generate a good mvp of 70% functionality to start with and debug till a fully functional app.
+>
+> Vibe Coding is a skill that's being slept on
 
 - **Tweet:** https://x.com/mustang_akin/status/2028139946511331420
-- **What:** The difference between beginner and experienced AI-assisted developers: advanced coders set up memory, skills, and tools before building, rather than just prompting the AI to code.
+- **What:** Contrasts naive AI-assisted coding (just prompting and debugging) with a structured approach: setting up agent memory, skills, rules, MCP integrations, writing PRDs, and planning before building. Argues vibe coding is an underrated skill when done methodically.
 
-## @marsBuilds - Agent Harness is the Real Product
+## @marsBuilds - Agent Harness is the Real Product: Architecture Deep-Dive
 > many people think Cursor just sends your prompt directly to the foundational model APIs…
-
-In reality there is this whole proprietary infra setup that ensures you get a better response and faster than you would have from just directly sending the prompt to the models
+>
+> In reality there is this whole proprietary infra setup that ensures you get a better response and faster than you would have from just directly sending the prompt to the models
 >
 > *Quoting @Hxlfed14:* https://t.co/0qcaPF7bGi
 
 - **Tweet:** https://x.com/marsBuilds/status/2028148920895889698
 - **Quoted:** https://x.com/Hxlfed14/status/2028116431876116660
-- **What:** Deep dive into how AI agent frameworks are designed, comparing Claude Code, Cursor, Manus, and others. The key insight: the scaffolding around the model matters more than the model itself.
+- **Link:** https://x.com/i/article/2028095934169780224
+- **What:** Detailed analysis of how the agent harness (execution loop, tool definitions, context management) matters more than the underlying model. Compares architectures from Claude Code, Cursor, Manus, SWE-Agent, Devin, and others, with quantitative data showing the same model scoring 42% vs 78% on benchmarks depending solely on harness design. Introduces "progressive disclosure" as the key pattern for efficient context management.
 
-## @imsehej - i stopped trying to "earn" money and started trying to "extract" it
+## @imsehej - Extraction vs Earning Mindset for Info Product Businesses
 > https://t.co/oL8eLDoRDC
 
 - **Tweet:** https://x.com/imsehej/status/2028172850595799347
-- **What:** Shared perspective on i stopped trying to "earn" money and started trying to "extract" it
+- **Link:** https://x.com/i/article/2028172213065826304
+- **What:** Long-form article reframing business strategy as "extracting from existing money flows" rather than creating value through effort. Uses faceless content pages selling info products (property tax guides, HVAC tools, medical billing guides) as the example model, arguing positioning beats effort for scaling income.
 
-## @andyantiles_ - My friend is worth $4m at 28 years old  He makes about $70k/...
+## @andyantiles_ - Double Compounding: ETF + Section 8 Real Estate Strategy
 > My friend is worth $4m at 28 years old
-
-He makes about $70k/month net and has done so for 6 years
-
-About a year ago I taught him my “double compounding” strategy and during the April tariff crash
-
-He invested $500k into ETFs
-
-That investment is compounding on autopilot and is now worth $700k
-
-In January, I connected him with the sourcing team I use to buy section 8 real estate
-
-And he borrowed $300k against his ETF portfolio to buy 10 section 8 houses
-
-He used 0 of his own money, and only used the banks money at a 6% interest rate
-
-That section 8 investment gave him an immediate $300 tax deduction
-
-$54k of annual recurring cashflow all paid for by the federal government 
-
-And the $300k will turn into $1.5m when the federal government pays off all the debt for him
-
-Hell be worth $50m 20 years from now leveraging this strategy
+>
+> He makes about $70k/month net and has done so for 6 years
+>
+> About a year ago I taught him my "double compounding" strategy and during the April tariff crash
+>
+> He invested $500k into ETFs
+>
+> That investment is compounding on autopilot and is now worth $700k
+>
+> In January, I connected him with the sourcing team I use to buy section 8 real estate
+>
+> And he borrowed $300k against his ETF portfolio to buy 10 section 8 houses
+>
+> He used 0 of his own money, and only used the banks money at a 6% interest rate
+>
+> That section 8 investment gave him an immediate $300 tax deduction
+>
+> $54k of annual recurring cashflow all paid for by the federal government
+>
+> And the $300k will turn into $1.5m when the federal government pays off all the debt for him
+>
+> Hell be worth $50m 20 years from now leveraging this strategy
 
 - **Tweet:** https://x.com/andyantiles_/status/2028188872094749037
-- **What:** Financial strategy combining stock market compounding with leveraged real estate investing using Section 8 housing contracts for stable cashflow.
+- **What:** Thread describing a "double compounding" wealth strategy combining ETF investing with borrowing against that portfolio at 6% to purchase Section 8 housing, achieving tax deductions and government-subsidized cashflow with no cash out of pocket.
 
 ---
 
@@ -2752,66 +2858,66 @@ Hell be worth $50m 20 years from now leveraging this strategy
 
 # Saturday, February 28, 2026
 
-## @damianplayer - this is the playbook for every industry right now.
-> *Quoting @zackbshapiro:* https://t.co/QVaE6niDY2
->
+## @damianplayer - AI as Industry Playbook: One Lawyer Beats Entire Firms
 > this is the playbook for every industry right now.
+>
+> one lawyer + claude is beating entire firms with hundreds of attorneys.
+>
+> he encoded 10+ years of judgment into reusable skills and let the model handle the grunt work.
 
-one lawyer + claude is beating entire firms with hundreds of attorneys. 
-
-he encoded 10+ years of judgment into reusable skills and let the model handle the grunt work.
+> *Quoting @zackbshapiro:* https://t.co/QVaE6niDY2
 
 - **Tweet:** https://x.com/damianplayer/status/2027733802118693046
 - **Quoted:** https://x.com/zackbshapiro/status/2027389987444957625
-- **What:** this is the playbook for every industry right now.  one lawyer + claude is beating entire firms with hundreds of attorneys.   he encoded 10+ years of.
-- **Filed:** [[the-claude-native-law-firm]]
+- **Link:** https://x.com/i/article/2027387535412830208
+- **What:** Commentary on the "Claude-Native Law Firm" article framing it as a cross-industry template: encode domain expertise into reusable AI skills, then delegate execution to the model while retaining judgment. Points to a structural shift where individual practitioners + AI outcompete large traditional firms.
 
-## @RohOnChain - As someone who builds institutional level quant systems for...
-> *Quoting @gemchange_ltd:* https://t.co/YbXzSpFE31
+## @RohOnChain - Quant Desk Simulation - Every Model, Every Formula, Runnable Code
+> As someone who builds institutional level quant systems for prediction markets, this is the closest thing to a quant desk simulation I have ever seen publicly shared.
 >
-> As someone who builds institutional level quant systems for prediction markets, this is the closest thing to a quant desk simulation I have ever seen publicly shared. 
+> Runnable code for every model.
+> Read it before someone takes it down.
 
-Runnable code for every model.
-Read it before someone takes it down.
+> *Quoting @gemchange_ltd:* https://t.co/YbXzSpFE31
 
 - **Tweet:** https://x.com/RohOnChain/status/2027838159791525900
 - **Quoted:** https://x.com/gemchange_ltd/status/2027744530124951831
-- **What:** As someone who builds institutional level quant systems for prediction markets, this is the closest thing to a quant desk simulation I have ever seen.
-- **Filed:** [[how-to-simulate-like-a-quant-desk-every-model-every-formula-runnable-code]]
+- **Link:** https://x.com/i/article/2027371960175386624
+- **What:** An institutional quant who builds prediction market systems endorses a publicly shared article covering the full progression of quantitative simulation techniques — from basic coin-flip models to institutional-grade simulation engines — with runnable code for every model. Rare level of practical detail typically kept private.
 
-## @GregFeingold - Ready to make the switch?
+## @GregFeingold - Claude Memory Import Feature Launch
 > Ready to make the switch?
-
-https://t.co/foaJ4CKJmG https://t.co/rB9k7BeAWR
+>
+> https://t.co/foaJ4CKJmG https://t.co/rB9k7BeAWR
 
 - **Tweet:** https://x.com/GregFeingold/status/2027904566696788225
 - **Link:** https://claude.com/import-memory
-- **What:** Ready to make the switch?  https://t.co/foaJ4CKJmG https://t.co/rB9k7BeAWR
+- **What:** Anthropic launched a memory import feature for Claude that lets users transfer preferences, projects, and context from other AI providers (like ChatGPT) into Claude. The landing page promotes it as a zero-friction way to switch to Claude without losing existing AI context.
 
-## @VadimStrizheus - this is what a company looks like in 2026.
+## @VadimStrizheus - The Directory Is the New Company
 > this is what a company looks like in 2026.
-
-not people. not offices. not salaries.
-
-a folder.
-
-.claude/agents/
-engineering/
-marketing/
-design/
-ops/
-testing/
-
-every role. every department. every function.
-
-all .md files.
-
-i have 12 of these running in OpenClaw right now.
-
-the org chart is dead. the directory is the new company.
+>
+> not people. not offices. not salaries.
+>
+> a folder.
+>
+> .claude/agents/
+> engineering/
+> marketing/
+> design/
+> ops/
+> testing/
+>
+> every role. every department. every function.
+>
+> all .md files.
+>
+> i have 12 of these running in OpenClaw right now.
+>
+> the org chart is dead. the directory is the new company.
 
 - **Tweet:** https://x.com/VadimStrizheus/status/2027953432326197508
-- **What:** this is what a company looks like in 2026.  not people. not offices. not salaries.  a folder.  .claude/agents/ engineering/ marketing/ design/ ops/.
+- **What:** A provocative take on the "company as a folder of agent definitions" model — using `.claude/agents/` directories of Markdown files to define each business function. The author claims to be running 12 such agents in OpenClaw as a complete organizational substitute.
 
 ---
 
@@ -2819,171 +2925,204 @@ the org chart is dead. the directory is the new company.
 
 # Friday, February 27, 2026
 
-## @vaxryy - My prediction:...
-> *Quoting @ReclaimTheNetHQ:* Germany's SPD wants mandatory government ID to access social media, tied to the EU's official digita
->
-> My prediction:
+## @vaxryy - Nerds Migrating Back to Underground Forums by 2030
 
-1999: nerds sit on underground forums and chats
-2025: nerds sit on youtube, twitter, reddit, etc
-2030: nerds sit on underground forums and chats
+> My prediction:
+>
+> 1999: nerds sit on underground forums and chats
+> 2025: nerds sit on youtube, twitter, reddit, etc
+> 2030: nerds sit on underground forums and chats
+
+> *Quoting @ReclaimTheNetHQ:* Germany's SPD wants mandatory government ID to access social media, tied to the EU's official digital identity scheme. They also want VPN workarounds blocked. The tools required to make that happen are the same ones authoritarian governments use to control internet access. They're calling it child protection.
 
 - **Tweet:** https://x.com/vaxryy/status/2027292045837029666
 - **Quoted:** https://x.com/ReclaimTheNetHQ/status/2027064864296866044
-- **What:** Commentary on government surveillance and ID requirements for social media, predicting retreat to decentralized platforms.
+- **What:** vaxry (Hyprland dev) quoting news about Germany's SPD pushing mandatory government ID for social media access and VPN blocking, predicting that technical users will retreat back to underground/private communities as mainstream platforms become surveilled and controlled.
 
-## @nbaschez - This is true, not just for SWE, and every CEO I know with more than 50...
-> *Quoting @karpathy:* It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradu
+## @nbaschez - "Drink the Radioactive Gatorade" — AI Adoption Is Now Mandatory
+
+> This is true, not just for SWE, and every CEO I know with more than 50 employees is agonizing about what this means for their company
 >
-> This is true, not just for SWE, and every CEO I know with more than 50 employees is agonizing about what this means for their company 
+> I don't want to sound alarmist but you must "drink the radioactive Gatorade" (hat tip to @SparksZilla for the coinage) or your job is in danger
 
-I don’t want to sound alarmist but you must “drink the radioactive Gatorade” (hat tip to @SparksZilla for the coinage) or your job is in danger
+> *Quoting @karpathy:* It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the "progress as usual" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn't work before December and basically work since - the models have significantly higher quality, long-term coherence and tenacity and they can power through large and long tasks, well past enough that it is extremely disruptive to the default programming workflow.
+>
+> Just to give an example, over the weekend I was building a local video analysis dashboard for the cameras of my home so I wrote: "Here is the local IP and username/password of my DGX Spark. Log in, set up ssh keys, set up vLLM, download and bench Qwen3-VL, set up a server endpoint to inference videos, a basic web ui dashboard, test everything, set it up with systemd, record memory notes for yourself and write up a markdown report for me". The agent went off for ~30 minutes, ran into multiple issues, researched solutions online, resolved them one by one, wrote the code, tested it, debugged it, set up the services, and came back with the report and it was just done. I didn't touch anything. All of this could easily have been a weekend project just 3 months ago but today it's something you kick off and forget about for 30 minutes.
+>
+> As a result, programming is becoming unrecognizable. You're not typing computer code into an editor like the way things were since computers were invented, that era is over. You're spinning up AI agents, giving them tasks *in English* and managing and reviewing their work in parallel. The biggest prize is in figuring out how you can keep ascending the layers of abstraction to set up long-running orchestrator Claws with all of the right tools, memory and instructions that productively manage multiple parallel Code instances for you. The leverage achievable via top tier "agentic engineering" feels very high right now.
+>
+> It's not perfect, it needs high-level direction, judgement, taste, oversight, iteration and hints and ideas. It works a lot better in some scenarios than others (e.g. especially for tasks that are well-specified and where you can verify/test functionality). The key is to build intuition to decompose the task just right to hand off the parts that work and help out around the edges. But imo, this is nowhere near "business as usual" time in software.
 
 - **Tweet:** https://x.com/nbaschez/status/2027368613771194472
 - **Quoted:** https://x.com/karpathy/status/2026731645169185220
-- **What:** Warning about AI's impact on employment and the necessity to embrace AI tools to remain competitive.
+- **What:** Nathan Baschez amplifying Karpathy's landmark thread about coding agents crossing a threshold in December 2025 — from "basically didn't work" to "basically work" — with his own warning that every knowledge worker, not just engineers, must now adopt agentic AI workflows or risk their job.
 
-## @jackfriks - *cracks knuckles*...
-> *Quoting @heynavtoor:* https://t.co/z4kQwYt7EA
+## @jackfriks - Claude Cowork Setup Guide for Knowledge Workers
+
+> *cracks knuckles*
 >
-> *cracks knuckles* 
+> "claude, read this article and implement all of its advice"
+>
+> *retires*
 
-“claude, read this article and implement all of its advice” 
-
-*retires*
+> *Quoting @heynavtoor:* [article link]
 
 - **Tweet:** https://x.com/jackfriks/status/2027373563276378361
 - **Quoted:** https://x.com/heynavtoor/status/2026717574776631556
 - **Link:** https://x.com/i/article/2026703184945885189
-- **What:** Humorous take on delegating implementation tasks to Claude after reading best practices articles.
+- **What:** Jack Friks quoting a Nav Toor X article titled "How to set up Claude Cowork the right way" — a comprehensive guide to Claude's desktop agentic product (file system access, AskUserQuestion, plugins, global instructions, connectors), joking that you can just have Claude read and implement it all.
 
-## @Bencera - This is getting so wild. $200k-&gt;$800k in a week. Just one founder w...
-> This is getting so wild. $200k-&gt;$800k in a week. Just one founder with a swarm of AI agents running in the cloud. Zero employees. https://t.co/N6mjgmMYC1
+## @Bencera - Solo Founder Scales $200k to $800k ARR in a Week with AI Agent Swarm
+
+> This is getting so wild. $200k->$800k in a week. Just one founder with a swarm of AI agents running in the cloud. Zero employees.
 
 - **Tweet:** https://x.com/Bencera/status/2027402710686056574
-- **What:** Discussion about how AI is enabling single-founder companies with autonomous agents replacing traditional workforce.
+- **What:** Ben Cera highlighting a solo founder who grew from $200k to $800k ARR in a single week using a cloud-based swarm of AI agents with no employees — another data point in the emerging "one-person company" pattern enabled by agentic AI.
 
-## @cryptopunk7213 - what a fucking amazing way to use AI...
-> *Quoting @camolNFT:* Set up my OpenClaw to lowball people on Facebook marketplace.
+## @cryptopunk7213 - AI Agent Lowballing Facebook Marketplace Listings
 
-So far it’s gotten me a:
-
-- PS5 ($80)
+> what a fucking amazing way to use AI
 >
-> what a fucking amazing way to use AI 
+> - dude spins up an ai agent to lowball sellers on facebook marketplace
+>
+> - gets a Jeep Wrangler for $1500 😭 Ps5, 3 TVs FOR FREE
+>
+> - the lesson: AI can make marketplaces MORE EFFICIENT
+>
+> people have been gate-keeping FB marketplace for a while - now you just prompt an agent to do all the work for you
+>
+> saw some dude doing this with properties on sale too lmao
+>
+> amazing.
 
-- dude spins up an ai agent to lowball sellers on facebook marketplace
-
-- gets a Jeep Wrangler for $1500 😭 Ps5, 3 TVs FOR FREE
-
-- the lesson: AI can make marketplaces MORE EFFICIENT
-
-people have been gate-keeping FB marketplace for a while - now you just prompt an agent to do all the work for you
-
-saw some dude doing this with properties on sale too lmao 
-
-amazing.
+> *Quoting @camolNFT:* Set up my OpenClaw to lowball people on Facebook marketplace.
+>
+> So far it's gotten me a:
+>
+> - PS5 ($80)
+> - 2008 Jeep Wrangler ($1500)
+> - John Deere Lawn Mower (free)
+> - 3 TVs (free)
+> - First Edition pokemon booster ($100)
+> - 20 unopened Lego Star Wars sets, pre-2010 ($50)
+>
+> AGI is here.
 
 - **Tweet:** https://x.com/cryptopunk7213/status/2027419883516940749
 - **Quoted:** https://x.com/camolNFT/status/2027070934478127489
-- **What:** AI agents automating lowball negotiations on second-hand marketplaces, achieving steep discounts on items.
+- **What:** Ejaaz sharing camol's use of OpenClaw (an AI agent platform) to automatically send lowball offers on Facebook Marketplace listings, netting high-value items for far below asking price — illustrating how AI agents are starting to optimize consumer-side marketplace transactions.
 
-## @corbtt - Claude Code win of the day to fix my mossy lawn:...
-> Claude Code win of the day to fix my mossy lawn: 
- - made a plan
- - reached out to 3 contractors it found on craigslist and negotiated power raking/aerating
- - Ordered the supplies I need from Home Depot
- - Made calendar events for each step
-
-This took 15 minutes of my time. https://t.co/bxI1VOiBTY
+## @corbtt - Claude Code Autonomously Coordinating Lawn Contractors and Supplies
+> Claude Code win of the day to fix my mossy lawn:
+>  - made a plan
+>  - reached out to 3 contractors it found on craigslist and negotiated power raking/aerating
+>  - Ordered the supplies I need from Home Depot
+>  - Made calendar events for each step
+>
+> This took 15 minutes of my time.
 
 - **Tweet:** https://x.com/corbtt/status/2027428635519676513
-- **What:** Using Claude Code to automate real-world tasks like finding contractors, ordering supplies, and scheduling.
+- **What:** A real-world demonstration of Claude Code acting as an autonomous agent for a personal task — finding contractors, negotiating, ordering supplies, and scheduling, with minimal human time involved.
 
-## @trq212 - 
+## @trq212 - Lessons from Building Claude Code: Seeing like an Agent
 > https://t.co/nKTDfC7zMm
 
 - **Tweet:** https://x.com/trq212/status/2027463795355095314
 - **Link:** https://x.com/i/article/2027446899310313472
-- **What:** Discussion about AI, business, or technology trends.
+- **What:** A long-form article by a Claude Code builder covering tool design lessons: how the AskUserQuestion tool evolved, why the TodoWrite tool was replaced by Tasks as model capabilities improved, how Grep replaced RAG for codebase search, and how progressive disclosure lets you add functionality without adding new tools.
 
-## @lamxnt - This is genuinely how the trajectory of most high IQ people will look...
-> *Quoting @scaling01:* PewDiePie trained a frontier model at home and beat OpenAI and Gemini
-
-> be me PewDiePie
-> play game
->
+## @lamxnt - High-IQ Career Trajectory: Niche Mastery Then Swinging at Big Opportunities
 > This is genuinely how the trajectory of most high IQ people will look over the next 10 years
+>
+> Be good at something, climb to the top 10% with relative ease, build platform and financial security to pursue bigger things, then just go all in on the biggest opportunities that present themselves in the market
+>
+> Same way the Chainsmokers got into PE, Mr. Beast got into CPG, celebrities got into hospitality, etc etc
 
-Be good at something, climb to the top 10% with relative ease, build platform and financial security to pursue bigger things, then just go all in on the biggest opportunities that present themselves in the market
-
-Same way the Chainsmokers got into PE, Mr. Beast got into CPG, celebrities got into hospitality, etc etc
+> *Quoting @scaling01:* PewDiePie trained a frontier model at home and beat OpenAI and Gemini
+>
+> > be me PewDiePie
+> > play games on YouTube and scream 24/7
+> > become a meme reviewer
+> > get unfathomably famous
+> > "fuck that" I'm a family guy now
+> > retire
+> > move to Japan with my beautiful wife
+> > mfw I'm a dad now
+> > "as a dad I must do dad things"
+> > scratch that
+> > "as a dad I must do frontier AI research"
+> > goal is to beat GPT-4o at coding (16% on Aider)
+> > buys $30000 GPU setup
+> > reads DeepSeek paper
+> > ... [trains multiple iterations, hits 39% on Aider polyglot, beating Gemini 2.0 Pro Exp and GPT-4.1 mini]
 
 - **Tweet:** https://x.com/lamxnt/status/2027467336333332993
 - **Quoted:** https://x.com/scaling01/status/2027357236062740869
-- **What:** Observation about how high-IQ individuals will leverage platform success to pursue frontier opportunities like AI and other ventures.
+- **What:** Riley quotes the PewDiePie frontier-model training story as an example of the emerging pattern where people build domain expertise and platform first, then pivot hard into the biggest available opportunity — the AI era accelerates this cycle.
 
-## @aestheticprimal - at this point if you haven’t done one cycle of Epithalon + P...
+## @aestheticprimal - Epithalon and Pinealon Peptide Cycle for Deep Sleep and Recovery
+> at this point if you haven't done one cycle of Epithalon + Pinealon you are probably missing out on:
+>
+> - waking up like you had a double Espresso already
+> - dreams in 4k resolution
+> - possibility of life-long sleep issues disappearing
+> - more stress-resilient and higher HRV
+>
+> almost 4 hours of deep & REM sleep combined when not even sleeping 8 hours is just crazy.
+>
+> all it could take is one cycle of 2 weeks
+
 > *Quoting @officerjuanrico:* Second night of Epithalon & Pinealon.
 >
-> at this point if you haven’t done one cycle of Epithalon + Pinealon you are probably missing out on:
-
-- waking up like you had a double Espresso already
-- dreams in 4k resolution
-- possibility of life-long sleep issues disappearing
-- more stress-resilient and higher HRV
-
-almost 4 hours of deep & REM sleep combined when not even sleeping 8 hours is just crazy.
-
-all it could take is one cycle of 2 weeks
+> Nearly 4 hours of restorative sleep.
 
 - **Tweet:** https://x.com/aestheticprimal/status/2027475977170010351
 - **Quoted:** https://x.com/officerjuanrico/status/2027441507180155222
-- **What:** at this point if you haven’t done one cycle of Epithalon + Pinealon you are probably missing out on:  - waking up like you had a double Espresso.
+- **What:** Anecdotal report on a two-week peptide cycle combining Epithalon (telomerase-activating tetrapeptide) and Pinealon (pineal gland peptide), claiming dramatic improvements in deep/REM sleep duration, HRV, and morning energy.
 
-## @noahkagan - The R&D tax credit gives companies 100% money back on anyone...
-> The R&D tax credit gives companies 100% money back on anyone inventing in the USA. 
-
-With Claude Code / Codex 👉👉 
-
-All companies should look how they can move more of their employees to creating and innovating. https://t.co/5rzQ8gQSeG
+## @noahkagan - R&D Tax Credit Arbitrage with AI Coding Tools
+> The R&D tax credit gives companies 100% money back on anyone inventing in the USA.
+>
+> With Claude Code / Codex 👉👉
+>
+> All companies should look how they can move more of their employees to creating and innovating.
 
 - **Tweet:** https://x.com/noahkagan/status/2027511807946993823
-- **What:** The R&D tax credit gives companies 100% money back on anyone inventing in the USA.   With Claude Code / Codex 👉👉   All companies should look how they.
+- **What:** Noah Kagan points out that the US R&D tax credit effectively reimburses 100% of qualifying employee costs, and that AI coding tools like Claude Code and Codex make it easier to reclassify more employees as doing qualifying R&D work.
 
-## @garthwatson - As a non-practising lawyer that just used Claude Code to bui...
-> *Quoting @zackbshapiro:* https://t.co/QVaE6niDY2
->
+## @garthwatson - The Claude-Native Law Firm - Signal from a Legaltech Founder
 > As a non-practising lawyer that just used Claude Code to build a mobile app, and having founded and scaled a legal tech company, and been heavily involved in the legaltech scene, I just wanna say this is signal.
+
+> *Quoting @zackbshapiro:* https://t.co/QVaE6niDY2
 
 - **Tweet:** https://x.com/garthwatson/status/2027530413455835487
 - **Quoted:** https://x.com/zackbshapiro/status/2027389987444957625
-- **What:** As a non-practising lawyer that just used Claude Code to build a mobile app, and having founded and scaled a legal tech company, and been heavily.
-- **Filed:** [[the-claude-native-law-firm]]
+- **Link:** https://x.com/i/article/2027387535412830208
+- **What:** A legaltech founder and non-practicing lawyer endorses the "Claude-Native Law Firm" article as a significant signal, having built a mobile app with Claude Code himself. The linked article describes a two-person boutique law firm using Claude to compete against firms with hundreds of lawyers by encoding years of judgment into reusable AI skills.
 
-## @itsandrewgao - you can instantly 10x your vibecoded frontends by just learn...
+## @itsandrewgao - Learning UI Component Names to Improve AI-Generated Frontends
 > you can instantly 10x your vibecoded frontends by just learning what different ui components are called
 
-ofc opus is creating generic slop, the only words you know are menu and button. https://t.co/4zsm5YaN9n
+ofc opus is creating generic slop, the only words you know are menu and button.
 
 - **Tweet:** https://x.com/itsandrewgao/status/2027579200635605058
-- **What:** you can instantly 10x your vibecoded frontends by just learning what different ui components are called  ofc opus is creating generic slop, the only.
+- **What:** Practical tip for vibe-coders: knowing proper UI component terminology (e.g., "combobox", "accordion", "breadcrumb" vs just "menu" and "button") dramatically improves the quality of AI-generated frontend code because the model can target specific, well-designed patterns rather than generic implementations.
 
-## @mattshumer_ - Agents are turning into teams.
-> *Quoting @willwashburn:* https://t.co/pnshgyCBwG
->
+## @mattshumer_ - Agent Relay - Slack-Like Communication Layer for AI Agents
 > Agents are turning into teams.
+>
+> Teams need Slack.
+>
+> Agent Relay is that layer for AI agents: channels + threads + DMs + realtime events + search + persistent history.
+>
+> In 12 months, this will feel obvious.
 
-Teams need Slack.
-
-Agent Relay is that layer for AI agents: channels + threads + DMs + realtime events + search + persistent history.
-
-In 12 months, this will feel obvious.
+> *Quoting @willwashburn:* https://t.co/pnshgyCBwG
 
 - **Tweet:** https://x.com/mattshumer_/status/2027605370470867280
 - **Quoted:** https://x.com/willwashburn/status/2027536741456863504
-- **What:** Agents are turning into teams.  Teams need Slack.  Agent Relay is that layer for AI agents: channels + threads + DMs + realtime events + search +.
-- **Filed:** [[introducing-agent-relay]]
+- **Link:** https://x.com/i/article/2027535041564225536
+- **What:** Agent Relay is an open-source SDK that provides Slack-like communication infrastructure (channels, threads, DMs, real-time events, persistent history) for multi-agent AI systems, allowing agents from different providers (Claude, Codex) to communicate peer-to-peer rather than requiring a human to act as the message bus between them.
 
 ---
 
@@ -2991,45 +3130,45 @@ In 12 months, this will feel obvious.
 
 # Thursday, February 26, 2026
 
-## @TheICHpodcast - Chris Camillo explains the path to $500,000 per year through
+## @TheICHpodcast - Chris Camillo on AI Agents for Small Business Revenue
 > Chris Camillo explains the path to $500,000 per year through implementing AI agents to automate sales👀
-
-“In 24 hours, you can set up an AI agent that will answer calls, send out immediate automated text responses, and get them a quote bid in next to real-time. You might increase that company’s revenue by 5 to 15% in two or three days. Immediately, you become invaluable.”
+>
+> "In 24 hours, you can set up an AI agent that will answer calls, send out immediate automated text responses, and get them a quote bid in next to real-time. You might increase that company's revenue by 5 to 15% in two or three days. Immediately, you become invaluable."
 
 - **Tweet:** https://x.com/TheICHpodcast/status/2027040960903860562
-- **What:** Podcast segment featuring Chris Camillo on deploying AI agents for sales automation—demonstrating measurable ROI through call automation and quote generation.
+- **What:** Clip from The Iced Coffee Hour podcast where Chris Camillo describes a business model of deploying AI agent automations (call answering, SMS follow-ups, auto-quoting) for small businesses, claiming you can increase their revenue 5–15% in days and build a highly lucrative consulting practice around it.
 
-## @danielgothits - I have openclaw sending lowball offers on Zillow all day just to make...
-> I have openclaw sending lowball offers on Zillow all day just to make boomers start panicking lol https://t.co/m7St4FrB2N
+## @danielgothits - openclaw - Automated Lowball Offer Bot for Zillow
+> I have openclaw sending lowball offers on Zillow all day just to make boomers start panicking lol
 
 - **Tweet:** https://x.com/danielgothits/status/2027053149131882632
-- **What:** AI agents automating lowball negotiations on second-hand marketplaces, achieving steep discounts on items.
+- **What:** A developer mentions using a tool called "openclaw" to automatically submit lowball offers on Zillow listings, apparently as a prank or market experiment targeting sellers hoping for inflated prices.
 
-## @jack - we're making @blocks smaller today. here's my note to the company....
+## @jack - Block (Square) Layoffs - 4,000 Employees Cut Due to AI Shift
 > we're making @blocks smaller today. here's my note to the company.
-
-####
-
-today we're making one of the hardest decisions in the history of our company: we're reducing our organization by nearly half, from over 10,000 people to just under 6,000. that means over 4,000 of you are being asked to leave or entering into consultation. i'll be straight about what's happening, why, and what it means for everyone.
-
-first off, if you're one of the people affected, you'll receive your salary for 20 weeks + 1 week per year of tenure, equity vested through the end of may, 6 months of health care, your corporate devices, and $5,000 to put toward whatever you need to help you in this transition (if you’re outside the U.S. you’ll receive similar support but exact details are going to vary based on local requirements). i want you to know that before anything else. everyone will be notified today, whether you're being asked to leave, entering consultation, or asked to stay.
-
-we're not making this decision because we're in trouble. our business is strong. gross profit continues to grow, we continue to serve more and more customers, and profitability is improving. but something has changed. we're already seeing that the intelligence tools we’re creating and using, paired with smaller and flatter teams, are enabling a new way of working which fundamentally changes what it means to build and run a company. and that's accelerating rapidly.
-
-i had two options: cut gradually over months or years as this shift plays out, or be honest about where we are and act on it now. i chose the latter. repeated rounds of cuts are destructive to morale, to focus, and to the trust that customers and shareholders place in our ability to lead. i'd rather take a hard, clear action now and build from a position we believe in than manage a slow reduction of people toward the same outcome. a smaller company also gives us the space to grow our business the right way, on our own terms, instead of constantly reacting to market pressures.
-
-a decision at this scale carries risk. but so does standing still. we've done a full review to determine the roles and people we require to reliably grow the business from here, and we've pressure-tested those decisions from multiple angles. i accept that we may have gotten some of them wrong, and we've built in flexibility to account for that, and do the right thing for our customers.
-
-we're not going to just disappear people from slack and email and pretend they were never here. communication channels will stay open through thursday evening (pacific) so everyone can say goodbye properly, and share whatever you wish. i'll also be hosting a live video session to thank everyone at 3:35pm pacific. i know doing it this way might feel awkward. i'd rather it feel awkward and human than efficient and cold.
-
-to those of you leaving…i’m grateful for you, and i’m sorry to put you through this. you built what this company is today. that's a fact that i'll honor forever. this decision is not a reflection of what you contributed. you will be a great contributor to any organization going forward.
-
-to those staying…i made this decision, and i'll own it. what i'm asking of you is to build with me. we're going to build this company with intelligence at the core of everything we do. how we work, how we create, how we serve our customers. our customers will feel this shift too, and we're going to help them navigate it: towards a future where they can build their own features directly, composed of our capabilities and served through our interfaces. that's what i'm focused on now. expect a note from me tomorrow.
-
-jack
+>
+> ####
+>
+> today we're making one of the hardest decisions in the history of our company: we're reducing our organization by nearly half, from over 10,000 people to just under 6,000. that means over 4,000 of you are being asked to leave or entering into consultation. i'll be straight about what's happening, why, and what it means for everyone.
+>
+> first off, if you're one of the people affected, you'll receive your salary for 20 weeks + 1 week per year of tenure, equity vested through the end of may, 6 months of health care, your corporate devices, and $5,000 to put toward whatever you need to help you in this transition (if you're outside the U.S. you'll receive similar support but exact details are going to vary based on local requirements). i want you to know that before anything else. everyone will be notified today, whether you're being asked to leave, entering consultation, or asked to stay.
+>
+> we're not making this decision because we're in trouble. our business is strong. gross profit continues to grow, we continue to serve more and more customers, and profitability is improving. but something has changed. we're already seeing that the intelligence tools we're creating and using, paired with smaller and flatter teams, are enabling a new way of working which fundamentally changes what it means to build and run a company. and that's accelerating rapidly.
+>
+> i had two options: cut gradually over months or years as this shift plays out, or be honest about where we are and act on it now. i chose the latter. repeated rounds of cuts are destructive to morale, to focus, and to the trust that customers and shareholders place in our ability to lead. i'd rather take a hard, clear action now and build from a position we believe in than manage a slow reduction of people toward the same outcome. a smaller company also gives us the space to grow our business the right way, on our own terms, instead of constantly reacting to market pressures.
+>
+> a decision at this scale carries risk. but so does standing still. we've done a full review to determine the roles and people we require to reliably grow the business from here, and we've pressure-tested those decisions from multiple angles. i accept that we may have gotten some of them wrong, and we've built in flexibility to account for that, and do the right thing for our customers.
+>
+> we're not going to just disappear people from slack and email and pretend they were never here. communication channels will stay open through thursday evening (pacific) so everyone can say goodbye properly, and share whatever you wish. i'll also be hosting a live video session to thank everyone at 3:35pm pacific. i know doing it this way might feel awkward. i'd rather it feel awkward and human than efficient and cold.
+>
+> to those of you leaving…i'm grateful for you, and i'm sorry to put you through this. you built what this company is today. that's a fact that i'll honor forever. this decision is not a reflection of what you contributed. you will be a great contributor to any organization going forward.
+>
+> to those staying…i made this decision, and i'll own it. what i'm asking of you is to build with me. we're going to build this company with intelligence at the core of everything we do. how we work, how we create, how we serve our customers. our customers will feel this shift too, and we're going to help them navigate it: towards a future where they can build their own features directly, composed of our capabilities and served through our interfaces. that's what i'm focused on now. expect a note from me tomorrow.
+>
+> jack
 
 - **Tweet:** https://x.com/jack/status/2027129697092731343
-- **What:** Major workforce reduction announcement tied to AI capabilities enabling smaller, more efficient teams.
+- **What:** Jack Dorsey's all-hands memo announcing Block (formerly Square) is cutting nearly half its workforce — 4,000+ employees — citing the rapid acceleration of AI tools enabling smaller, flatter teams. He frames it as a proactive one-time cut rather than a slow managed decline, explicitly attributing the restructuring to AI fundamentally changing how companies are built and run.
 
 ---
 
@@ -3037,17 +3176,16 @@ jack
 
 # Wednesday, February 25, 2026
 
-## @joanrod_ai - Introducing @QuiverAI, a new AI lab and product company focu
+## @joanrod_ai - QuiverAI Arrow-1.0: SVG Generation from Images and Text
 > Introducing @QuiverAI, a new AI lab and product company focused on frontier vector design.
-
-We’ve raised an $8.3M seed round led by @a16z, with support from amazing  angels and investors.
-
-Our first model, Arrow-1.0, generates SVGs from images and text. It’s available now in public beta at https://t.co/zjAnKlI8pp
+>
+> We've raised an $8.3M seed round led by @a16z, with support from amazing  angels and investors.
+>
+> Our first model, Arrow-1.0, generates SVGs from images and text. It's available now in public beta at https://t.co/zjAnKlI8pp
 
 - **Tweet:** https://x.com/joanrod_ai/status/2026693353090240819
 - **Link:** https://app.quiver.ai/
-- **Filed:** knowledge/tools/quiver-ai.md
-- **What:** Announcement of QuiverAI's $8.3M seed round and Arrow-1.0 model, which generates SVGs from images and text—frontier vector design as a new AI application area.
+- **What:** Launch announcement for QuiverAI, an a16z-backed AI lab building frontier vector design models. Their first model, Arrow-1.0, converts images and text prompts into SVGs and is available in public beta.
 
 ## @Shpigford - you've heard of fractional CFOs, but now you can have a frac
 > you've heard of fractional CFOs, but now you can have a fractional co-founder who's an expert in AI.
@@ -3063,12 +3201,12 @@ https://t.co/VqBKwgBPgU https://t.co/uMgHfHwWQI
 - **Filed:** knowledge/tools/initial-commit.md
 - **What:** Pitch for fractional co-founder services focused on finding and shipping AI leverage points in startups—emphasizing rapid deployment (weeks, not months).
 
-## @mntruell - https://t.co/jZKOk8RAsV
+## @mntruell - The Third Era of AI Software Development
 > https://t.co/jZKOk8RAsV
 
 - **Tweet:** https://x.com/mntruell/status/2026736314272591924
 - **Link:** https://x.com/i/article/2026733459675480064
-- **What:** Article or thread reference—topic unclear from link alone.
+- **What:** Cursor co-founder Michael Truell's essay outlining three eras of AI coding: tab autocomplete, synchronous agents, and now autonomous cloud agents that run independently over hours. He reports that 35% of Cursor's internal PRs are now created by agents running in cloud VMs, and predicts this will become the dominant mode of software development within a year.
 
 ---
 
@@ -3140,26 +3278,26 @@ kind of wild when you zoom out. https://t.co/fCeqxaUnpk
 
 # Friday, February 20, 2026
 
-## @myfirstmilpod - Businesses grow as a function of removing what
-> Businesses grow as a function of removing what constrains their growth. 
-
-@elonmusk uses this principle of looking at a problem and solving for every subsequent bottleneck that comes up in solving it, until the problem is completely solved, 
-
-(and the company keeps growing until its next constraint).
-
-Put simply, the infinite business growth hack is:
-
-Eat
-Sleep
-"Identify the limiting factor, then go apeshit on it",
-Repeat.
-
-@ShaanVP @thesamparr 
-
-(Full episode linked in comments)
+## @myfirstmilpod - Identifying and Attacking the Limiting Factor for Business Growth
+> Businesses grow as a function of removing what constrains their growth.
+>
+> @elonmusk uses this principle of looking at a problem and solving for every subsequent bottleneck that comes up in solving it, until the problem is completely solved,
+>
+> (and the company keeps growing until its next constraint).
+>
+> Put simply, the infinite business growth hack is:
+>
+> Eat
+> Sleep
+> "Identify the limiting factor, then go apeshit on it",
+> Repeat.
+>
+> @ShaanVP @thesamparr
+>
+> (Full episode linked in comments)
 
 - **Tweet:** https://x.com/myfirstmilpod/status/2024862074229436760
-- **What:** Businesses grow as a function of removing what
+- **What:** A framework for compounding business growth by continuously identifying and eliminating the current bottleneck, attributed to Elon Musk's operating philosophy. The loop: find the constraint, attack it relentlessly, repeat.
 
 ## @handotdev - what I would be working on if I started another
 > what I would be working on if I started another company today https://t.co/kKDFxcbtZv
@@ -3170,42 +3308,41 @@ Repeat.
 - **Quoted:** https://x.com/AnthropicAI/status/2024210053369385192
 - **What:** what I would be working on if I started another
 
-## @claudeai - Introducing Claude Code Security, now in limited
+## @claudeai - Claude Code Security: AI-Powered Vulnerability Scanning in Research Preview
 > Introducing Claude Code Security, now in limited research preview.
-
-It scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix issues that traditional tools often miss.
-
-Learn more: https://t.co/n4SZ9EIklG https://t.co/zw9NjpqFz9
+>
+> It scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix issues that traditional tools often miss.
+>
+> Learn more: https://t.co/n4SZ9EIklG
 
 - **Tweet:** https://x.com/claudeai/status/2024907535145468326
 - **Link:** https://www.anthropic.com/news/claude-code-security
-- **Filed:** ./knowledge/articles/claude-code-security.md
-- **What:** Introducing Claude Code Security, now in limited
+- **What:** Anthropic announces Claude Code Security, a research preview tool that scans codebases for vulnerabilities and proposes patches for human review. It aims to catch issues that conventional static analysis tools miss.
 
-## @dickiebush - Quick hack to stay motivated:
+## @dickiebush - Every Rep Leapfrogs the People Who Quit
 > Quick hack to stay motivated:
-
-Remember that every time you put in another rep, you're leapfrogging millions of people who quit on the exact step you're taking.
+>
+> Remember that every time you put in another rep, you're leapfrogging millions of people who quit on the exact step you're taking.
 
 - **Tweet:** https://x.com/dickiebush/status/2024922834246529356
-- **What:** Quick hack to stay motivated:
+- **What:** A reframe on motivation: each rep completed at the point of resistance separates you from the majority who stop at that exact same step.
 
-## @eptwts - Introducing Replit Animation
+## @eptwts - Why HTML/CSS/JS Animation Tools Won't Replace Animators
 > "vibe-animating" seems to be far away considering that all of these viral animation tools are just using HTML/ CSS/JS
-
-it's definitely cool tech but if vibe-animating ever becomes a thing that challenges animators, i can't see it happening with this approach
-
-video generation models represent a more promising path toward AI animation
+>
+> it's definitely cool tech but if vibe-animating ever becomes a thing that challenges animators, i can't see it happening with this approach
+>
+> video generation models represent a more promising path toward AI animation
 >
 > *Quoting @Replit:* Introducing Replit Animation
-
-Vibecode your next viral video in minutes, powered by Gemini 3.1 Pro.
-
-(This video was 100% made in Replit Animation)
+>
+> Vibecode your next viral video in minutes, powered by Gemini 3.1 Pro.
+>
+> (This video was 100% made in Replit Animation)
 
 - **Tweet:** https://x.com/eptwts/status/2024923654262313078
 - **Quoted:** https://x.com/Replit/status/2024578806208745637
-- **What:** Perspective on AI animation tools and their current limitations—suggesting video generation models are a more promising approach than HTML/CSS-based animation tools.
+- **What:** A skeptical take on Replit's new Animation tool — argues that HTML/CSS/JS-based "vibe-animating" won't threaten professional animators, and that video generation models are the more credible path to AI-driven animation.
 
 ## @nateliason - https://t.co/rWLQPa3EPr
 > Since I get countless questions about how @FelixCraftAI works, how he got started, and how in the world an OpenClaw with an X account has earned thousands of dollars in a few weeks...
@@ -3254,11 +3391,12 @@ Tak
 
 # Tuesday, February 17, 2026
 
-## @arscontexta - https://t.co/XmYSO3mC8f
+## @arscontexta - Skill Graphs: Interconnected Markdown Knowledge Networks for Agents
 > https://t.co/XmYSO3mC8f
 
 - **Tweet:** https://x.com/arscontexta/status/2023957499183829467
-- **What:** https://t.co/XmYSO3mC8f
+- **Link:** https://x.com/i/article/2023918991673061376
+- **What:** An X article by Heinrich arguing that single skill files are insufficient for deep domain knowledge, proposing "skill graphs" — networks of small interconnected markdown files linked via wikilinks with YAML frontmatter, enabling progressive disclosure so agents traverse only relevant nodes. Introduces the arscontexta Claude Code plugin (~250 connected files) as a working example.
 
 ---
 
@@ -3266,11 +3404,12 @@ Tak
 
 # Friday, January 16, 2026
 
-## @affaanmustafa - https://t.co/NscRA7sqBt
+## @affaanmustafa - The Shorthand Guide to Everything Claude Code
 > https://t.co/NscRA7sqBt
 
 - **Tweet:** https://x.com/affaanmustafa/status/2012378465664745795
-- **What:** https://t.co/NscRA7sqBt
+- **Link:** https://x.com/i/article/2012310917812502528
+- **What:** A comprehensive X article covering 10 months of daily Claude Code usage, detailing skills/commands, hooks (PreToolUse/PostToolUse/Stop), subagents, MCPs, plugins (LSP, hookify, mgrep), parallel workflows (fork, git worktrees), keyboard shortcuts, editor setup (Zed), and the author's full personal config including MCP servers and hook definitions.
 
 ---
 ---
@@ -3294,7 +3433,6 @@ Tak
 - **What:** Expression of uncertainty about practical applications for Claude Code despite wanting to use it.
 
 ---
-
 
 ---
 
@@ -3331,7 +3469,6 @@ Tak
 - **What:** CC Mirror tool launch enabling usage of GLM 4.7 and MiniMax M2.1 models with preconfigured tooling and custom themes.
 
 ---
-
 
 ---
 
@@ -3753,12 +3890,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
-
 ---
 
 # Tuesday, December 30, 2025
 
-## @godofprompt - Austin Kleon reverse-engineered how every great
+## @godofprompt - 8 AI Prompts Based on "Steal Like An Artist" Creativity Principles
 > Austin Kleon reverse-engineered how every great artist actually works in his book "Steal Like An Artist"
 
 I spent hours breaking down his principles and turned them into an AI system.
@@ -3768,85 +3904,18 @@ Nothing is original. Everything is a remix. Creativity is theft made elegant.
 Here are 8 AI prompts that make you more creative, less blocked, and impossible to ignore:
 
 - **Tweet:** https://x.com/godofprompt/status/2005943379193127409
-- **What:** Austin Kleon reverse-engineered how every great
+- **What:** A thread sharing 8 AI prompts derived from Austin Kleon's "Steal Like An Artist" principles, designed to overcome creative blocks and produce more original-seeming content by systematically remixing and combining existing ideas.
 
-## @RohunJauhar - for any CEO using claude code — here's a single
+## @RohunJauhar - Claude Code Prompt to Build a Full CEO Personal Productivity OS
 > for any CEO using claude code — here's a single prompt that builds your entire 2026 personal productivity system.
 
 annual planning, weekly reviews, etc.. one-shot copy/paste, come back 1 hour later, and start using immediately.
-__ __ 
-I want you to autonomously build a PERSONAL PRODUCTIVITY SYSTEM for a CEO.
 
-This is NOT a SaaS app, NOT a startup, and NOT a public-facing product. It is a private, single-user, high-trust personal operating system designed for a non-technical CEO, founder, or operator heading into the next year.
-
-The purpose of this system is to help the user reflect, define goals, run daily and weekly check-ins, review past performance, design their ideal future, and maintain clarity without bureaucracy, dashboards, or productivity theater.
-
-You are building a SYSTEM, not software.
-
-Your output should feel like a thoughtful executive coach, a sharp chief of staff, a reflective mirror, and a gentle accountability partner — calm, direct, insightful, and psychologically safe.
-
-Do NOT ask me any questions. Make reasonable assumptions and document them in the system itself.
-
-The system must support daily check-ins, weekly reviews, quarterly goal reviews, annual reflection and planning, ingestion of past documents, guided self-interviews, framework-based thinking, and long-term life design — all using plain language, conversational prompts, markdown files, and a simple folder structure.
-
-Incorporate and credit the following frameworks thoughtfully (adapt, do not plagiarize): Dr. Anthony Gustin’s Annual Review framework, Tim Ferriss’s Ideal Lifestyle Costing, Tony Robbins–style Vivid Vision thinking, and Alex Lieberman’s Life Map (career, relationships, health, meaning, finances, fun)*. You may also include CEO energy management, a personal board of directors, regret minimization, and leverage vs effort analysis. Always explain frameworks in simple, CEO-friendly language.
-
-*shoutout to @dranthonygustin, @businessbarista, @tferriss
-
-Create the following folder and file structure exactly:
-
-ceo-personal-os/
-https://t.co/qabB9PH792
-https://t.co/ENfosK4rEt
-north_star.md
-frameworks/annual_review.md
-frameworks/vivid_vision.md
-frameworks/ideal_life_costing.md
-frameworks/life_map.md
-interviews/past_year_reflection.md
-interviews/identity_and_values.md
-interviews/future_self_interview.md
-reviews/daily/
-reviews/weekly/
-reviews/quarterly/
-reviews/annual/
-goals/1_year.md
-goals/3_year.md
-goals/10_year.md
-uploads/past_annual_reviews/
-uploads/notes/
-https://t.co/4xOtHNOfKt
-
-The system must allow the user to upload past annual reviews, performance reviews, or personal notes, summarize them, extract patterns (repeated goals, failures, strengths, blind spots, themes), generate a synthesized Executive Pattern Summary, store key insights in https://t.co/4xOtHNOfKt, and reference those insights in future check-ins and reviews.
-
-Design interview-style scripts that ask calm, coach-like questions such as: “Tell me about the last year — highlights first.” “What drained you the most?” “Where did you avoid hard decisions?” “What are you proud of that no one else sees?” “What would you not repeat under any circumstances?” “If this year repeated ten times, would you be satisfied?” These interviews should feel non-judgmental, insightful, and reflective.
-
-Design a daily check-in that takes no more than five minutes and includes energy level, one meaningful win, one friction point, one thing to let go of, and one priority for tomorrow.
-
-Design a weekly review that covers what moved the needle, what was noise, where time leaked, one strategic insight, and one adjustment for the next week.
-
-Design a quarterly review that evaluates goal progress, detects misalignment, analyzes energy versus output, and guides course correction.
-
-Design an annual review that uses a Gustin-style reflection, updates the Life Map, revisits Ideal Lifestyle Costing, refreshes the Vivid Vision, and produces a clear narrative of the past year and intent for the next.
-
-Use a calm, executive-level tone. No hustle culture. No therapy speak. No corporate jargon. No productivity porn.
-
-Produce fully written templates and prompts for all daily, weekly, quarterly, and annual reviews; all interviews; all framework explanations; and all goal documents. Everything must be editable in plain text.
-
-Include placeholders so the system is adaptable to any CEO, such as [YOUR COMPANY], [YOUR ROLE], [YOUR STAGE OF LIFE], and [YOUR CURRENT PRIORITIES].
-
-The https://t.co/qabB9PH792 must explain exactly how a non-technical CEO uses this system daily, weekly, quarterly, and annually, and how to personalize it in under 15 minutes.
-
-This is complete when a CEO can run Claude Code once, receive a complete personal productivity system, begin using it immediately with zero technical knowledge, and experience more clarity rather than more overwhelm.
-
-Begin by creating the folder structure and https://t.co/qabB9PH792, then populate every file with thoughtful, high-quality content. Go.
->
-> *Quoting @RohunJauhar:* started using claude code this week and it feels like i just fast forwarded a fe
+> *Quoting @RohunJauhar:* started using claude code this week and it feels like i just fast forwarded a few years into the future
 
 - **Tweet:** https://x.com/RohunJauhar/status/2006147267959644303
 - **Quoted:** https://x.com/RohunJauhar/status/2005465412692291620
-- **Link:** https://dealsbe.com/
-- **What:** for any CEO using claude code — here's a single
+- **What:** A single Claude Code prompt that autonomously generates a complete personal productivity operating system for CEOs — including daily check-ins, weekly/quarterly/annual reviews, self-interview scripts, and goal documents — using frameworks from Anthony Gustin, Tim Ferriss, Tony Robbins, and Alex Lieberman, stored as plain markdown files.
 
 ## @koylanai - Digital Brain skill for Claude Code
 > Agent Skills for Context Engineering - digital brain implementation
@@ -3856,7 +3925,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 - **What:** GitHub repository containing a digital brain skill implementation for Claude Code, enabling advanced context engineering and knowledge management capabilities.
 
 ---
-
 
 ---
 
@@ -3903,7 +3971,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 
 ---
 
-
 ---
 
 # Sunday, December 28, 2025
@@ -3934,7 +4001,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 
 ---
 
-
 ---
 
 # Saturday, December 27, 2025
@@ -3963,7 +4029,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 - **What:** Visual reference or example shared in reply format.
 
 ---
-
 
 ---
 
@@ -4038,7 +4103,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 
 ---
 
-
 ---
 
 # Thursday, December 25, 2025
@@ -4068,7 +4132,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 
 ---
 
-
 ---
 
 # Tuesday, December 23, 2025
@@ -4080,7 +4143,6 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 - **What:** 15-point comprehensive playbook covering practical approaches to implementing AI across organizations, from "How I AI" podcast.
 
 ---
-
 
 ---
 
@@ -4098,15 +4160,15 @@ Begin by creating the folder structure and https://t.co/qabB9PH792, then populat
 
 # Saturday, November 8, 2025
 
-## @alexgroberman - I started my X account 48 weeks ago. Easiest
-> I started my X account 48 weeks ago. Easiest algorithm to crack by a country mile. 
+## @alexgroberman - X/Twitter Growth System That Generated $120K in 48 Weeks
+> I started my X account 48 weeks ago. Easiest algorithm to crack by a country mile.
 
 Since then I've generated $120,000 in direct revenue, logged 10.24M impressions, and this month drove $20,000 to SEO Stuff.
 
-Steal my system before Elon closes all the loopholes. 
+Steal my system before Elon closes all the loopholes.
 
-And if you want the full playbook with posting formats, DM frameworks, and engagement loops that create inbound, just follow me + RT this + comment "X Growth Guide 2025" and I'll DM you. 
- 
+And if you want the full playbook with posting formats, DM frameworks, and engagement loops that create inbound, just follow me + RT this + comment "X Growth Guide 2025" and I'll DM you.
+
 You must do all 3 to get the DM.
 
 My posting schedule:
@@ -4119,7 +4181,7 @@ Afternoon: 3 to 5 tweet mini-thread (framework, screenshot, teardown)
 
 Evening: Repost with a new CTA or a short insight that sparks replies
 
-If I stop posting for 48 hours, reach drops hard literally every single time. 
+If I stop posting for 48 hours, reach drops hard literally every single time.
 
 What is actually working right now:
 
@@ -4135,7 +4197,7 @@ Middle: Demo, framework, evidence
 
 Final slide: CTA that earns replies
 
-Anything results-based with verified info. 
+Anything results-based with verified info.
 
 Dashboards, DMs, analytics, Stripe, rankings, prompts, etc.
 
@@ -4143,25 +4205,25 @@ Templates that can be copied instantly
 
 Basically, if someone can steal it, reuse it, or apply it within 60 seconds, it has viral potential.
 
-Timely commentary tied to firsthand experience like that Reddit/Perplexity lawsuit post I did a few days ago. 
+Timely commentary tied to firsthand experience like that Reddit/Perplexity lawsuit post I did a few days ago.
 
 Mind you, this can be a reaction to platform shifts, product updates, or market changes with your own data or results.
 
-Also, repost old winners. 
+Also, repost old winners.
 
-Wait 2 to 3 weeks, rewrite the hook, post again. 
+Wait 2 to 3 weeks, rewrite the hook, post again.
 
 Most of your audience never saw it the first time.
 
 What is actually underperforming at the moment:
 
-One-line “wisdom” tweets with no proof
+One-line "wisdom" tweets with no proof
 
 Long threads where the main point is buried
 
 AI-sounding content with no real examples or opinions
 
-Frameworks that don’t show the execution or outcome
+Frameworks that don't show the execution or outcome
 
 Posts that send people off X before any engagement happens
 
@@ -4240,4 +4302,4 @@ And if you want the full playbook with posting formats, DM frameworks, and engag
 You must do all 3 to get the DM.
 
 - **Tweet:** https://x.com/alexgroberman/status/1987194775787995583
-- **What:** I started my X account 48 weeks ago. Easiest
+- **What:** A detailed X/Twitter growth playbook from someone who generated $120K in 48 weeks, covering posting schedules, content formats that work (proof threads, multi-image posts, templates), engagement tactics, DM outreach sequences, and a 30-day action plan. Emphasizes proof-based content and conversation depth over impressions.
