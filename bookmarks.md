@@ -1,3 +1,347 @@
+# Tuesday, March 24, 2026
+
+## @BonesawMD - AI Job Replacement as Path to Intellectual Boom
+> I'm probably one of the few people who is happy to see people steadily have their jobs replaced by AI like this.
+>
+> Some days I salivate shamelessly if I think of it too much.
+>
+> Most jobs are filler & LARP.
+> Made up and unnecessary.
+>
+> If you watch people work, you realise hardly anybody does anything and often they do it poorly anyway.
+>
+> I don't blame them. Why pour your blood, sweat, and tears into companies that don't value you, harvest your creative energy, and drain your life force?
+>
+> Many people reading this secretly know they're getting paid to do nothing for more than 85% of their 'working' day.
+>
+> Great civilisations of the past such as Ancient Greece could advance fields like geometry, philosophy, art, music, and engineering so immensely because people had idle time to think.
+>
+> It'll look much worse until it gets better, but we may see an intellectual boom in our lifetime. An entire new economic landscape that rewards creativity and up-skilling.
+>
+> I am so bullish it's unreal.
+>
+> *Quoting @claudeai:* You can now enable Claude to use your computer to complete tasks. It opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk. Research preview in Claude Cowork and Claude Code, macOS only.
+
+- **Tweet:** https://x.com/BonesawMD/status/2036430427234209846
+- **Quoted:** https://x.com/claudeai/status/2036195789601374705
+- **What:** Bonesaw argues that AI job displacement could enable an intellectual boom by freeing people from meaningless work, allowing society to focus on creativity and meaningful pursuits like ancient civilizations did.
+
+## @oprydai - Pivot to Hardware for Software Engineers
+> i'm telling you. if you are in software, pivot to hardware.
+>
+> *Quoting @SBAgov:* 📢 NO LOAN FEES FOR U.S. MANUFACTURERS! In FY2026, SBA is waiving upfront fees for small manufacturers. These include: 0% upfront fee for 7(a) manufacturing loans of up to $950,000. 0% upfront fee and annual service fee for all 504 manufacturing loans.
+
+- **Tweet:** https://x.com/oprydai/status/2036301830318334372
+- **Quoted:** https://x.com/SBAgov/status/2036087345506574830
+- **What:** Mustafa suggests software engineers should consider pivoting to hardware, highlighting new government financing opportunities for small manufacturers with waived upfront fees.
+
+## @heynavtoor - OpenAI Parameter Golf Competition with $1M in Compute
+> 🚨 PhD students are panicking. OpenAI just told the world: we don't care about your degree. Build the best AI model under 16MB and we'll find you.
+>
+> That's smaller than one photo on your phone.
+>
+> It's called Parameter Golf.
+>
+> Train the smartest language model you can. It must fit in 16 megabytes. You get 10 minutes on 8xH100 GPUs. Lowest score wins.
+>
+> OpenAI is backing it with $1,000,000 in free compute credits.
+>
+> No resume. No interview. No PhD required. Just build.
+>
+> → A public leaderboard where anyone can submit
+> → Competitors beating each other's scores within hours
+> → Architectures nobody has ever tried before
+> → The baseline scored 1.2244. In 3 days it dropped to 1.1428. Still falling.
+> → 236 pull requests. 1,500 forks. The leaderboard changes every few hours.
+>
+> Top performers get noticed by OpenAI researchers and recruiters directly. No application. No hiring pipeline. Your model IS your resume.
+>
+> 3.1K GitHub stars. MIT License. 100% Open Source.
+
+- **Tweet:** https://x.com/heynavtoor/status/2036295451234984150
+- **What:** OpenAI launched Parameter Golf, a competition to build the smartest language model under 16MB with $1M in free GPU compute credits, disrupting traditional hiring by using model performance as the sole qualification.
+
+---
+
+# Monday, March 23, 2026
+
+## @aaronjmars - Maximizing Claude Pro/Max with Rate-Limit Monitoring Skill
+> holy shit, found the best way to maximize 100% your Claude Pro/Max subscription
+>
+> > rate-limits works on a 5h window & reset after that
+> > anthropic have an API endpoint using your Claude Code API key : GET /api/oauth/usage
+> > built a SKILL for aeon (github dot com/aaronjmars/aeon) that monitors when my 5h window is about to ends
+> > if there is less than 30mn left on my windows, it trigger all my scheduled skills (fix PRs, do research etc) until I reach my 100% limit
+>
+> the optimizoooor
+
+- **Tweet:** https://x.com/aaronjmars/status/2036230574822580675
+- **What:** Aaron Mars created a skill that monitors rate-limit windows and automatically triggers scheduled tasks to maximize Claude Pro/Max subscription usage before the 5-hour window resets.
+
+## @MattEpstein16 - Claude Code Turned Client into Millionaire via 20-Agent Script System
+> Absouloutly fucked that this is free
+>
+> *Quoting @MitcheIl:* https://t.co/1AX8svq17s
+
+- **Tweet:** https://x.com/MattEpstein16/status/2036160818056683678
+- **Quoted:** https://x.com/MitcheIl/status/2036098438908293349
+- **Link:** https://x.com/i/article/2035101919669362688
+- **What:** Matt Epstein highlights an article about turning a client into a millionaire using Claude Code, where a system of 20 specialized agents wrote scripts that drove $3M+ in revenue and 50M views.
+
+## @om_patel5 - Software Engineers Now
+> software engineers right now: https://t.co/nWQIgPekaF
+>
+> *Quoting @akshay_pachaar:* https://t.co/SSSIK3BX4z
+
+- **Tweet:** https://x.com/om_patel5/status/2036114160518406157
+- **Quoted:** https://x.com/akshay_pachaar/status/2035341800739877091
+- **Link:** https://x.com/i/article/2034961967149195264
+- **What:** A brief observation about the current state of software engineers, quoting the .claude/ folder anatomy article.
+
+## @806texasgrl - SBA Zero-Fee Manufacturing Loans for FY2026
+> FAMILY, go get your bread. Better yet, set up a business making healthy bread. The Small Business Admin is looking to give out money & not for opening a "Learing center" https://t.co/xruIHOhIL1
+>
+> *Quoting @SBAgov:* 📢 NO LOAN FEES FOR U.S. MANUFACTURERS!
+>
+> In FY2026, SBA is waiving upfront fees for small manufacturers.
+>
+> ✅ 0% upfront fee for 7(a) manufacturing loans of up to $950,000
+> ✅ 0% upfront fee and annual service fee for all 504 manufacturing loans
+
+- **Tweet:** https://x.com/806texasgrl/status/2036112233382682816
+- **Quoted:** https://x.com/SBAgov/status/2036087345506574830
+- **Link:** https://www.sba.gov/funding-programs/loans/lender-match-connects-you-lenders
+- **What:** SBA is offering zero upfront fees for small manufacturers in FY2026 on 7(a) and 504 loans—encouraging manufacturing business formation over other sectors.
+
+## @Argona0x - Split 1,200-Line CLAUDE.md to Boost Instruction Adherence from 60% to 95%
+> i mass-configured 4 repos using this exact folder structure last week
+>
+> cut my debugging time by ~60% and saved roughly $2,400 in dev hours
+>
+> the rules/ folder alone is worth the entire guide
+>
+> but the post doesn't mention what actually breaks without this
+>
+> i had a 1,200-line CLAUDE.md in a monorepo. claude was ignoring 40% of my instructions. instruction adherence drops off a cliff past **300 lines**
+>
+> splitting it fixed everything:
+>
+> → root CLAUDE.md down to 60 lines (project overview + essential commands only)
+> → /backend/CLAUDE.md scoped with biome auto-fix rules hitting 85% lint coverage
+> → /frontend/CLAUDE.md loads zustand store patterns only when editing that dir
+> → context bloat reduced 70-80% because claude auto-pulls nested CLAUDE.md per directory
+>
+> rule adherence went from ~60% to **95%**
+>
+> i went from 3 junior contractors reviewing claude outputs at $80/hr to just me. 110 fewer hours a month.
+>
+> *Quoting @akshay_pachaar:* https://t.co/SSSIK3BX4z
+
+- **Tweet:** https://x.com/Argona0x/status/2036106517678624820
+- **Quoted:** https://x.com/akshay_pachaar/status/2035341800739877091
+- **What:** Split a 1,200-line monorepo CLAUDE.md into scoped per-directory files (60-150 lines each) to boost instruction adherence from 60% to 95%. Keep files under 300 lines and one level deep from root to prevent context bloat.
+
+## @itsolelehmann - Auditing and Trimming Over-Prompting in Claude Setups
+> i deleted half my Claude setup last week and every output got BETTER
+>
+> sounds backwards, but anthropic's own team just explained exactly why it works.
+>
+> you get a bad output, so you add a rule. then another. then another. 3 months later you've got 30 rules piled on top of each other.
+>
+> some contradict each other ("be concise" and "always explain your reasoning" are fighting).
+>
+> it's like handing a chef a 47-step recipe when they only need 12.
+>
+> anthropic found their own scaffolding was making the AI worse—which means your custom instructions are almost certainly doing the same thing.
+>
+> just open Claude Code/Cowork and ask it to read your entire setup, identify every rule that: is already default behavior, contradicts another rule, was added to fix one bad output, or is too vague to apply consistently. then get a cleaned-up CLAUDE.md with the dead weight removed.
+>
+> your ai setup should be getting simpler over time. addition by subtraction baby.
+
+- **Tweet:** https://x.com/itsolelehmann/status/2036065138147471665
+- **What:** Deleting redundant custom instructions actually improved Claude outputs. Anthropic's own team found over-prompting hurts performance; provides a prompt for Claude to audit and trim your setup automatically.
+
+## @PrajwalTomar_ - Design Without Designing: 3-Layer Agent Harness for Engineers
+> This engineer couldn't do design.
+>
+> So he built a 3-layer agent harness and now he ships complete designs. Pixels, spacing, typography, everything.
+>
+> If design is blocking your MVP, read this.
+>
+> *Quoting @neethanwu:* https://t.co/z7p1rL84KV
+
+- **Tweet:** https://x.com/PrajwalTomar_/status/2036013596719960561
+- **Quoted:** https://x.com/neethanwu/status/2034786360356204934
+- **Link:** https://x.com/i/article/2034424000588152833
+- **What:** An engineer built a three-layer design agent harness (skills for design expertise, Figma MCP for pixel-precise measurements, agent loops for screenshot-analyze-improve verification) that enables shipping production-ready designs without design background.
+
+---
+
+# Sunday, March 22, 2026
+
+## @mattpocockuk - First Impressions After Intensive Claude Code Usage
+> I've been writing code for 15 years.
+>
+> I just finished my first day of hardcore Claude Code usage.
+>
+> Holy. Shit.
+>
+> This is a thread about why I think this changes everything, and what I think needs to be true for developers to stay employed.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2035900108553961825
+- **What:** Senior developer with 15 years experience reflects on the transformative impact of Claude Code and explores implications for the future of software development employment.
+
+## @aakashgupta - Economic Transformation of Solo Developer Productivity
+> The economics of being a solo developer just changed forever.
+>
+> Before Claude Code: 1 dev = 1 dev
+> After Claude Code: 1 dev = 10-100 devs
+>
+> This is not hyperbole. Here's a breakdown of what this means for:
+> - solo devs
+> - product people
+> - startup founders
+> - technical leads
+> - VCs
+> - big tech
+> - and more
+
+- **Tweet:** https://x.com/aakashgupta/status/2035897826217009401
+- **What:** Analysis of how Claude Code fundamentally changes the productivity multiplier for individual developers, potentially increasing their effective capacity 10-100x and reshaping dynamics across the tech industry.
+
+## @saakohl - $0 to $10k MRR in 4 Months with Claude Code, Zero Coding Experience
+> If you don't build a startup with claude code you're cooked
+>
+> $0 to $3k mrr in 3 months with claude code
+>
+> $3k to $10k mrr in the next month
+>
+> I have 0 coding experience
+>
+> my first real project, literally just built it in my pajamas from my apartment
+
+- **Tweet:** https://x.com/saakohl/status/2035887395484893217
+- **What:** A non-technical entrepreneur shares their rapid business scaling journey using Claude Code, growing from zero MRR to $10k MRR in four months without prior coding experience.
+
+## @kevinrose - Claude Code Workflow in Docker with Browser Testing
+> I've been pushing a lot of code to GitHub lately with @AnthropicAI's Claude Code.
+>
+> I'm running Claude code inside of a docker container for safety, with access to my mac for browser testing and screenshots. My new setup has been incredible.
+>
+> I created a @YouTube video showing my full setup. Check it out ↓
+
+- **Tweet:** https://x.com/kevinrose/status/2035835697047781719
+- **Link:** https://www.youtube.com/watch?v=jJr5gqz7CF8
+- **What:** Kevin Rose demonstrates his optimized Claude Code development workflow using Docker containers for sandboxing with local browser testing and screenshot capabilities.
+
+## @EurekaClaw - Local-First AI Research Agent from Idea to Paper
+> 1/n 🦞 Introducing EurekaClaw💡 — a local-first AI research agent that captures your Eureka moments before they vanish.
+> From idea → proof → experiment → paper — fully automated.
+> Local-first. Zero data leak. 🔒
+
+- **Tweet:** https://x.com/EurekaClaw/status/2035818205500039385
+- **Link:** https://www.eurekaclaw.ai/
+- **What:** EurekaClaw is a local-first AI research agent that automates the full research pipeline from idea capture through experimentation to paper generation, with offline-first architecture and zero data leakage.
+
+## @aakashgupta - Six Levels of Claude Code Autonomous Execution
+> There are 6 levels of making Claude Code run autonomously, and most people are stuck on Level 1.
+>
+> Level 1: Kill the permission prompts. Run claude --dangerously-skip-permissions.
+>
+> Level 2: Context window management. Claude Code now supports 1M tokens. Use /clear between tasks. Run /compact at 60% usage.
+>
+> Level 3: Subagents. The reason it stops at 15 minutes: everything runs in one context window. Subagents run in separate contexts. Build a looping todo command, each task executes in its own window.
+>
+> Level 4: Ralph Wiggum loop. Official Anthropic plugin. Claude works, tries to exit, a Stop hook blocks the exit, re-feeds the same prompt. One developer ran 27 hours straight, 84 tasks completed.
+>
+> Level 5: Karpathy's AutoResearch. Karpathy pushed a 630-line script to GitHub and went to sleep. Woke up to 100+ ML experiments completed overnight. One Claude Code port took model accuracy from 0.44 to 0.78 R² across 22 autonomous experiments.
+>
+> Level 6: VPS + OpenClaw for 24/7. Your laptop lid closing kills everything. Run Claude Code on a VPS inside tmux. OpenClaw (247K GitHub stars) provides a persistent gateway connecting LLMs to your real tools.
+>
+> *Quoting @joseph_h_garvin:* Claude code rarely runs for longer than 15m without stopping and asking for input from me. How do all these stories of people letting agents run overnight work?
+
+- **Tweet:** https://x.com/aakashgupta/status/2035805431516246363
+- **Quoted:** https://x.com/joseph_h_garvin/status/2035521016814854441
+- **What:** Six escalating techniques for running Claude Code autonomously, from removing permission prompts to running 24/7 on a VPS with subagents and structured eval loops.
+
+## @iruletheworldmo - Anatomy of the .claude/ Folder Guide
+> how your set up your folder is the difference between you and the great karpathy.
+>
+> folders are everything.
+>
+> this is a great guide into building each layer of the wondrous folder.
+>
+> do bookmark this. and do implement this.
+>
+> *Quoting @akshay_pachaar:* Anatomy of the .claude/ folder - A complete guide to CLAUDE.md, custom commands, skills, agents, and permissions, and how to set them up properly.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2035637459183104197
+- **Quoted:** https://x.com/akshay_pachaar/status/2035341800739877091
+- **What:** Endorsement of a comprehensive guide on properly organizing the .claude/ folder structure—covering CLAUDE.md, commands, rules, skills, agents, settings.json, and the global ~/.claude/ folder.
+
+---
+
+# Saturday, March 21, 2026
+
+## @JamesonCamp - Real AI Value Is in Unglamorous Industrial Operations
+> AI is scraping extra meat off the bone in slaughterhouses right now
+>
+> And it's making Cargill millions
+>
+> This is what people keep missing. The biggest AI opportunities are NOT in tech
+>
+> They're in warehouses. Meat plants. Logistics companies. Manufacturing floors. Operations so boring you'd scroll right past them
+>
+> The uglier the business the bigger the ROI. Every single time
+>
+> Everyone on here is chasing openclaw and AI replacing SaaS while companies like Cargill are quietly printing money in ways nobody wants to talk about
+>
+> The real AI economy looks nothing like your timeline
+>
+> *Quoting @Polymarket:* JUST IN: Beef processing giant Cargill is reportedly using AI to extract millions of dollars worth of "extra meat off the bone" in its slaughterhouses.
+
+- **Tweet:** https://x.com/JamesonCamp/status/2035382259813933323
+- **Quoted:** https://x.com/Polymarket/status/2035364194241908853
+- **What:** Real AI value lies in unsexy industrial applications like meat processing, not consumer tech—companies like Cargill are quietly making millions while tech Twitter chases SaaS disruption.
+
+## @damianplayer - In-Person AI Training Workshops for Corporate Professionals
+> local in-person AI classes for corporate boomers.
+>
+> think Claude 101.
+>
+> easily a $ 25K/mo opportunity.
+>
+> rent a presentation room. run meta ads targeting 35-60 year olds. charge $500-$1000 for a 2-day hands-on workshop.
+>
+> teach vibecoding, Claude, ChatGPT, prompting and agents.
+>
+> the demand is insane.
+>
+> these people see AI everywhere but have zero clue how to use it.
+>
+> they want face-to-face guidance, not online courses.
+>
+> run the same curriculum weekly. refine based on questions. multiple up-sell or down-sell opportunities. scale to multiple cities once you nail the format.
+>
+> you're hitting a market everyone else ignores. corporate boomers with cash who prefer learning in person. they are also being told to learn these tools daily..
+>
+> no chance this doesn't work if you execute.
+
+- **Tweet:** https://x.com/damianplayer/status/2035356217430733086
+- **What:** Business opportunity pitch: run in-person AI training workshops for 35-60 year old corporate professionals at $500-1000/head, targeting a market underserved by online courses.
+
+---
+
+# Tuesday, March 10, 2026
+
+## @trader1sz - Video Worth Stopping Everything For
+> Stop what you are doing and watch this
+
+- **Tweet:** https://x.com/trader1sz/status/2031492114161258562
+- **What:** Urgent video recommendation from a trader—no context given, just a strong call to action to watch the linked video.
+
+---
+
 # Sunday, January 4, 2026
 
 ## @trq212 - AI alignment and interpretability resources
