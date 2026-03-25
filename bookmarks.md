@@ -1,5 +1,75 @@
 # Tuesday, March 24, 2026
 
+## @shannholmberg - Karpathy's AutoResearch for Marketing Campaign Optimization
+> Karpathy's AutoResearch is changing how campaigns get optimized and most marketers haven't heard of it yet.
+>
+> Ole Lehmann tested it on landing page copy, 56% → 92% pass rate overnight.
+>
+> here's how it works for marketing / skills
+
+- **Tweet:** https://x.com/shannholmberg/status/2036461256006357409
+- **Quoted:** https://x.com/itsolelehmann/status/2033919415771713715
+- **What:** Overview of Karpathy's autoresearch method applied to Claude skill improvement and marketing optimization, demonstrating dramatic pass rate increases on landing page copy testing.
+
+## @imakeBADads - The AI Infrastructure Consulting Opportunity
+> Every day I turn down companies offering me $100k+ to build them AI infrastructure.
+>
+> They know they lack the expertise, but they don't want to blow their cash hiring engineers that will drain them.
+>
+> They'd rather pay someone a bag to:
+>
+> - Build it in 1-3 months
+> - Save them 5-6 figures/mo
+>
+> You could literally spin up a new business and build everything under this service.
+>
+> That's how big this opportunity is.
+>
+> *Quoting @damianplayer:* the biggest AI opportunity right now is mid-market companies ($5M-$50M+ revenue): too big for cookie-cutter solutions, too small for enterprise consulting, drowning in manual workflows, have budget but zero AI expertise. They're stuck with serious cash but frozen by AI paralysis.
+
+- **Tweet:** https://x.com/imakeBADads/status/2036481725950263628
+- **Quoted:** https://x.com/damianplayer/status/2033909532921933877
+- **What:** Commentary on the massive opportunity for AI infrastructure consulting services targeting mid-market companies seeking quick implementation without long-term engineering hires.
+
+## @iamsupersocks - Anthropic's Multi-Agent Harness for Long-Running Apps
+> Anthropic explique comment faire bosser Claude en autonomie pendant des heures et le concept clé à retenir s'appelle le "harness".
+>
+> Un harness, c'est l'architecture qui entoure le modèle : les agents, les règles, les boucles de feedback. C'est pas le modèle lui-même, c'est le système qu'on construit autour pour le faire performer.
+>
+> La solution : ne jamais laisser un agent se noter lui-même.
+>
+> L'équipe sépare le boulot en deux rôles distincts. Un agent qui produit, un autre qui évalue. Pour le frontend, l'évaluateur navigue la page en live via Playwright et itère 5-15 fois. Pour les apps complètes: trois agents (planificateur, développeur, testeur). Résultat après 6 heures: app complète avec sprites, niveaux jouables, et génération IA.
+>
+> *Quoting @AnthropicAI:* New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://t.co/HWvmXk1ykn
+
+- **Tweet:** https://x.com/iamsupersocks/status/2036504448621511070
+- **Quoted:** https://x.com/AnthropicAI/status/2036481033621623056
+- **Filed:** [anthropic-harness-design-long-running-apps](./knowledge/articles/anthropic-harness-design-long-running-apps.md)
+- **What:** French-language thread summarizing Anthropic's engineering approach to multi-agent harnesses that enable Claude to work autonomously for hours, using separate producer/evaluator agents inspired by GANs.
+
+## @JasonrShuman - The "Do It For Me" Economy: Local AI Installation
+> Silicon Valley thinks AI agents are a $20/mo self-serve subscription.
+>
+> Main Street is paying local agencies $10,000 just to turn them on.
+>
+> Everyone assumes AI will be bought primarily online like Slack or Zoom. I think they are wrong.
+>
+> Some of the biggest winners in the AI boom won't be the software vendors. It will be the humans installing it.
+>
+> Here is the reality of SMBs right now:
+> • 54% lack internal AI expertise.
+> • 41% have data quality too poor for AI to even work.
+> • 41% already prefer buying AI through a local IT provider.
+>
+> You cannot '1-click install' a genius AI into a messy CRM or a 15-year-old server. It will just execute the wrong tasks at the speed of light.
+>
+> The AI software will be cheap and a lot will absolutely be bought online. Making it actually work for a messy, real-world business will be expensive.
+>
+> Very bullish on the 'Do It For Me' economy being back.
+
+- **Tweet:** https://x.com/JasonrShuman/status/2036603049729466700
+- **What:** Analysis of the AI distribution gap between Silicon Valley SaaS expectations and Main Street reality, arguing that local implementation services and "Do It For Me" consulting will be major value captures in the AI boom.
+
 ## @BonesawMD - AI Job Replacement as Path to Intellectual Boom
 > I'm probably one of the few people who is happy to see people steadily have their jobs replaced by AI like this.
 >
@@ -64,6 +134,53 @@
 ---
 
 # Monday, March 23, 2026
+
+## @saakohl - Latent-Y: Autonomous Drug Design Agent
+> Today we're launching Latent-Y: the world's first autonomous agent for drug design, lab-validated end to end.
+>
+> Give it a research goal. Latent-Y reasons, designs, iterates, and delivers lab-ready antibodies, autonomously or collaboratively, with the biological reasoning of a PhD protein design expert.
+>
+> Technical report: https://t.co/E7IHfkvvD3
+> Blog post: https://t.co/GfJAfzj0Qx
+> Apply for access: https://t.co/E0SR9znZiP
+
+- **Tweet:** https://x.com/saakohl/status/2035988968764788938
+- **What:** Latent Labs announced Latent-Y, an AI agent that autonomously designs and lab-validates antibodies and other biologics. It operates like a PhD-level protein design expert and can work autonomously or in collaboration with human researchers.
+
+## @aakashgupta - Karpathy's Autoresearch and the Immutable Evaluation Layer
+> Karpathy accidentally shipped the org chart for every AI-augmented company in 2030.
+>
+> Three files. program.md is the human writing strategy in plain English. train.py is the agent executing, iterating, and shipping code. val_bpb is the locked evaluation layer that neither the human nor the agent can touch mid-run.
+>
+> That third file is the one worth studying.
+>
+> In most companies deploying AI agents today, the person who sets the goal also controls how success is measured. The marketing team picks the KPI, runs the campaign, and reports the results. The PM defines the metric, ships the feature, and presents the dashboard. The incentive to subtly shift the goalposts is built into the structure.
+>
+> Karpathy separated goal-setting from evaluation by making val_bpb immutable. The agent optimizes val_bpb. The agent cannot redefine val_bpb. The agent cannot swap in a friendlier dataset. The agent cannot adjust the tokenizer to make its numbers look better. It either improved on the locked metric or it gets reverted. No narrative. No context. No 'well, if you look at it this way.'
+>
+> That's why the results held. 700 experiments, 20 kept, and when Karpathy applied those 20 improvements to a model twice the size, every single one transferred. The gains were real because the agent had zero ability to make fake gains look real.
+>
+> Shopify's CEO ran the same architecture overnight. 37 experiments, 19% quality improvement, smaller model beating a larger one. The pattern transferred because the evaluation was trustworthy.
+>
+> The separation Karpathy built into 630 lines of Python is the same separation every company will need when agents do the execution. Whoever controls the eval controls the outcome. Lock it down or the agent will find the shortest path to a number that means nothing.
+>
+> *Quoting @aakashgupta:* For $25 and a single GPU, you can now run 100 experiments overnight without designing any of them. Karpathy open-sourced autoresearch. 42,000 GitHub stars in a week. Fortune called it 'The Karpathy Loop.' Three files. One the agent edits. One it can never touch. One instruction file from you. Each cycle takes 5 minutes. Score went up? Git commit. Score went down? Git reset. Twelve cycles per hour. A hundred overnight.
+
+- **Tweet:** https://x.com/aakashgupta/status/2036006034729304175
+- **Quoted:** https://x.com/aakashgupta/status/2034851259442749909
+- **What:** Aakash Gupta explains how Karpathy's autoresearch framework—with its immutable evaluation layer—provides a blueprint for AI-augmented organizations. The locked evaluation prevents agents and humans from gaming metrics, ensuring genuine improvements. The pattern applies across sales, product, recruiting, and engineering.
+
+## @mattpocockuk - Claude Code Cohort Feedback Request
+> Folks who looked at my Claude Code cohort and didn't buy it:
+>
+> What stopped you?
+>
+> All feedback is a gift. The more brutal, the better.
+>
+> https://t.co/Ur0ebWlIRl
+
+- **Tweet:** https://x.com/mattpocockuk/status/2036010331370111340
+- **What:** Matt Pocock asking for feedback from people who viewed his Claude Code cohort landing page but didn't purchase. The cohort is a paid educational program about using Claude Code for development.
 
 ## @aaronjmars - Maximizing Claude Pro/Max with Rate-Limit Monitoring Skill
 > holy shit, found the best way to maximize 100% your Claude Pro/Max subscription
@@ -178,6 +295,15 @@
 ---
 
 # Sunday, March 22, 2026
+
+## @kevinrose - Claude Code Hacks and Workflows
+> I learn something new from Matt every time we chat.
+>
+> *Quoting @mvanhorn:* https://t.co/AwabaZTtdp
+
+- **Tweet:** https://x.com/kevinrose/status/2035895141026922684
+- **Quoted:** https://x.com/mvanhorn/status/2035857346602340637
+- **What:** Matt Van Horn's comprehensive guide to Claude Code productivity hacks, including /ce:plan for rapid ideation, voice input usage, plan.md files, parallel agent patterns, and why an IDE becomes overhead once you're directing AI development.
 
 ## @mattpocockuk - First Impressions After Intensive Claude Code Usage
 > I've been writing code for 15 years.
