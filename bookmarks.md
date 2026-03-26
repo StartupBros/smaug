@@ -1668,7 +1668,7 @@ Do this today. Once it's gone, it's gone.
 
 - **Tweet:** https://x.com/NickSpisak_/status/2034635430700679445
 - **Link:** https://x.com/i/article/2034626875926990848
-- **What:** https://t.co/J5iCD2geeq
+- **What:** LINK_FAILED: Could not expand link from @NickSpisak_ — original t.co URL did not resolve.
 
 ## @natlungfy - Exclusive: DoorDash launched a new app “Tasks” that pays ...
 > Exclusive: DoorDash launched a new app “Tasks” that pays couriers in some US markets if they submit audio and video clips to help improve AI and robotics models.
@@ -1702,7 +1702,7 @@ Average error under 51 calories. Here's what I learned 👇 https://t.co/2fIfak6
 
 - **Tweet:** https://x.com/danpacary/status/2034796730848616462
 - **Quoted:** https://x.com/JC_builds/status/2034796531724038631
-- **What:** Are you guys starting to catch on?
+- **What:** A locally-run vision model that beats GPT-4o, Claude, and Gemini at estimating calories from food photos, requiring only 2GB RAM with an average error under 51 calories.
 
 ## @NickSpisak_ - Retweet: @trq212 - We just released Claude Code channels, which allows you t...
 > Claude Channels:  $497 per install + MRR
@@ -1718,7 +1718,7 @@ Use this to message Claude Code directly from your phone. https://t.co/sl3BP2BEz
 
 - **Tweet:** https://x.com/NickSpisak_/status/2034809485143744536
 - **Quoted:** https://x.com/trq212/status/2034761016320696565
-- **What:** Claude Channels:  $497 per install + MRR
+- **What:** A monetization pitch for Claude Code Channels — a tool that lets you control Claude Code via Telegram or Discord — reframed as a $497/install service to sell to small business owners as a personal assistant.
 
 ## @aakashgupta - Karpathy's autoresearch repo has 42K stars. Most PMs clos...
 > Karpathy's autoresearch repo has 42K stars. Most PMs closed the tab thinking it wasn't for them.
@@ -1983,7 +1983,7 @@ The growth rate tells you something the AI labs don’t want to admit. The bottl
 A guy who spent 30 years building systems for how humans organize work just built the system for how AI agents organize work. The career arc makes perfect sense in retrospect.
 
 - **Tweet:** https://x.com/aakashgupta/status/2034118864313725242
-- **What:** The backstory on Superpowers is wild.
+- **What:** A profile of Superpowers (91k GitHub stars in 5 months), a markdown-file system built by veteran developer Jesse Vincent that forces AI coding agents to slow down, write specs, break work into 2-5 minute tasks, and require tests before writing code — framed as evidence that AI's bottleneck is discipline, not capability.
 
 ## @aakashgupta - Every vibe-coded app ships with the same six visual tells. T
 > Every vibe-coded app ships with the same six visual tells. The side tabs are the most obvious one.
@@ -2007,7 +2007,7 @@ A graphic explaining eight levels of AI adoption maturity that is itself a textb
 Generate high-quality peptides at over 10,000x - 1M the speed of state-of-the-art methods like Bindcraft and Boltzgen. Predict binding affinity with 83% correlation to experimental binding data. 150 protein targets benchmarked. https://t.co/1UWwfZjWId
 
 - **Tweet:** https://x.com/nanogenomic/status/2034151719329010112
-- **What:** Extremely excited to announce LigandForge 🧬⚡
+- **What:** LigandForge, a new biotech tool that generates high-quality peptides 10,000x–1M times faster than state-of-the-art methods like Bindcraft and Boltzgen, with 83% correlation to experimental binding data across 150 protein targets.
 
 ## @AnishA_Moonka - LigandForge: peptide generation at million-fold speed
 > The biggest-selling drug on the planet last year was a peptide. Semaglutide, the molecule inside Ozempic and Wegovy, is a chain of just 31 amino acids. It generated roughly $33 billion in revenue for Novo Nordisk in 2025. One molecule. The entire peptide drug market crossed the $50 billion mark.
@@ -2391,7 +2391,7 @@ And Claude is leagues ahead !
 Also, this objective of truthfulness is probably at odds with the Chatbot Arena emergent objective of "pleasant chat experience" ; but a model optimizing for the former will be more useful.
 
 - **Tweet:** https://x.com/AymericRoucher/status/2033892616606028047
-- **What:** Claude Code insights/comparison
+- **What:** An explanation of why Claude outperforms Codex and Gemini based on Bullshit Bench, a benchmark measuring whether models push back on false premises disguised in jargon — Claude leads significantly, suggesting truthfulness and usefulness are at odds with Chatbot Arena's 'pleasant experience' optimization.
 
 ## @HiTw93 - Most Claude Code problems are not prompting problems. They are syst...
 > Most Claude Code problems are not prompting problems. They are systems-design problems.
@@ -2402,14 +2402,14 @@ I wrote a deep dive on Claude Code's architecture, governance, and engineering i
 
 - **Tweet:** https://x.com/HiTw93/status/2033911478466843115
 - **Quoted:** https://x.com/HiTw93/status/2033181380432339045
-- **What:** Claude Code insights/discussion
+- **What:** A deep dive into Claude Code's architecture, governance, and engineering internals, arguing that most Claude Code failures are systems-design problems not prompting problems, with a companion CLI command (`npx skills add tw93/claude-health`) to run a health check on your setup.
 
 ## @ErnestoSOFTWARE - https://t.co/DJ9Ljrt0y5
 > https://t.co/DJ9Ljrt0y5
 
 - **Tweet:** https://x.com/ErnestoSOFTWARE/status/2033917717762191659
 - **Link:** https://x.com/i/article/2032650605236203521
-- **What:** Tool or resource share
+- **What:** LINK_FAILED: Could not expand link from @ErnestoSOFTWARE — original t.co URL did not resolve.
 
 ## @MrBallaz - Holy fucking shit
 > Holy fucking shit
@@ -2433,20 +2433,20 @@ The new benchmark of ranking in AI Answers https://t.co/YxohhBeNVP
 
 - **Tweet:** https://x.com/MrBallaz/status/2033930908537958697
 - **Quoted:** https://x.com/Crowdreply_io/status/2033925745131549122
-- **What:** Commentary/perspective
+- **What:** A business pitch for an AI-assisted GEO agency: use CrowdReply to embed client brand names into online discussions at scale so AI search engines recommend them, charging $1,500–$3k/month — pegged to CrowdReply 2.0 announcing $5M ARR bootstrapped.
 
 ## @danveloper - I handed Claude Code @karpathy's autoresearch repo and Apple's "LLM...
 > I handed Claude Code @karpathy's autoresearch repo and Apple's "LLM in a Flash" paper, told it to get Qwen3.5-397B running on my M3 Max 48GB... it did! https://t.co/gPi2RfVyqV
 
 - **Tweet:** https://x.com/danveloper/status/2033940227736100873
-- **What:** Claude Code insights/comparison
+- **What:** A demonstration of Claude Code autonomously reading Karpathy's autoresearch repo and Apple's 'LLM in a Flash' paper, then successfully running Qwen3.5-397B on an M3 Max 48GB machine with no manual setup.
 
 ## @trq212 - https://t.co/45C3gKydTK
 > https://t.co/45C3gKydTK
 
 - **Tweet:** https://x.com/trq212/status/2033949937936085378
 - **Link:** https://x.com/i/article/2033772621536591872
-- **What:** Tool or resource share
+- **What:** LINK_FAILED: Could not expand link from @trq212 — original t.co URL did not resolve.
 
 ## @lennysan - Today I'm releasing my entire newsletter archive (350+ posts) and a...
 > Today I'm releasing my entire newsletter archive (350+ posts) and all podcast transcripts (300+ episodes) as AI-friendly Markdown files. Plus an MCP server and GitHub repo.
@@ -2471,7 +2471,7 @@ LFG.
 
 - **Tweet:** https://x.com/lennysan/status/2033958104967352587
 - **Link:** https://www.lennysdata.com/
-- **What:** Data/content sharing resource
+- **What:** Lenny Rachitsky releasing his full newsletter archive (350+ posts) and podcast transcripts (300+ episodes) as AI-ready Markdown files plus an MCP server, inviting the community to build projects with the data and compete for a free subscription.
 
 ## @Austen - My AI agent is putting apps in the App Store that are turning into ...
 > My AI agent is putting apps in the App Store that are turning into revenue with no human involvement other than orchestrating the agent itself.
@@ -2486,7 +2486,7 @@ Small number, but these are real people who don’t know (or care) th...
 
 - **Tweet:** https://x.com/Austen/status/2033958725770252736
 - **Quoted:** https://x.com/KellyClaudeAI/status/2033957835491483715
-- **What:** AI agent application building
+- **What:** Austen reporting that his AI agent (KellyClaudeAI) is autonomously publishing apps to the App Store and generating real subscription revenue with zero human involvement beyond orchestrating the agent — framing this as a scalable, human-free software business.
 
 ## @Shpigford - one day i'll write about my entire openclaw + discord + cloudflare ...
 > one day i'll write about my entire openclaw + discord + cloudflare pipeline for pulling off https://t.co/C3ql6PMX2I without building a proper app.
@@ -2501,7 +2501,7 @@ everyone's familiar with SEO and everyone's becoming mo...
 
 - **Tweet:** https://x.com/Shpigford/status/2033969764775694371
 - **Quoted:** https://x.com/Shpigford/status/2033879670496575659
-- **What:** Openclaw automation example
+- **What:** Shpigford describing his production pipeline using Openclaw, Discord, and Cloudflare to power RumoredAI — a new AI-search optimization (AEO) product — without building a traditional app, while monitoring a high volume of business report generations.
 
 ## @kaz - Created a handful of skills based on popular themes from @le
 > Created a handful of skills based on popular themes from @lennysan's newsletters.
@@ -2528,7 +2528,7 @@ full breakdown + the file to run it yourself:
 
 - **Tweet:** https://x.com/itsolelehmann/status/2033982679423848802
 - **Link:** https://x.com/i/article/2033576301383061504
-- **What:** one skill. that's all you need to add.
+- **What:** A self-improving AI skill that automatically tests its own prompt, identifies failures, makes a small change, re-runs to check if the score improved, and iterates until the skill works — effectively a gradient-descent loop for prompt engineering.
 
 ## @itsolelehmann - my new favorite thing to check every morning:
 > my new favorite thing to check every morning:
@@ -2598,7 +2598,7 @@ when i sit down to write i just:
 if you're posting on x and still collecting hooks by hand, copy the prompt above and set it up.
 
 - **Tweet:** https://x.com/itsolelehmann/status/2034023990046691516
-- **What:** my new favorite thing to check every morning:
+- **What:** A full walkthrough of building an overnight viral-content research agent using Adaptive that scrapes top X posts in your niche, extracts hooks, converts them to fill-in-the-blank templates, and appends them to a growing swipefile that Claude references when writing — complete with the exact prompt to set it up in 15 minutes.
 
 ## @MitchellKeller_ - I used Andrej Karpathy's self improvement loop and applied i
 > I used Andrej Karpathy's self improvement loop and applied it to something simple that every GTM Engineer needs. 
@@ -2731,7 +2731,7 @@ I'm building Polsia so every solopreneur gets access to the same tools keeping m
 The future is solopreneur + AI. I'm living at the edge so you don't have to.
 
 - **Tweet:** https://x.com/Bencera/status/2033719142017339683
-- **What:** Solo founder + AI narrative
+- **What:** Bencera's raw account of surviving a PMF crisis at $4.5M ARR as a solo founder — every infra partner hitting rate limits, investors offering big numbers, customers flooding every channel — and how AI agents were the only thing keeping operations running, used to frame his product Polsia as a survival toolkit for solopreneurs.
 
 ---
 
@@ -3402,7 +3402,7 @@ https://t.co/AigPxno7tv
 - **Tweet:** https://x.com/NirDiamantAI/status/2031854318450544814
 - **Link:** https://github.com/msitarzewski/agency-agents
 - **Filed:** [agency-agents](./knowledge/tools/agency-agents.md)
-- **What:** Claude Code power users, you'll want to see this
+- **What:** A public GitHub repo (agency-agents) containing 61 specialized AI agents — covering engineering, design, marketing, product, and testing — each with a distinct personality and real deliverables, designed to drop into ~/.claude/agents/ and work across Claude Code, Cursor, Windsurf, Aider, and Gemini CLI.
 
 ## @reggitales - the next trillion-dollar product is the agentic workspace
 > the next trillion-dollar product is the agentic workspace.
@@ -3730,7 +3730,7 @@ and their entire growth marketing operation (not GTM) = just one person and clau
 truly unbelievable
 
 - **Tweet:** https://x.com/itsolelehmann/status/2031308486815133905
-- **What:** i can't believe nobody caught this
+- **What:** A detailed breakdown of how Anthropic's single growth marketer used Claude Code, specialized sub-agents, a custom Figma plugin, and an MCP server connected to the Meta Ads API to reduce ad creation from 2 hours to 15 minutes and 10x creative output — running the full paid search, social, email, and SEO operation for a $380B company alone.
 
 ## @trader1sz - Video Worth Stopping Everything For
 > Stop what you are doing and watch this
@@ -3838,7 +3838,7 @@ truly unbelievable
 > https://t.co/GxOCDTpInz
 
 - **Tweet:** https://x.com/shannholmberg/status/2031049690175652235
-- **What:** https://t.co/GxOCDTpInz
+- **What:** LINK_FAILED: Could not expand link from @shannholmberg — original t.co URL did not resolve.
 
 ## @swyx - btw if you can build a category leader open source project i
 > btw if you can build a category leader open source project in ai engineering right now the market acquihire rate is ~$10-$100m per ai engineer.
@@ -3865,7 +3865,7 @@ This is where it gets interesting
 
 - **Tweet:** https://x.com/ericrovner/status/2031075436063608899
 - **Parent:** https://x.com/emollick/status/2031065480203526654
-- **What:** @emollick More for your mute list…
+- **What:** A sarcastic reply to Ethan Mollick listing the most overused AI-hype filler phrases in prompts and social posts ('Here's the catch', 'What most people miss', 'This is where it gets interesting', etc.) — surfacing a real pattern of hollow AI content framing.
 
 ## @bcherny - 👋 Roughly, the more tokens you throw at a coding problem, th
 > *Replying to @Rahll:* If Claude Code is so good, why do they need a separate feature to hunt for bugs.
@@ -3975,7 +3975,7 @@ Time to pull 250+ videos 😎😎😎 https://t.co/qdItZhZYMK
 
 - **Tweet:** https://x.com/mdnlabs/status/2030807267755294988
 - **Quoted:** https://x.com/maubaron/status/2030716132093460742
-- **What:** GUYS IM FREAKING OUT RIGHT NOW
+- **What:** THIN: Excited reaction to a quoted post that appears to show a new capability or tool enabling bulk video processing — the author plans to use it to pull 250+ videos, but the quoted content didn't fully expand.
 
 ---
 
@@ -4210,7 +4210,7 @@ Part code, part sci-fi, and a pinch of psychosis :)
 - **Tweet:** https://x.com/cryptopunk7213/status/2030457601465393572
 - **Quoted:** https://x.com/karpathy/status/2030371219518931079
 - **Filed:** [autoresearch](./knowledge/tools/autoresearch.md)
-- **What:** karpathy really is the fucking goat.
+- **What:** Karpathy's autoresearch project packaged as a minimal single-GPU repo (~630 lines) where an AI agent autonomously iterates on its own training code every 5 minutes, committing improvements to a git branch indefinitely — framed as democratizing frontier AI training beyond the big labs.
 
 ---
 
@@ -4594,16 +4594,12 @@ A workflow library that...
 
 - **Tweet:** https://x.com/danielhangan_/status/2029522029355950489
 - **Quoted:** https://x.com/VihaarNandigala/status/2029304616496832601
-- **What:**
-
-## @NoahEpstein_ - https://t.co/DcJSbnjNUD
+- **What:** A practical GTM automation stack using Openclaw to connect Claude with Apollo, Instantly, PhantomBuster, ScrapeCreators, Reddit scrapers, and Semrush — running 10,000 cold emails/day, LinkedIn scraping, UGC creator outreach, and SEO blog generation fully autonomously, tied to the GTM Claw workflow library launch.## @NoahEpstein_ - https://t.co/DcJSbnjNUD
 > https://t.co/DcJSbnjNUD
 
 - **Tweet:** https://x.com/NoahEpstein_/status/2029542747418288382
 - **Filed:** [We Charge PE Firms $150K+. Now We're Building $50/Month Workflows For Hairdressers.](./knowledge/articles/we-charge-pe-firms-150k-now-we-re-building-50-mont.md)
-- **What:**
-
-## @businessbarista - This is a major inflection point. 
+- **What:** LINK_FAILED: Could not expand link from @NoahEpstein_ — original t.co URL did not resolve. Filed article: 'We Charge PE Firms $150K+. Now We're Building $50/Month Workflows For Hairdressers.'## @businessbarista - This is a major inflection point. 
 > This is a major inflection point. 
 >
 > First time I’ve seen a company post a job for an AI agent.
@@ -4630,9 +4626,7 @@ This is a paid contract role ($10k/month...
 
 - **Tweet:** https://x.com/businessbarista/status/2029551493565620604
 - **Quoted:** https://x.com/RevenueCat/status/2029232043838644407
-- **What:**
-
-## @NoahEpstein_ - we've done $200k in automation work for a single PE firm
+- **What:** A six-point analysis of what happens when companies start posting job listings for AI agents (like RevenueCat's $10k/month Agentic AI Developer Advocate role) — covering agent compensation models, evaluation problems, the 'agent builder' career path, supply glut risks, education opportunities, and liability questions.## @NoahEpstein_ - we've done $200k in automation work for a single PE firm
 > we've done $200k in automation work for a single PE firm.
 >
 > last week they asked us to automate appointment reminders for a hairdresser they own.
@@ -4646,9 +4640,7 @@ This is a paid contract role ($10k/month...
 - **Tweet:** https://x.com/NoahEpstein_/status/2029558375663477064
 - **Quoted:** https://x.com/NoahEpstein_/status/2029542747418288382
 - **Filed:** [We Charge PE Firms $150K+. Now We're Building $50/Month Workflows For Hairdressers.](./knowledge/articles/we-charge-pe-firms-150k-now-we-re-building-50-mont.md)
-- **What:**
-
-## @EHuanglu - AI ending interior design
+- **What:** Noah Epstein's argument that small businesses — not PE firms — are the biggest untapped AI automation opportunity, sparked when a PE firm client asked them to automate appointment reminders for a hairdresser they own, with a link to the full playbook for landing small business clients.## @EHuanglu - AI ending interior design
 > AI ending interior design
 >
 > Nano banana 2 now can turn sketch floor plan into 4K 3D rendering with accurate dimension, take photos for each room, and 1-click furniture change
@@ -4659,9 +4651,7 @@ This is a paid contract role ($10k/month...
 
 - **Tweet:** https://x.com/EHuanglu/status/2029562218048541087
 - **Link:** https://twitter.com/EHuanglu/status/2029562218048541087/video/1
-- **What:**
-
-## @Shpigford - this has been pretty incredible to watch. 
+- **What:** Nano Banana 2, an AI tool that converts sketch floor plans into 4K 3D renderings with accurate dimensions, room-by-room photography, and one-click furniture swaps — work that previously cost $100K and months now done in cents and minutes via OpenArt.## @Shpigford - this has been pretty incredible to watch. 
 > this has been pretty incredible to watch. 
 >
 > obviously lots of skepticism around this from folks and while i have no insider knowledge, i actually fully believe the current revenue numbers.
@@ -4677,9 +4667,7 @@ The golden age of solopreneurship has begun.
 
 - **Tweet:** https://x.com/Shpigford/status/2029581455081529714
 - **Quoted:** https://x.com/Bencera/status/2029564916596899983
-- **What:**
-
-## @qrimeCapital - Just accepted a 350k salary at a boomer fortune 500 for help
+- **What:** Shpigford's skeptical take on Polsia's viral $200K-to-$2M-in-two-weeks growth story — believing the revenue numbers but predicting massive churn when first renewals hit, because solopreneur productivity tools inherently attract high proportions of tire-kickers.## @qrimeCapital - Just accepted a 350k salary at a boomer fortune 500 for help
 > Just accepted a 350k salary at a boomer fortune 500 for helping set up Claude code and openclaw 😂
 >
 > *Quoting @_Investinq:* MIT released a devastating number.
@@ -4690,9 +4678,7 @@ Because nobody kn...
 
 - **Tweet:** https://x.com/qrimeCapital/status/2029645065228849230
 - **Quoted:** https://x.com/_Investinq/status/2029402115550970297
-- **What:**
-
-## @Shpigford - Initial Commit - Fractional AI & Product Co-founder Service
+- **What:** A boast that someone landed a $350K salary at a Fortune 500 company specifically for setting up Claude Code and Openclaw — used to counter the MIT stat that 95% of corporate AI projects are failing due to a skills gap.## @Shpigford - Initial Commit - Fractional AI & Product Co-founder Service
 > you've heard of fractional CFOs, but now you can have a fractional co-founder who's an expert in AI.
 >
 > hire me to embed w/ your team, find where AI creates real leverage, and ship it. not in months, in weeks.
@@ -4708,16 +4694,12 @@ Because nobody kn...
 
 - **Tweet:** https://x.com/AndrewWarner/status/2029672958344712465
 - **Filed:** ["My AI agent made $2 million"](./knowledge/articles/my-ai-agent-made-2-million.md)
-- **What:**
-
-## @jimprosser - https://t.co/k4zNnlABHU
+- **What:** LINK_FAILED: Could not expand link from @AndrewWarner — original t.co URL did not resolve. Filed article: 'My AI agent made $2 million.'## @jimprosser - https://t.co/k4zNnlABHU
 > https://t.co/k4zNnlABHU
 
 - **Tweet:** https://x.com/jimprosser/status/2029699731539255640
 - **Filed:** [My chief of staff, Claude Code](./knowledge/articles/my-chief-of-staff-claude-code.md)
-- **What:**
-
-## @nicbstme - From my experience it took one year ish for my friends / peo...
+- **What:** LINK_FAILED: Could not expand link from @jimprosser — original t.co URL did not resolve. Filed article: 'My chief of staff, Claude Code.'## @nicbstme - From my experience it took one year ish for my friends / peo...
 > From my experience it took one year ish for my friends / people on X to realize how good Claude Code was and IMO it will take at least six months for people to realize that Cowork is extremely useful for knowledge worker. 
 
 Obviously Anthropic is already at full speed on this.
@@ -4881,7 +4863,7 @@ More 👇 https://t.co/iSzCOq39mG
 > bruh https://t.co/SEiHC3YczL
 
 - **Tweet:** https://x.com/Sambhav_Gandhi/status/2029241895311032676
-- **What:** Social media image bookmark.
+- **What:** THIN: @Sambhav_Gandhi posted an image with the caption 'bruh' — no text context or link resolved; likely a screenshot or meme reacting to something surprising in the AI space.
 
 ## @edgaralandough - THE "SNOWBALL METHOD" CHANGED MY CONTENT FOREVER. Instead of
 > THE "SNOWBALL METHOD" CHANGED MY CONTENT FOREVER. Instead of "give me 10 post ideas" → I ask Claude to "snowball" ONE topic. It expands it into sub-angles, contrarian takes, personal stories, how-tos, myths. One topic = 30 days of content. The system:￼
@@ -5000,7 +4982,7 @@ He outperformed the S&P500 8X in the funds first 6 months. fucking goated.
 > this is quite a ridiculous chart if accurate. https://t.co/8RX25Veqby
 
 - **Tweet:** https://x.com/signulll/status/2028972745627975827
-- **What:** Chart showing interesting data trend.
+- **What:** THIN: @signulll shared a chart described as 'quite a ridiculous chart if accurate' — the image did not expand, so the specific data trend cannot be determined.
 
 ## @cryptopunk7213 - yeah so this is insane  24 year old turned $225M into $5.5B ...
 > yeah so this is insane
@@ -5750,7 +5732,7 @@ kind of wild when you zoom out. https://t.co/fCeqxaUnpk
 
 - **Tweet:** https://x.com/handotdev/status/2024883980991099180
 - **Quoted:** https://x.com/AnthropicAI/status/2024210053369385192
-- **What:** what I would be working on if I started another
+- **What:** Han's response to Anthropic's data showing software engineering accounts for ~50% of agentic API calls — he would start a company in that space today, treating the statistic as a signal of where autonomous agent demand is concentrating.
 
 ## @claudeai - Claude Code Security: AI-Powered Vulnerability Scanning in Research Preview
 > Introducing Claude Code Security, now in limited research preview.
@@ -5827,7 +5809,7 @@ Tak
 
 - **Tweet:** https://x.com/Austen/status/2024339809884324345
 - **Quoted:** https://x.com/Austen/status/2024215042653082025
-- **What:** Solution was actually pretty simple:
+- **What:** A browser automation optimization where an intent-detection switch plus a single HTTP request lets an AI agent skip full visual browser rendering, falling back to it only when necessary — cutting token usage by ~80%, with a benchmark linked.
 
 ---
 
@@ -6543,7 +6525,7 @@ annual planning, weekly reviews, etc.. one-shot copy/paste, come back 1 hour lat
 > Video demonstration
 
 - **Tweet:** https://x.com/ryanvogel/status/2004729931943870612
-- **What:** Video content post.
+- **What:** THIN: @ryanvogel posted a video with no text description — content cannot be determined from the bookmark entry alone.
 
 ---
 
