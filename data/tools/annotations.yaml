@@ -1,0 +1,22 @@
+# Tool Discovery Annotations — Editorial Source of Truth
+# Keyed by slug (matches knowledge/tools/{slug}.md filename)
+#
+# Status lifecycle:
+#   discovered → trying | skip
+#   trying → vault-worthy | skip
+#
+# Fields:
+#   knowledge_file: path to knowledge file (e.g., knowledge/tools/whisper-flow.md)
+#   source: GitHub URL
+#   status: discovered | trying | vault-worthy | skip
+#   discovered: YYYY-MM-DD (date first seen)
+#   trying: YYYY-MM-DD (date marked as trying)
+#   vault_worthy: YYYY-MM-DD (date marked as vault-worthy)
+#   skipped: YYYY-MM-DD (date marked as skip)
+#   via: list of sharers (e.g., ["@tom_doerr"])
+#   stars: GitHub star count at discovery time
+#   take: one-liner authentic opinion (populated when vault-worthy)
+#   use_case: who it's for / when to use it (populated when vault-worthy)
+#   difficulty: beginner | intermediate | advanced (populated when vault-worthy)
+
+tools: {}

@@ -50,6 +50,12 @@ const DEFAULT_CONFIG = {
     whisper: 600000     // 10min for whisper transcription
   },
 
+  // ---- Tool Discovery Pipeline ----
+  // Annotations sidecar for tool curation workflow
+  annotationsFile: './data/tools/annotations.yaml',
+
+  // Output directory for vault resource files (cross-repo write to prbot)
+  vaultOutputDir: '~/SITES/prbot/apps/startupbros/content/vault',
 
   // Twitter credentials (can also use AUTH_TOKEN and CT0 env vars)
   twitter: {
@@ -289,6 +295,14 @@ export function loadConfig(configPath) {
     config.webhookType = process.env.WEBHOOK_TYPE;
   }
 
+  // Tool discovery pipeline env vars
+  if (process.env.ANNOTATIONS_FILE) {
+    config.annotationsFile = process.env.ANNOTATIONS_FILE;
+  }
+  if (process.env.VAULT_OUTPUT_DIR) {
+    config.vaultOutputDir = process.env.VAULT_OUTPUT_DIR;
+  }
+
   // Expand ~ in all path-related config values
   config.archiveFile = expandTilde(config.archiveFile);
   config.pendingFile = expandTilde(config.pendingFile);
@@ -297,6 +311,8 @@ export function loadConfig(configPath) {
   config.ytdlpPath = expandTilde(config.ytdlpPath);
   config.whisperPath = expandTilde(config.whisperPath);
   config.projectRoot = expandTilde(config.projectRoot);
+  config.annotationsFile = expandTilde(config.annotationsFile);
+  config.vaultOutputDir = expandTilde(config.vaultOutputDir);
 
   // Expand ~ in category folders
   if (config.categories) {

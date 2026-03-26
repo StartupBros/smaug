@@ -96,4 +96,33 @@ describe('loadConfig', () => {
       else process.env.WHISPER_MODEL = origModel;
     }
   });
+
+  test('tool discovery pipeline config keys have correct defaults', () => {
+    const config = loadConfig('./nonexistent.json');
+    assert.strictEqual(config.annotationsFile, './data/tools/annotations.yaml');
+    assert.ok(config.vaultOutputDir.includes('SITES/prbot/apps/startupbros/content/vault'));
+  });
+
+  test('vaultOutputDir tilde is expanded', () => {
+    const config = loadConfig('./nonexistent.json');
+    assert.ok(!config.vaultOutputDir.includes('~'));
+    assert.ok(config.vaultOutputDir.startsWith('/'));
+  });
+
+  test('env var overrides work for tool discovery pipeline config', () => {
+    const origAnnotations = process.env.ANNOTATIONS_FILE;
+    const origVault = process.env.VAULT_OUTPUT_DIR;
+    try {
+      process.env.ANNOTATIONS_FILE = '/custom/annotations.yaml';
+      process.env.VAULT_OUTPUT_DIR = '/custom/vault';
+      const config = loadConfig('./nonexistent.json');
+      assert.strictEqual(config.annotationsFile, '/custom/annotations.yaml');
+      assert.strictEqual(config.vaultOutputDir, '/custom/vault');
+    } finally {
+      if (origAnnotations === undefined) delete process.env.ANNOTATIONS_FILE;
+      else process.env.ANNOTATIONS_FILE = origAnnotations;
+      if (origVault === undefined) delete process.env.VAULT_OUTPUT_DIR;
+      else process.env.VAULT_OUTPUT_DIR = origVault;
+    }
+  });
 });
