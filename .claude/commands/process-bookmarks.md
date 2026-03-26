@@ -87,7 +87,7 @@ Use this format for date section headers (e.g., "Thursday, January 2, 2026").
 
 **Load paths and categories from config:**
 ```bash
-node -e "const c=require('./smaug.config.json'); console.log(JSON.stringify({archiveFile:c.archiveFile, pendingFile:c.pendingFile, stateFile:c.stateFile, categories:c.categories}, null, 2))"
+node -e "const c=require('./smaug.config.json'); console.log(JSON.stringify({archiveFile:c.archiveFile, pendingFile:c.pendingFile, stateFile:c.stateFile, categories:c.categories, annotationsFile:c.annotationsFile||'./data/tools/annotations.yaml'}, null, 2))"
 ```
 
 This gives you:
@@ -95,6 +95,7 @@ This gives you:
 - `pendingFile`: Where pending bookmarks are stored
 - `stateFile`: Where processing state is tracked
 - `categories`: Custom category definitions
+- `annotationsFile`: Where tool annotations are tracked (default: `./data/tools/annotations.yaml`)
 
 **IMPORTANT:** Use these paths throughout. The `~` will be the user's home directory.
 If no custom categories, use the defaults from `src/config.js`.
@@ -302,6 +303,7 @@ DATE=$(date +"%b %-d")
 # Stage all bookmark-related changes (use archiveFile path from config)
 git add "$ARCHIVE_FILE"  # The archiveFile path from config
 git add knowledge/
+git add data/tools/annotations.yaml
 
 # Commit with descriptive message
 git commit -m "Process N Twitter bookmarks from $DATE
@@ -353,6 +355,51 @@ via: "Twitter bookmark from @{author}"
 - [GitHub]({github_url})
 - [Original Tweet]({tweet_url})
 ```
+
+### Tool Annotation Write (REQUIRED for every GitHub tool filed)
+
+**After creating a knowledge file in `knowledge/tools/{slug}.md`, also update `data/tools/annotations.yaml`.**
+
+Use the `annotationsFile` path from config (default: `./data/tools/annotations.yaml`).
+
+**For sequential processing:** Write the annotation immediately after creating the knowledge file.
+
+**For parallel processing:** Subagents must NOT write to annotations.yaml directly (race conditions). Instead, include annotation metadata in each batch file as a YAML block at the end:
+
+```
+ANNOTATIONS:
+- slug: {slug}
+  knowledge_file: knowledge/tools/{slug}.md
+  source: "{github_url}"
+  stars: {star_count_from_content}
+  via: "@{tweet_author}"
+```
+
+The main agent writes all annotations during the merge step (see Phase 2 below).
+
+**Annotation entry format** — use the Edit tool to append to the `tools:` section:
+
+```yaml
+  {slug}:
+    knowledge_file: knowledge/tools/{slug}.md
+    source: "{github_url}"
+    status: discovered
+    discovered: {YYYY-MM-DD}
+    via:
+      - "@{tweet_author}"
+    stars: {star_count}
+```
+
+**Where to get the data:**
+- `slug`: the filename stem of the knowledge file (e.g., `whisper-flow` from `whisper-flow.md`)
+- `source`: the GitHub URL from the link's `expanded` field
+- `stars`: from the link's `content.stars` field in the pending JSON (use 0 if unavailable)
+- `via`: the bookmark's `author` field, prefixed with `@`
+- `discovered`: today's date in YYYY-MM-DD format
+
+**Dedup rule:** Before writing, check if the slug already exists in annotations.yaml.
+- If it exists: do NOT change the status or other fields. Only append new sharers to the `via` array if the `@author` is not already listed.
+- If it does not exist: write the full entry as shown above.
 
 ### Article Entry (`./knowledge/articles/{slug}.md`)
 
@@ -571,7 +618,8 @@ After ALL subagents complete:
 2. Read all .state/batch-*.md files in order (batch-0, batch-1, batch-2...)
 3. Parse each entry (separated by `---`) and extract the DATE line
 4. **Use the Edit tool** to insert each entry into bookmarks.md at the correct chronological position
-5. Delete the temp batch files
+5. **Write tool annotations:** Parse the `ANNOTATIONS:` block from each batch file. For each annotation entry, use the Edit tool to append it to `data/tools/annotations.yaml` under the `tools:` key. Follow the dedup rule: if the slug already exists, only add new sharers to `via`.
+6. Delete the temp batch files
 
 **CRITICAL:** Step 4 MUST use the Edit tool, not Write. Using Write will replace the entire file and destroy all historical entries.
 
