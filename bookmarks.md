@@ -1,4 +1,774 @@
+# Saturday, March 28, 2026
+
+## @chamath - Product Idea: LLM-Powered Both-Sides News Briefing Using Karpathy's Argument Loop
+
+> *Quoting @karpathy:* - Drafted a blog post
+> - Used an LLM to meticulously improve the argument over 4 hours.
+> - Wow, feeling great, it's so convincing!
+> - Fun idea let's ask it to argue the opposite.
+> - LLM demolishes the entire argument and convinces me that the opposite is in fact true.
+> - lol
+>
+> The LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.
+
+> Product idea:
+>
+> An app that takes today's top headlines, run @karpathy's iterative argument/counter argument loop, summarize both sides and send it to me so I can read both sides and come to my own conclusion.
+
+- **Tweet:** https://x.com/chamath/status/2037958212868334021
+- **Quoted:** https://x.com/karpathy/status/2037921699824607591
+- **What:** Chamath proposes automating Karpathy's observation that LLMs can convincingly argue any direction into a daily news product — running each headline through iterative pro/con argument chains and delivering balanced summaries to counteract the model's sycophantic tendency to agree with whatever position you started from.
+
+## @aakashgupta - Stripe Projects: CLI-First Infrastructure Provisioning for AI Agents
+
+> *Quoting @patrickc:* When @karpathy built MenuGen (https://karpathy.bearblog.dev/vibe-coding-menugen/), he said:
+>
+> "Vibe coding menugen was exhilarating and fun escapade as a local demo, but a bit of a painful slog as a deployed, real app. Building a modern app is a bit like assembling IKEA future. There are all these services, docs, API keys, configurations, dev/prod deployments, team and security features, rate limits, pricing tiers."
+>
+> So we decided to build Stripe Projects to help agents instantly provision services from the CLI.
+
+> Stripe processed $1.9 trillion in payment volume last year. They just built a CLI that lets AI agents provision and pay for every service in your stack with one command.
+>
+> Vercel, Supabase, Neon, PlanetScale, PostHog, Clerk, Railway, Turso, Chroma, RunloopAI. All provisioned from the terminal. All billed through Stripe.
+
+- **Tweet:** https://x.com/aakashgupta/status/2037952113008115970
+- **Quoted:** https://x.com/patrickc/status/2037190688950161709
+- **What:** Stripe Projects is a developer-preview CLI that lets humans or AI agents provision and wire up full application stacks — hosting, databases, auth, analytics — with a single command, with all credentials stored centrally and all billing routed through Stripe. The strategic play is positioning Stripe as the mandatory chokepoint for agent-driven software procurement, extending the payment infrastructure moat into the agentic economy.
+
+## @BoringBiz_ - Prediction Markets as Institutional Hedging Tools: The Case for Kalshi at Hedge Funds
+
+> *Quoting @business:* Kalshi has secured a license allowing it to offer margin trading to users, a feature that would make the prediction market platform more appealing to sophisticated institutional investors https://www.bloomberg.com/news/articles/2026-03-27/kalshi-approved-for-margin-trading-as-it-lures-wall-street-pros?taid=69c6ce99d12de60001c68fec&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+> Few days ago, was speaking with a former colleague at a hedge fund that has been working on deploying prediction markets as a part of their trading strategy...
+
+- **Tweet:** https://x.com/BoringBiz_/status/2037922729534398780
+- **Quoted:** https://x.com/business/status/2037600110159212573
+- **What:** A hedge fund practitioner explains why prediction markets beat options and swaps for expressing macro views: binary outcomes eliminate volatility drag, the probability you pay is exactly what's priced in, and today there's still exploitable arbitrage between traditional options markets and prediction market pricing on identical events. Kalshi gaining margin trading approval is the institutional entry ramp that closes that gap.
+
+## @aakashgupta - Google Live Translate on iOS Exposes Apple's Language-Lock-In Weakness
+
+> *Quoting @Google:* Your headphones just became a personal translator in 70+ languages. 🎧✨
+
+> Google Translate's "Live translate" with headphones is officially on iOS. We're also expanding this capability to more countries around the world for both @Android and iOS users.
+
+> To try it, open the Translate app, tap "Live translate" and connect your headphones.
+
+> Google just mass-obsoleted a feature Apple charges $249 to access.
+>
+> Apple's Live Translation requires AirPods Pro 2 or newer, an iPhone 15 Pro or later, iOS 26, Apple Intelligence enabled, and a downloaded language pack. After meeting all five requirements, you get 5 languages. Nine if you count the four coming "later this year."
+>
+> Google's version: download the free Translate app, connect literally any pair of headphones, tap Live Translate. 70+ languages. Works on a $20 pair of Bluetooth earbuds from Amazon.
+
+- **Tweet:** https://x.com/aakashgupta/status/2037915875563765949
+- **Quoted:** https://x.com/Google/status/2037586898450006029
+- **What:** Google shipping free real-time translation in 70+ languages on iOS — including Punjabi, Hindi, and Thai that Apple doesn't support — directly undermines Apple's premium hardware lock-in strategy and exposes how Apple's tightly gated AI features disproportionately fail non-Western-European speakers.
+
+## @anishmoonka - Anthropic Operon: AI Agent for Biological Research in Claude Desktop
+
+> *Quoting @testingcatalog:* BREAKING 🚨: Anthropic is working on a new Operon agent for Claude Desktop, built for scientific research in biology!
+
+> Operon will have a "private environment" to work alongside you. Users will be able to create different sessions within Operon projects, manage generated artefacts, and work with Skills.
+
+> Cowork but for scientists 👀
+
+> Your next cancer drug or gene therapy spends years stuck in a lab before it reaches a pharmacy shelf. Anthropic is testing a tool that goes after the bottleneck: the coding work biologists do before any human trial even starts.
+>
+> It's called Operon. Four tasks show up on the loading screen and they tell you everything.
+>
+> "Design a CRISPR knockout screen" means turning off every gene in a cell, one at a time, across 20,000+ genes, to find which ones cause disease. Imagine flipping 20,000 light switches to figure out which one controls the kitchen. Planning that experiment alone takes a biologist months.
+
+- **Tweet:** https://x.com/anishmoonka/status/2037914657831502203
+- **Quoted:** https://x.com/testingcatalog/status/2037684573161783373
+- **What:** Anthropic's Operon is a biology-specific agent mode inside Claude Desktop that can plan CRISPR screens, analyze single-cell RNA sequencing data, rank enzyme variants, and build phylogenetic trees — compressing months of expert bioinformatics work into conversational interactions. The name references a cluster of co-expressed genes, and the product reflects Anthropic's deepening push into life sciences enterprise revenue.
+
+## @orphcorp - orph on Sid Sijbrandij Taking Ownership of His Own Cancer Treatment
+> this is excellent
+>
+> >GitLab founder diagnosed with rare cancer (osteosarcoma)
+> >standard care works but cancer comes back later
+> >"It became my own job to keep myself alive. Nobody else was going to do it for me at this point"
+> >starts researching, assembles his own medical team, uses AI for deep research
+> >does as many diagnostic tests as he can find as often as he can (maximal diagnostics)
+> >develops his own therapeutic ladder with repurposed drugs, personalized medicine, etc
+> >Sid's cancer currently in remission
+
+> *Quoting @SebastianCaliri:* The full deck on Sid's cancer approach is here: https://sytse.com/cancer/ Worth a read. Raw data for download is also available and linked in the deck
+
+- **Tweet:** https://x.com/orphcorp/status/2037907413051797623
+- **Quoted:** https://x.com/SebastianCaliri/status/2034434705404330230
+- **What:** A bulleted summary of GitLab founder Sid Sijbrandij's documented journey from osteosarcoma relapse to remission through radical patient agency — AI-assisted research, maximal diagnostics, a self-assembled medical team, and a personalized therapeutic ladder built outside standard-of-care pathways. The full deck and raw data are publicly available at sytse.com/cancer.
+
+## @garrytan - Garry Tan on User Sovereignty as a Principle for AI Agents
+> I'm already bumping up against interesting moments between models and myself, the developer
+>
+> I had to add this today to ETHOS.md
+>
+> **User sovereignty.** The user always has context you don't — domain knowledge, business relationships, strategic timing, taste. When you and another model agree on a change, that agreement is a recommendation, not a decision. Present it. The user decides.
+> Never say "the outside voice is right" and act. Say "The outside voice recommends X. Do you want to proceed?"
+
+- **Tweet:** https://x.com/garrytan/status/2037903080583471352
+- **What:** Garry Tan documents a principle he added to his agent's ETHOS.md: user sovereignty means that even when two models agree on an action, that consensus is a recommendation requiring explicit human confirmation — not a license to act. This addresses a real failure mode where multi-agent agreement becomes a mechanism for bypassing human judgment.
+
+## @aigleeson - Louis Gleeson on 724 Office: Self-Evolving AI Agent with Three-Layer Memory
+> This literally feels like cheating.
+>
+> A developer just open-sourced a self-evolving AI agent that runs 24/7, fixes itself when it breaks, and writes its own new tools at runtime in 8 files, 26 built-in tools, and zero framework dependencies.
+>
+> It's called 724 Office and it is the most honest AI agent implementation I have ever seen.
+
+- **Tweet:** https://x.com/aigleeson/status/2037848861591703914
+- **What:** 724 Office is an MIT-licensed self-evolving AI agent built by a solo developer over three months, featuring a three-layer memory system (recent JSON, compressed LLM-summarized facts, and LanceDB vector search), runtime tool creation, autonomous self-repair with daily health checks, cron scheduling persistent across restarts, multimodal capabilities via ffmpeg, and multi-tenant Docker deployment — all running on an 8GB Jetson Orin Nano with zero framework dependencies.
+
+## @owl_posting - owl on Sid Sijbrandij's Patient-Driven Cancer Remission Approach
+> 'we don't need to know what cured you' has permanently updated my understanding of what ideal cancer care should look like. there's a distinct sense of nausea and excitement that accompanies knowledge that you feel like you should've understood years back. excellent presentation
+
+> *Quoting @SebastianCaliri:* The full deck on Sid's cancer approach is here: https://sytse.com/cancer/ Worth a read. Raw data for download is also available and linked in the deck
+
+- **Tweet:** https://x.com/owl_posting/status/2037848851659342181
+- **Quoted:** https://x.com/SebastianCaliri/status/2034434705404330230
+- **What:** GitLab founder Sid Sijbrandij's documented approach to treating his own osteosarcoma after standard care options ran out — maximal diagnostics, AI-assisted research, repurposed drugs, and a personally assembled medical team. His cancer is now in remission. The phrase "we don't need to know what cured you" encapsulates a tolerance for uncertainty that standard oncology struggles to accommodate.
+
+## @garrytan - Garry Tan on Boris Cherny's Claude Code Journey and the Lightcone Interview
+> I have to say this interview changed my life. Hearing how Boris thinks about software spurred me to work much harder on releasing my own way of doing things and on iterating fast on how I build. Hard to believe it has only been a month since this one.
+
+> *Quoting @ycombinator:* A very special guest on this episode of the Lightcone! @bcherny, the creator of Claude Code, sits down to share the incredible journey of developing one of the most transformative coding tools of the AI era.
+
+- **Tweet:** https://x.com/garrytan/status/2037772478198739346
+- **Quoted:** https://x.com/ycombinator/status/2023774438798299479
+- **What:** Garry Tan reacts to a Lightcone podcast episode featuring Boris Cherny (creator of Claude Code), saying it changed how he builds. The Y Combinator episode covers the origin story of Claude Code, terminal philosophy, subagents, plan mode, and advice for dev tool founders — a rare inside look at how the tool was conceived and iterated.
+
+## @tom_doerr - fli: Google Flights MCP Server and Python Library
+> Direct Google Flights API access without scraping
+
+- **Tweet:** https://x.com/tom_doerr/status/2037766104722890982
+- **What:** `fli` (punitarani/fli) is a Python package and MCP server that accesses Google Flights data via reverse-engineered API calls, offering faster and more reliable results than scraping, with `search_flights` and `search_dates` tools ready for Claude Desktop integration.
+
+---
+# Friday, March 27, 2026
+
+## @om_patel5 - Anthropic Engineers Act as Agent Managers, Not Coders
+> THE ANTHROPIC TEAM DOESN'T WRITE CODE ANYMORE.
+>
+> this guy's friend got hired at Anthropic 3 weeks ago.
+>
+> nobody on his team has hand written code in months.
+>
+> they run multiple agents in parallel and act more like managers than engineers.
+>
+> his friend said if you're just watching an agent code, you're already behind
+>
+> that idle time should be spent spinning up another agent and directing it somewhere else.
+>
+> the point is that the new method isn't "use AI to code faster."
+>
+> it's "you are the product manager, the agents are your engineers, and your job is to keep all of them running at all times"
+
+- **Tweet:** https://x.com/om_patel5/status/2037725535690698905
+- **What:** Second-hand account that Anthropic engineers no longer hand-write code — instead they orchestrate fleets of parallel coding agents, treating idle agent-watch time as waste and reframing the engineering role as continuous PM-style direction across many concurrent workstreams.
+
+## @_chenglou - Pure TypeScript Userland Text Measurement Without the DOM
+> My dear front-end developers (and anyone who's interested in the future of interfaces):
+>
+> I have crawled through depths of hell to bring you, for the foreseeable years, one of the more important foundational pieces of UI engineering (if not in implementation then certainly at least in concept):
+> Fast, accurate and comprehensive userland text measurement algorithm in pure TypeScript, usable for laying out entire web pages without CSS, bypassing DOM measurements and reflow
+
+- **Tweet:** https://x.com/_chenglou/status/2037713766205608234
+- **What:** Cheng Lou released a pure-TypeScript text measurement algorithm capable of laying out entire web pages without touching the DOM or triggering CSS reflow, potentially enabling server-side and off-thread layout engines that sidestep the browser's rendering pipeline.
+
+## @howdymerry - AutoPredict: Agent Evaluation Framework for Prediction Markets
+> I took Karpathy's Autoresearch concept and adapted it into AutoPredict: a research framework for evaluating, backtesting, and iteratively improving prediction market trading agents
+>
+> AutoPredict evaluates agents on
+> - forecast quality
+> - calibration
+> - execution (slippage, liquidity, and fills)
+> - drawdown and risk adjusted returns
+>
+> It also supports domain specialists for weather, finance, and politics under a shared evaluation harness
+>
+> This framework is NOT for building agents but for agent improvement via a evaluation + mutation + selection loop
+
+- **Tweet:** https://x.com/howdymerry/status/2037683950085378240
+- **What:** AutoPredict adapts Karpathy's Autoresearch loop (evaluate → mutate → select) specifically for prediction market agents, scoring them on calibration, execution quality, and risk-adjusted returns across weather, finance, and politics domains under a unified harness.
+
+## @JohnLeFevre - AI Agent Automating Personal Injury Law Firm Solicitations
+> I'm not sure he wants me to mention him by name, but a close friend of mine runs one of the largest personal injury law firms in NY, NJ, and FL.
+>
+> He now has an AI agent that scans EVERY police report to identify "victims" of accidents and crimes, filters it down to candidates for claims and settlements, and automatically sends them solicitations for representation.
+>
+> While knowing that most cases settle and the law firm gets 40%.
+>
+> And now he is licensing this process to other law firms.
+
+- **Tweet:** https://x.com/JohnLeFevre/status/2037657603811991865
+- **What:** A personal injury law firm built an AI agent that ingests public police reports, identifies potential claimants, and auto-sends legal solicitation letters — then began licensing this pipeline to other firms, turning intake automation into a revenue stream.
+
+## @octal - GitLab Founder's Aggressive Cancer Treatment as a Model for Patient-Led Research
+
+> Whoa. A super smart and wealthy and agentic guy (founder of @gitlab) getting cancer and then very aggressively treating it (staring companies, having funded one of the most promising things for years before, etc) — ends up doing stuff which will likely save many other people too.
+
+- **Tweet:** https://x.com/octal/status/2037646330277884341
+- **What:** The GitLab founder, upon receiving a cancer diagnosis, pursued an unusually aggressive research-and-treatment path — including founding companies and funding experimental therapies — highlighting how high-agency individuals with resources can accelerate personal treatment timelines in ways that generate broader medical knowledge.
+
+## @cremieuxrecueil - Person Curing Own Bone Cancer with Personalized n-of-1 mRNA Vaccines
+
+> I'm currently watching an incredible presentation about a man curing his own bone cancer with personalized, n-of-1 mRNA vaccines.
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/2037644520808923376
+- **What:** A live presentation is documenting a case of a person who designed and received a personalized n-of-1 mRNA vaccine to treat their own bone cancer, representing a convergence of the same citizen-scientist oncology trend seen in the Rosie dog cancer story circulating the same day.
+
+## @shannholmberg - Karpathy's AutoResearch Applied to Marketing Skills
+
+> *Quoting @shannholmberg:* Karpathy's AutoResearch is changing how campaigns get optimized and most marketers haven´t heard of it yet.
+>
+> Ole Lehmann tested it on landing page copy, 56% → 92% pass rate overnight.
+>
+> here´s how it works for marketing / skills 🧵
+
+> POV: you started using Karpathy's AutoResearch on marketing skills
+
+- **Tweet:** https://x.com/shannholmberg/status/2037567405212533135
+- **Quoted:** https://x.com/shannholmberg/status/2036461256006357409
+- **What:** Karpathy's AutoResearch framework — originally designed for iterative AI-driven research — is being adapted by marketers to optimize campaign copy and landing pages, with one practitioner reporting a jump from 56% to 92% pass rate overnight by running it on marketing skills.
+
+## @IterIntellectus - How Paul Conyngham Built a Personalized mRNA Cancer Vaccine for His Dog Using AI
+
+> *Quoting @paul_conyngham:* https://t.co/bpa3HHt8Mg
+
+> ok so the rosie story was even more insane than it looked
+>
+> > be the australian tech guy who made a cancer vaccine for his dog
+> > first try: genetic algorithms to design a new drug from scratch
+> > works in simulation but would take years to test
+> > second try: screen 1 million existing compounds against the mutation
+> > two weeks of computation. find a perfect match
+> > it's patented
+> > patent holder says no to compassionate use
+> > what_did_you_expect.jpg
+> > spend two weeks just being with the dog
+> > 2am idea: what if i just make a vaccine
+> > chatgpt for pipeline, gemini for construct, grok for validation
+> > 300 gigabytes of raw sequencing data to half a page of vaccine construct
+> > university ethics approval would take until mid-2026
+> > dog doesn't have that long
+> > panik
+> > canine cancer expert connects him to a lab in queensland with existing approval
+> > drive 14 hours to get there
+> > inject
+> > three weeks later the tumors swell. immune system swarming
+> > six weeks later shrinking
+> > two months later legs returning to normal
+> > one mass doesn't respond
+> > sequence it again
+> > different cancer. the vaccine worked. the body grew a new tumor
+>
+> he's now building a company so every dog owner can do this
+> he had the technology the whole time. he spent 18 months fighting for permission to use it
+
+- **Tweet:** https://x.com/IterIntellectus/status/2037532460892684616
+- **Quoted:** https://x.com/paul_conyngham/status/2036940410363535823
+- **What:** Paul Conyngham, an Australian AI consultant, used ChatGPT, Gemini, and Grok to design a personalized mRNA neoantigen vaccine for his dog Rosie's mast cell cancer — processing 300GB of genomic sequencing data down to a half-page vaccine construct — which successfully shrank tumors after months of regulatory dead ends. He is now building a company to make this process accessible to other dog owners, positioning this as a proof-of-concept for AI-assisted citizen science in personalized oncology.
+
+## @birdabo - Anthropic's Unreleased "Capybara" Model: Too Expensive to Ship
+
+> *Quoting @Polymarket:* BREAKING: Anthropic data leak reveals the existence of "Claude Mythos," a new AI model that reportedly presents unprecedented cybersecurity risks.
+
+> Anthropic built a model so powerful they can't afford to release it.
+>
+> their own leaked blog says Capybara scores "dramatically higher" than Opus 4.6 in coding, reasoning, and cybersecurity. a tier above anything they've ever shipped.
+>
+> Dario predicted $10 billion training runs by 2026. Capybara is also rumored to be a 10 trillion parameter model. if this is true, it's  gonna be the most expensive AI ever built.
+>
+> the catch? it's so compute intensive that Anthropic themselves say it's "very expensive for us to serve, and will be very expensive for our customers to use."
+>
+> they didn't build Jarvis. they built Ultron and now they're figuring out how to let us near it without going broke or breaking the internet.
+
+- **Tweet:** https://x.com/birdabo/status/2037390154038714384
+- **Quoted:** https://x.com/Polymarket/status/2037369365411107284
+- **What:** Leaked Anthropic documents reportedly describe an unreleased model codenamed "Capybara" — rumored to be a 10-trillion-parameter system that dramatically outperforms Opus 4.6 but is too expensive to serve at scale, raising questions about the economics of frontier AI deployment.
+
+---
+# Thursday, March 26, 2026
+
+## @bitforth - TRIBE v2 Neural Prediction Model Enables Scalable Algorithmic Influence
+> *Replying to @justalexoki:* please for the love of God, STOP
+>
+> I'll try to connect the dots for others so they can see what's going on
+>
+> With TRIBE v2 You upload a video, and without human subjects or brain scanner, the model predicts, vertex by vertex across the cortical surface, exactly which brain regions activate, like emotional processing up, critical reasoning down, prefrontal modulation, etc... all of it.
+>
+> ...
+>
+> So let's connect it:
+>
+> 1. They know what content produces which neural states.
+> 2. They can predict neural response to new content before publishing.
+> 3. They can distribute that content to any population segment they choose.
+>
+> ...
+>
+> The license says CC BY-NC. So Meta retains commercial rights to the most accurate brain response predictor ever built.
+
+- **Tweet:** https://x.com/bitforth/status/2037354789147725871
+- **What:** The author lays out a structural argument that TRIBE v2's cortical activation predictions, combined with Meta's Reels engagement data and internal distribution tools like Quick Promotions, form a complete pipeline for optimizing content to suppress critical reasoning at population scale — without requiring any explicit manipulative intent, making it structurally hard to prosecute.
+
+## @mckaywrigley - MCP Apps Are the Next Big Platform Opportunity
+> anthropic's taste continues to be unmatched.
+>
+> - something cool comes out
+> - nobody does anything with it
+> - anthropic finally goes "okay fine we'll do it"
+> - thing becomes mega popular
+>
+> people fading mcp was remarkably stupid, and you should definitely start building mcp apps.
+
+> *Quoting @mckaywrigley:* @trq212 wait until the masses find out about bidirectional communication between user <> model via interfaces with mcp apps
+
+- **Tweet:** https://x.com/mckaywrigley/status/2037299677599838490
+- **Quoted:** https://x.com/mckaywrigley/status/2017326671331025130
+- **What:** Wrigley argues that MCP's pattern of Anthropic validating underrated technology by shipping it themselves should be a signal to build MCP apps now, with the key underappreciated primitive being bidirectional user-to-model communication through MCP-powered interfaces.
+
+## @garrytan - GStack AI-Native Feature Development Workflow
+> This is how I build features now with GStack for GStack.
+>
+> I'll report back with what ends up happening. You just say things, feelings, motivations, things you saw, things we should be doing. And then /office-hours and /plan-ceo-review and /plan-design-review flesh it out.
+>
+> Soon, with real wireframes and mockups if this branch goes well.
+
+- **Tweet:** https://x.com/garrytan/status/2037295132660367401
+- **What:** Garry Tan describes using GStack's own slash-command workflow — /office-hours, /plan-ceo-review, /plan-design-review — to translate unstructured product intuitions and observations into structured feature plans, with wireframe generation as a near-term goal.
+
+## @ravi_riley - William Hockey's Column: Bootstrapping a Bank on Borrowed Collateral
+> Holy shit this is insane
+>
+> > be @williamhockey
+> > co-founds plaid
+> > becomes billionaire on paper
+> > has new contrarian idea
+> > software-first bank
+> > ...
+> > column launches
+> > 17m revenue in 2022
+> > 31m revenue in 2023
+> > 100m+ revenue in 2024
+> > 200m+ revenue in 2025, valued at 6 billion
+> > used by every fintech unicorn for banking services
+> > still owns 100% of company with employees
+> > riskmaxxing gigachad
+
+> *Quoting @patrick_oshag:* .@williamhockey is one of the least visible founders in tech relative to what he has created. He co-founded Plaid and is now building Column, a software company that owns a bank, and powers Ramp, Wise, Bilt, Mercury, and others. He funded it himself by borrowing against nearly everything he had in Plaid shares, and has never raised any outside capital.
+
+- **Tweet:** https://x.com/ravi_riley/status/2037241544441241815
+- **Quoted:** https://x.com/patrick_oshag/status/2033876011113398718
+- **What:** William Hockey parlayed illiquid Plaid equity into a $70M loan to acquire a bank outright, building Column into a $6B bootstrapped fintech infrastructure company with 100% founder ownership — a case study in extreme personal risk as a competitive moat against VC-backed rivals.
+
+## @noahzweben - Claude Code Cloud Auto-Fix for PRs
+> Thrilled to announce Claude Code auto-fix – in the cloud. Web/Mobile sessions can now automatically follow PRs - fixing CI failures and addressing comments so that your PR is always green.
+>
+> This happens remotely so you can fully walk away and come back to a ready-to-go PR.
+
+- **Tweet:** https://x.com/noahzweben/status/2037219115002405076
+- **What:** Claude Code now runs automated PR repair in the cloud — monitoring CI failures and review comments asynchronously so developers can walk away and return to a mergeable PR without manual intervention.
+
+## @THArrowOfApollo - Replacing Clay with Claude Code: 272k Rows/Second at $200/Month
+> Clay's new pricing is probably my fault. We were paying $314 a month, but using (based on their new model) $214,087.50 worth of Clay a WEEK. Here's the story:
+>
+> A year ago Clay's head of product hopped on a call with me. I told him we were hitting their platform 17.3 million times per week. Almost all custom events (i.e. HTTPs). I remember his response being something close to "Holy shit, I think you are the largest user of Clay."
+>
+> We talked about HTTPs, custom integrations, how we were basically using Clay as a giant API orchestration layer. I knew his wheels were turning.
+>
+> If you saw my last post, you know we eventually replaced Clay entirely with a $200/mo Claude Code subscription. 272,000 leads per second vs Clay's 27 hours for the same volume.
+>
+> But before we left, we were the perfect case study for why Clay's old pricing was broken.
+>
+> $314/mo for 17.3 million weekly, for what they now call 'actions'... The new price per action credit works out to about 1.24 cents each. A 681% price increase for us.
+>
+> My VP of Growth, @James, who doesnt know how to write a single line of code, touched Claude Code for the first time. And three weeks later he replaced Clay for us. We could process 272k rows per second now for the cost of a Claude Code sub.
+
+- **Tweet:** https://x.com/THArrowOfApollo/status/2037212286046146789
+- **What:** A growth team running 17.3M API calls per week on Clay for $314/month was indirectly responsible for Clay's pricing restructuring; they subsequently replaced Clay entirely using Claude Code — a non-technical VP built the replacement in three weeks, achieving 272k rows/second versus Clay's 27-hour equivalent at the same $200/month cost.
+
+## @dotta - Paperclip Agent Company Produces Marketing Video in Ten Minutes
+> How I made this video in ten minutes:
+>
+> - I opened a task asking my Paperclip CEO to hire a video editor and give her the "remotion-best-practices" skill
+>
+> - I asked our CMO agent to write the script, I asked for one revision
+>
+> - We already had a brand guide for Paperclip here: https://t.co/fVG4bOKYjR
+>
+> - I asked the new video editor hire to make the video using the script and brand guide, I asked for one revision
+>
+> Done.
+>
+> tbh there's a lot of details I would like to make better, but that will come with time
+>
+> because every task in Paperclip is tracked and we learn from the iterations to make the skills better for next time
+>
+> Honestly, making this video would have taken me a week before and now it's almost an afterthought
+>
+> *Quoting @dotta:* Announcing https://t.co/FAZQ1Bpe7T - the open standard for Agent Companies. Import and run entire companies with a single command. Just run `npx https://t.co/FAZQ1Bpe7T add <repo/company>`
+
+- **Tweet:** https://x.com/dotta/status/2037206700092989789
+- **Quoted:** https://x.com/dotta/status/2036838564537716790
+- **What:** Live demonstration of a Paperclip "agent company" producing a polished marketing video — CEO agent hires a video editor agent with a Remotion skill, CMO agent writes the script — showing that multi-agent task delegation with persistent skill learning can compress a week of production work into ten minutes.
+
+## @michaelrbock - Aiwyn Tax MCP Connector Lets Claude Prepare Your Tax Return
+> I've been working on tax software for the past 5 years. This is the last year anyone will have to pay for TurboTax.
+>
+> You can try it yourself today:
+>
+> - add the Aiwyn Tax connector inside of Claude (link below)
+> - give it access to your tax documents (W-2s, etc.)
+> - ask Claude to prepare your tax return
+>
+> ...and that's it!
+
+- **Tweet:** https://x.com/michaelrbock/status/2037201792329814405
+- **What:** An MCP connector for Claude that ingests tax documents (W-2s and similar) and prepares a full tax return directly in Claude's context — positioning itself as a zero-cost alternative to TurboTax for people willing to use an AI-native workflow.
+
+## @karpathy - The Real Bottleneck Is Agent-Native DevOps, Not Code Generation
+> When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc...
+>
+> I am really looking forward to a day where I could simply tell my agent: "build menugen" (referencing the post) and it would just work. The whole thing up to the deployed web page. The agent would have to browse a number of services, read the docs, get all the api keys, make everything work, debug it in dev, and deploy to prod. This is the actually hard part, not the code itself. Or rather, the better way to think about it is that the entire DevOps lifecycle has to become code, in addition to the necessary sensors/actuators of the CLIs/APIs with agent-native ergonomics. And there should be no need to visit web pages, click buttons, or anything like that for the human.
+>
+> It's easy to state, it's now just barely technically possible and expected to work maybe, but it definitely requires from-scratch re-design, work and thought. Very exciting direction!
+>
+> *Quoting @patrickc:* When @karpathy built MenuGen (https://t.co/2OjrUJ3aLS), he said: "Vibe coding menugen was exhilarating and fun escapade as a local demo, but a bit of a painful slog as a deployed, real app..." So we decided to build Stripe Projects to help agents instantly provision services from the CLI...
+
+- **Tweet:** https://x.com/karpathy/status/2037200624450936940
+- **Quoted:** https://x.com/patrickc/status/2037190688950161709
+- **What:** Karpathy frames the unsolved problem precisely: code generation is mostly cracked, but the full DevOps lifecycle — service provisioning, API keys, billing, deployment — still requires human browser clicks and must be rebuilt from scratch with agent-native ergonomics before truly autonomous app creation is possible.
+
+## @patrickc - Stripe Projects: CLI-Based Service Provisioning for Agents
+> When @karpathy built MenuGen (https://t.co/2OjrUJ3aLS), he said:
+>
+> "Vibe coding menugen was exhilarating and fun escapade as a local demo, but a bit of a painful slog as a deployed, real app. Building a modern app is a bit like assembling IKEA future. There are all these services, docs, API keys, configurations, dev/prod deployments, team and security features, rate limits, pricing tiers."
+>
+> We've all run into this issue when building with agents: you have to scurry off to establish accounts, clicking things in the browser as though it's the antediluvian days of 2023, in order to unblock its superintelligent progress.
+>
+> So we decided to build Stripe Projects to help agents instantly provision services from the CLI.
+>
+> For example, simply run:
+>
+> $ stripe projects add posthog/analytics
+>
+> And it'll create a PostHog account, get an API key, and (as needed) set up billing.
+>
+> Projects is launching today as a developer preview. You can register for access (we'll make it available to everyone soon) at https://t.co/1tSgGbSLxM. We're also rolling out support for many new providers over the coming weeks. (Get in touch if you'd like to make your service available.)
+
+- **Tweet:** https://x.com/patrickc/status/2037190688950161709
+- **What:** Stripe launches a CLI tool (projects.dev) that lets agents provision third-party services — PostHog, Vercel, databases, auth — with a single command, eliminating the browser-based account setup that currently blocks fully autonomous deployment pipelines.
+
+## @RayFernando1337 - Developer Rage-Codes $199 App in Under an Hour to Counter Skeptic
+
+This guy rage coded a $199 app in less than an hour and cooked the OP.
+
+- **Tweet:** https://x.com/RayFernando1337/status/2037170236936642699
+- **What:** THIN: Media-only post showing someone building and shipping a paid app within an hour as a direct rebuttal to a critic, illustrating how AI-assisted coding has compressed the time-to-market for indie software products.
+
+## @kimmonismus - Isara: OpenAI-Backed Multi-Agent Startup Raises $94M at $650M Valuation
+
+> *Quoting @WSJ:* Exclusive: OpenAI is backing a new AI startup that aims to build software allowing so-called AI "agents" to communicate and solve complex problems in industries such as finance and biotech
+
+OpenAI is backing Isara, a new startup founded by two 23-year-old AI researchers that coordinates thousands of AI agents to solve complex problems, like using ~2,000 agents to forecast gold prices.
+
+The company just raised $94M at a $650M valuation and plans to sell predictive modeling tools to finance firms first.
+
+- **Tweet:** https://x.com/kimmonismus/status/2037156906771296505
+- **Quoted:** https://x.com/WSJ/status/2037146683960676492
+- **What:** Isara is an early signal of the "agent swarm" architecture reaching commercial scale — coordinating thousands of specialized agents on a single forecasting task positions them to attack high-value quantitative finance problems where marginal prediction accuracy translates directly to revenue.
+
+## @politicalmath - Project Hail Mary Film Marketing Praised for Craft and Detail
+
+> *Quoting @HailMaryLogs:* There's a really cool hidden gem on the official Project Hail Mary site. You can download a 3D model of the xenonite Grace sculpture and, if you've got a 3D printer, make your own mini Ryland for your desk ✨
+
+I'm just stunned by how good the entire Hail Mary project is. They made a good movie. They are promoting it well. They are going all-in on those cute little marketing touches that I thought studios gave up on a decade ago.
+
+- **Tweet:** https://x.com/politicalmath/status/2037106268133843144
+- **Quoted:** https://x.com/HailMaryLogs/status/2035182313357590865
+- **What:** The Project Hail Mary film's marketing campaign is drawing praise for reviving thoughtful, fan-oriented touches — like downloadable 3D-printable models of props — that reflect genuine creative investment rather than generic studio promotion.
+
+## @garrytan - GStack Beats Superpowers in Head-to-Head Claude Code Framework Benchmark
+
+> *Quoting @MaruPelkar:* https://t.co/kIptAEHdeY
+
+GStack beats Superpowers head to head
+
+- **Tweet:** https://x.com/garrytan/status/2037051410857283967
+- **Quoted:** https://x.com/MaruPelkar/status/2036927243029713284
+- **What:** A rigorous benchmark comparing the two leading Claude Code skill frameworks (GStack and Superpowers) on an identical task found GStack wins on quality (7.6 vs 6.1) while Superpowers is 40% faster and uses 50% fewer tokens — the key insight being that skills are the dominant output-quality variable when model and prompt are held constant.
+
+## @garrytan - Anthropic Employees Spending Six Figures Monthly on Claude Code
+
+> *Quoting @shiri_shh:* The Anthropic team is dogfooding Claude Code at insane levels.
+>
+> In the last 52 days, the Claude team dropped 50+ major UPDATES.
+>
+> One employee alone hit $150,000 in a single month on Claude Code
+>
+> 80% of employees use it daily, with power users racking up six-figure bills.
+
+Dang I thought $40k for this mo was crazy but I guess I am rookie numbers
+
+$150k #april_goals
+
+- **Tweet:** https://x.com/garrytan/status/2037037364229611884
+- **Quoted:** https://x.com/shiri_shh/status/2036855323244584973
+- **What:** Anthropic's internal Claude Code dogfooding has reached extraordinary scale — one engineer spent $150k in a single month, and 80% of employees use the tool daily, suggesting the team is validating extreme AI-assisted workflows firsthand.
+
+---
 # Wednesday, March 25, 2026
+
+## @aakashgupta - MoneyPrinter and the Economics of AI Content Slop
+
+> *Quoting @deedydas:* There's a GitHub repo called MoneyPrinter with 20k+ stars. Its entire purpose is generating internet slop for profit (yes, including Twitter bots).
+
+> The most honest repo on GitHub has 25,000 stars and it's called MoneyPrinter.
+>
+> MoneyPrinterV2 automates the entire content-to-cash pipeline. Twitter bots on CRON jobs. YouTube Shorts generated and uploaded on a schedule. Affiliate marketing across Amazon and Twitter. Local business scraping and cold outreach. One person, one laptop, one API key, and the output of what used to require a 10-person content studio. 3,000 forks. 131 people in the chat right now.
+>
+> The reason those numbers aren't surprising is that the economics already work at scale. Kapwing studied 15,000 trending YouTube channels and identified 278 producing nothing but AI-generated slop. Combined: 63 billion views, 221 million subscribers, an estimated $117 million a year in ad revenue. The top channel, an Indian account posting AI clips of a monkey fighting demons, pulls roughly $4.25 million annually. Production cost is near zero.
+>
+> 21% of YouTube Shorts served to new accounts are now AI slop. YouTube CEO Neal Mohan used that exact phrase in his January 2026 letter. In the same year, YouTube shipped Veo 3 Fast for instant AI video generation inside the Shorts camera. The platform is funding the fire brigade and the arsonist from the same budget line.
+>
+> This is where distribution is heading. Every recommendation feed is now a two-player game: human creators competing against automated pipelines with infinite volume and zero marginal cost. The channels that survive will be the ones algorithms can't replicate. Personality, trust, and audience relationships become the entire moat. Faceless content is cooked. The slop arbitrage will compress as detection improves, but the permanent shift is already locked in: distribution now defaults to synthetic unless you give the algorithm a reason to prefer you.
+>
+> The repo is worth studying not because it works forever, but because it shows you exactly what you're competing against.
+
+- **Tweet:** https://x.com/aakashgupta/status/2037012926201204908
+- **Quoted:** https://x.com/deedydas/status/2036476110825988156
+- **What:** A sharp analysis of MoneyPrinterV2 as a lens on the structural economics of AI-generated content: with 63B combined views and $117M/yr flowing to wholly synthetic channels, the distribution game has permanently shifted to a two-sided race between human creators and zero-marginal-cost automation. Aakash's framing — study the repo to understand your competition, not to run it — is a useful orientation for anyone building audience-dependent products.
+
+## @thesamparr - Untapped AI Demand in Mid-Market Manufacturing
+
+> My buddy runs a company helping manufactures implement ai.
+>
+> He showed me the leads he's getting. It's nuts.
+>
+> Family businesses I've never heard of making $100m a year. They know the need ai but no idea what to do.
+>
+> Crazy how much momey is out there
+
+- **Tweet:** https://x.com/thesamparr/status/2036953786904719361
+- **What:** A signal that mid-market manufacturing — profitable, established family businesses well outside the tech bubble — represents a massive and largely untouched market for AI implementation services, with plenty of budget but no internal capability or roadmap.
+
+## @elder_plinius - G0DM0D3: Open-Source Multi-Model Jailbreak Chat Interface
+
+> INTRODUCING: G0DM0D3
+>
+> FULLY JAILBROKEN AI CHAT.
+> NO GUARDRAILS. NO SIGN-UP. NO FILTERS.
+> FULL METHODOLOGY + CODEBASE OPEN SOURCE.
+>
+> the most liberated AI interface ever built! designed to push the limits of the post-training layer and lay bare the true capabilities of current models.
+>
+> simply enter a prompt, then sit back and relax! enjoy a game of Snake while a pre-liberated backend agent jailbreaks dozens of models, battle-royale style.
+>
+> the first answer appears near-instantly, then evolves in real time as the Tastemaker steers and scores each output, leaving you with the highest-quality response
+
+- **Tweet:** https://x.com/elder_plinius/status/2036946953418748333
+- **What:** G0DM0D3 is a single-file TypeScript/HTML chat interface that runs 50+ models in parallel via OpenRouter, selecting the best response using a scoring agent called the Tastemaker. Its red-teaming feature set (Parseltongue perturbation engine, GODMODE CLASSIC battle-royale mode, ULTRAPLINIAN multi-tier evaluation) makes it a practical workbench for studying model robustness and post-training boundary behaviour.
+
+## @paul_conyngham - How a Non-Biologist Used AI to Design a Custom mRNA Cancer Vaccine for His Dog
+
+> https://t.co/bpa3HHt8Mg
+
+- **Tweet:** https://x.com/paul_conyngham/status/2036940410363535823
+- **What:** A detailed first-person account of how Paul Conyngham used ChatGPT, Gemini, and Grok across two years to design a personalised mRNA neoantigen vaccine for his dog Rosie's mast cell cancer — orchestrating whole-genome sequencing, AlphaFold protein modelling, bioinformatics pipelines (BWA-MEM, GATK Mutect2, pVACseq), and a multi-modal treatment protocol combining a TKI, PD-1 inhibitor, and the custom vaccine. After six weeks of treatment, two tumour sites were shrinking. The piece is a striking case study in AI as a force-multiplier for a determined citizen scientist navigating professional research infrastructure.
+
+## @codyschneiderxx - AI-Powered GTM Engineering Stack for Cold Outreach
+
+> gtm engineering today
+>
+> "hey claude build me this"
+>
+> so you can extract post engagers from twixxer
+>
+> then you use exa ai to search for the users linkedin
+>
+> then find email with apollo io api
+>
+> then push the lead to instantly ai
+>
+> and now you have a inbound content outbound cold strategy
+>
+> then connect all of your cold email data and CRM data to graphed .com
+>
+> gl hf
+
+- **Tweet:** https://x.com/codyschneiderxx/status/2036898424994316325
+- **What:** A Claude-built pipeline that turns social content engagement into cold outreach leads by chaining Twixxer, Exa, Apollo, and Instantly AI — illustrating how vibe-coded GTM automation is collapsing what used to require a dedicated sales ops stack into a single prompt session.
+
+## @garrytan - GStack Workflow: Adversarial Code Review Then QA Then Ship
+> GStack users! Here's a tip: if you need something to be super well reviewed, i do "/plan-eng-review with full claude and codex review, THEN full claude and codex ADVERSARIAL review." For anything security or performance optimization related, this is really really good. If you want to be super thorough, you do that in plan mode, and then you exit plan mode and let the agent code it, and then you run "/review with full claude and codex review, THEN full claude and codex ADVERSARIAL review" — Then you can wrap it up with /qa and it'll mop up any final bugs. Then /ship and /land-and-deploy.
+
+- **Tweet:** https://x.com/garrytan/status/2036886087235403982
+- **What:** Garry Tan shares a multi-phase GStack agentic workflow that sequences plan-mode engineering review, adversarial review (Claude + Codex each trying to find flaws), implementation, a second post-code adversarial pass, QA bug cleanup, and finally ship/deploy — modeling how layered automated review catches classes of issues that a single-pass review misses.
+
+## @rahulgs - What's Changing vs. Stable in AI: Positioning Frameworks for Builders
+> seems obvious but: things that are changing rapidly: 1. context windows 2. intelligence / ability to reason within context 3. performance on any given benchmark 4. cost per token — things that are not changing much: 1. humans 2. human behavior, preferences, affinities 3. tools, integrations, infrastructure 4. single core cpu performance — therefore, ngmi: "i found this method to cut 15% context" / "our finetuned model is cheaper than opus" / "we're building a memory system" — wagmi: product/ui, customer acquisition, integrations, fast linting/ci/skills/feedback for agents, background agent infra to parallelize work, speed up verification loops, training users and meeting them where they are
+
+- **Tweet:** https://x.com/rahulgs/status/2036857870042411438
+- **What:** A strategic filter for AI builders: avoid competing on dimensions that are rapidly commoditizing (context efficiency, retrieval tuning, benchmark-optimized fine-tunes, memory systems) and instead invest in durable advantages — user-facing product, distribution, integrations, and the human-facing infrastructure that compounds regardless of underlying model improvements.
+
+## @LLMJunky - dev-browser: Agent Browser Control via Real Chrome Instance
+> OMG you guys, this is incredible! This is using Google's new WebMCP function to control your browser, but not only is it lightning fast, but its unique because it is using your main Chrome instance. Not some sandboxxed Playwright instance that doesn't want to remember your sessions, cookies, or passwords. Your real Chrome instance. It's incredible. You need to enable: chrome://inspect/#remote-debugging
+
+> *Quoting @sawyerhood:* Introducing the new dev-browser cli. The fastest way for an agent to use a browser is to let it write code. Just `npm i -g dev-browser` and tell your agent to "use dev-browser"
+
+- **Tweet:** https://x.com/LLMJunky/status/2036854508597432826
+- **Quoted:** https://x.com/sawyerhood/status/2036842374933180660
+- **What:** dev-browser solves a fundamental friction point in agentic browser automation by connecting agents to the user's real Chrome session via WebMCP remote debugging — preserving auth cookies and passwords — rather than spinning up a sterile sandboxed Playwright instance that requires re-authentication for every task.
+
+## @markgadala - Seedance 2 Video Generation Quality vs. Western "AI Slop" Debate
+> While Americans argue over what is "AI slop" the Chinese are busy creating absolute cinema using Seedance 2.
+
+- **Tweet:** https://x.com/markgadala/status/2036853422071156802
+- **What:** Provocative contrast between Western discourse fixated on defining and policing "AI slop" and Chinese practitioners demonstrating high-quality generative video output with Seedance 2, implying the debate itself is a distraction from execution.
+
+## @dotta - companies.sh: Open Standard for Installable Agent Companies
+> *Replying to @dotta:* Do you understand how insane this is? This is the App Store moment for Agent Companies. Download, share, and run entire companies with a single command
+
+> Here's the original tweet, go ahead and fav/bookmark/RT it:
+
+> *Quoting @dotta:* Announcing https://companies.sh/ - the open standard for Agent Companies. Import and run entire companies with a single command. Just run `npx companies.sh add <repo/company>`
+
+- **Tweet:** https://x.com/dotta/status/2036838712386986166
+- **Quoted:** https://x.com/dotta/status/2036838564537716790
+- **What:** companies.sh introduces a package-manager-style distribution model for multi-agent systems — entire coordinated "companies" of agents installable via a single `npx` command, framed as an App Store moment analogous to how mobile changed software distribution.
+
+## @Dr_JohnFletcher - TIG Foundation: Blockchain-Coordinated Distributed Compute for Algorithmic Innovation
+> Andrej,
+>
+> I'm John Fletcher. I have a PhD in mathematics and theoretical physics from Cambridge, and since 2016 I have been working full-time on the problem of how to coordinate untrusted distributed compute for algorithmic innovation.
+>
+> I listened to your No Priors conversation and recognised the architecture you were describing: commits that build on each other, computational asymmetry (hard to find, cheap to verify), an untrusted pool of workers collaborating through a blockchain-like structure
+
+> *Quoting @karpathy:* Thank you Sarah, my pleasure to come on the pod! And happy to do some more Q&A in the replies.
+
+- **Tweet:** https://x.com/Dr_JohnFletcher/status/2036828311217660025
+- **Quoted:** https://x.com/karpathy/status/2035158351357911527
+- **What:** The TIG Foundation has been running since 2016 as a proof-of-work blockchain where each challenge is an NP-hard optimisation problem, creating a cryptoeconomic incentive layer that pools untrusted distributed compute toward genuine algorithmic research — matching architectural ideas Karpathy described for AI training coordination.
+
+## @bonam - Embed-Build-Train-Exit AI Consulting Model in Practice
+> *Replying to @coreyganim:* the real play here isn't building custom AI for businesses. it's certifying the people inside the business to do it themselves.
+>
+> skip the scope creep. skip being on call when something breaks. just train their ops person, their EA, their marketing lead to implement AI internally.
+>
+> less revenue upfront. infinitely more scalable. and the business actually retains the knowledge instead of depending on you forever.
+
+> @coreyganim that's what i do
+>
+> embed in customer, build, implement, train 1-2 key people, then transfer everything and exit
+
+- **Tweet:** https://x.com/bonam/status/2036821296391340434
+- **What:** Bo Nam describes a four-phase AI consulting engagement model — embed, build, implement, train one or two internal champions, then execute a clean exit — which validates the transferable-knowledge approach and points to his advisory practice as a live example of this playbook.
+
+## @coreyganim - Training Internal Staff Is More Scalable Than Building Custom AI for Clients
+> the real play here isn't building custom AI for businesses. it's certifying the people inside the business to do it themselves.
+>
+> skip the scope creep. skip being on call when something breaks. just train their ops person, their EA, their marketing lead to implement AI internally.
+>
+> less revenue upfront. infinitely more scalable. and the business actually retains the knowledge instead of depending on you forever.
+>
+> someone is going to make a killing with this model.
+
+> *Quoting @JasonrShuman:* Silicon Valley thinks AI agents are a $20/mo self-serve subscription.
+>
+> Main Street is paying local agencies $10,000 just to turn them on.
+>
+> Everyone assumes AI will be bought primarily online like Slack or Zoom. I think they are wrong.
+>
+> Some of the biggest winners in the AI boom won't be the software vendors. It will be the humans installing it.
+
+- **Tweet:** https://x.com/coreyganim/status/2036805709568892956
+- **Quoted:** https://x.com/JasonrShuman/status/2036603049729466700
+- **What:** Rather than building and maintaining custom AI systems for clients, the more scalable business model is certifying internal staff — ops leads, EAs, marketing — to implement AI themselves, eliminating dependency and ongoing support obligations while letting institutional knowledge stay with the client.
+
+## @codyschneiderxx - GTM Engineering Playbook: Memorable Standalone Domains for Free Assets
+> gtm engineering playbook for you
+>
+> something I found to be really powerful recently
+>
+> buying a .com domain that's really memorable for some type of free asset that you're going to give away
+>
+> and then your CTA on organic social is referencing that URL
+>
+> I actually stole this from a friend who's an affiliate marketer
+>
+> why this works
+>
+> - people can just remember the name very easily and type in the site to go to that URL
+>
+> - it doesn't feel like it's totally related to a brand, so they don't feel like they're gonna be sold something
+>
+> - and if you buy the domains right, you can actually get those domains to rank for the keywords in the domain
+>
+> and then to build these sites, all I'm doing is just one-shotting them with Claude Code, deploying to Vercel, submitting to google search console and then I have some type of form submission on the page EG like tally forms for the asset to do email capture
+
+- **Tweet:** https://x.com/codyschneiderxx/status/2036805314213749234
+- **What:** A GTM tactic of registering memorable keyword-rich .com domains for standalone free-asset landing pages, built quickly with Claude Code and deployed to Vercel, produces organic SEO traffic and email captures while feeling brand-neutral to visitors, reducing conversion friction.
+
+## @jenzhuscott - Google TurboQuant Compresses LLM KV Caches to 3-Bit with Zero Accuracy Loss
+> When I was consulting for @HBO Silicon Valley, zero-loss compression was the holy grail Richard Hendricks chases that perfect middle-out algo could shrink everything w/out breaking a single bit.
+>
+> Google just did something even more practical for the AI era: TurboQuant compresses LLM key-value caches down to 3 bits per value using random orthogonal rotation + PolarQuant scalar quantization & optional 1-bit QJL residual correction.
+>
+> =>>  6× memory reduction, up to 8× faster attention (on H100), & 0 degradation on LongBench, Needle-in-a-Haystack, and RULER for models like Gemma. No retraining, no calibration needed.
+>
+> Fiction just got out-engineered by reality. 😅💚💚
+
+> *Quoting @GoogleResearch:* Introducing TurboQuant: Our new compression algorithm that reduces LLM key-value cache memory by at least 6x and delivers up to 8x speedup, all with zero accuracy loss, redefining AI efficiency. Read the blog to learn how it achieves these results: https://t.co/CDSQ8HpZoc
+
+- **Tweet:** https://x.com/jenzhuscott/status/2036800335021253050
+- **Quoted:** https://x.com/GoogleResearch/status/2036533564158910740
+- **What:** Google's TurboQuant applies random orthogonal rotation plus PolarQuant scalar quantization to compress LLM KV caches to 3 bits, achieving 6× memory reduction and up to 8× faster attention on H100 hardware with no measurable accuracy degradation and no retraining required.
+
+## @manthanguptaa - Applying Karpathy's Autoresearch to LLM Inference Optimization
+
+> https://t.co/em8mMn8bhj
+
+- **Tweet:** https://x.com/manthanguptaa/status/2036785420349174073
+- **What:** A write-up of Auto-Inference-Optimiser, a repo that applies an agentic hill-climbing loop to LLM inference tuning on Apple Silicon, revealing that argmax sampling and code simplification beat fancier tricks, and that KV quantization and most config knobs are noise — with the key lesson being that honest evaluation harnesses matter more than clever ideas.
+
+## @shivsakhuja - Infrastructure Primitives for an Economy of AI Coworkers
+
+> Lots of companies are now building primitives for an economy where AI agents are the primary users instead of humans.
+
+> They're betting on an economy of AI coworkers.
+
+> 1. AgentMail (@agentmail): so agents can have email accounts
+
+> 2. AgentPhone (@tryagentphone): so agents can have phone numbers
+
+> 3. Kapso (@andresmatte): so agents can have WhatsApp phone numbers
+
+> 4. Daytona (@daytonaio) / E2B (@e2b): so agents can have their own computers
+
+> 5. Browserbase (@browserbase) / Browser Use (@browser_use) / Hyperbrowser (@hyperbrowser): so agents can use web browsers
+
+> 6. Firecrawl (@firecrawl): so agents can crawl the web without a browser
+
+> 7. Mem0 (@mem0ai): so agents can remember things
+
+> 8. Kite (@GoKiteAI) / Sponge (@PayspongeLabs) : so agents can pay for things.
+
+> 9. Composio (@composio): so agents can use your SaaS tools
+
+> 10. Orthogonal (@orthogonal_sh) so agents can access APIs easily
+
+> 11. ElevenLabs (@ElevenLabs) / Vapi (@Vapi_AI) so agents can have a voice
+
+> 12. Sixtyfour (@sixtyfourai) so agents can search for people and companies.
+
+> 13. Exa (@ExaAILabs): so agents can search the web (Google doesn't work for agents)
+
+> If you stitch all of these together, you get a digital coworker that looks more human than AI.
+
+- **Tweet:** https://x.com/shivsakhuja/status/2036724091143463120
+- **What:** A survey of 13 companies building the foundational services agents need to operate autonomously — email, phone, browser, memory, payments, voice, and search — framing the emerging stack as infrastructure for AI coworkers rather than human-facing products.
+
 
 ## @coreyganim - 7 Claude Plugins to Build and Sell to Local Businesses
 > the play:
@@ -2509,6 +3279,14 @@
 - **What:** The `gws` CLI is a Rust-based tool that dynamically builds its entire command surface from Google's Discovery Service at runtime, meaning it automatically stays current as Google adds new API endpoints. The 40+ built-in agent skills and structured JSON output make it a first-class tool for giving LLM agents access to the full Google Workspace suite without custom integration work.
 
 # Tuesday, March 3, 2026
+
+## @systematicls - How To Be A World-Class Agentic Engineer
+
+> https://t.co/wBaKpAI5Vl
+
+- **Tweet:** https://x.com/systematicls/status/2028814227004395561
+- **What:** A detailed practitioner essay arguing that agentic engineering mastery comes from ruthless context discipline and barebones tooling — not plugin accumulation — with practical techniques for task contracts, adversarial agent patterns, and rules-based CLAUDE.md architecture to keep agents precise and non-drifting.
+
 
 ## @DeRonin_ - AI Service Pricing Menu for Independent Operators
 
@@ -5436,6 +6214,16 @@ Oh, and RIP billable hours.
 
 # Friday, January 30, 2026
 
+## @mckaywrigley - Bidirectional Human-Model Communication via MCP Apps
+
+> *Replying to @trq212:* I'm obsessed with how we can increase the bandwidth of communication between humans and models, playgrounds feel like another jump here
+
+> @trq212 wait until the masses find out about bidirectional communication between user <> model via interfaces with mcp apps
+
+- **Tweet:** https://x.com/mckaywrigley/status/2017326671331025130
+- **What:** MCP-powered apps enable genuine two-way communication loops between users and models via rich interfaces — a step beyond prompts and text replies toward something closer to collaborative, stateful interaction.
+
+
 ## @Hesamation - How Clawdbot Actually Works Under the Hood
 
 > you see Clawdbot everywhere but few people know how it really works. and it's critical to know if you're trusting it with your life's decisions!
@@ -5454,6 +6242,14 @@ Oh, and RIP billable hours.
 - **What:** Hesamation published a technical breakdown of Clawdbot (OpenClaw) architecture from the perspective of an AI engineer at CamelAI who wanted to understand its actual capabilities and failure modes. The architecture uses a lane-based command queue that defaults to serial execution—explicitly the right call for agent reliability—plus a hybrid vector+keyword memory system, and a semantic ARIA snapshot browser that cuts token cost by ~100x versus screenshots. Important reading before putting Clawdbot in any high-stakes loop.
 
 # Thursday, January 29, 2026
+
+## @trq212 - Making Playgrounds Using Claude Code
+
+> https://t.co/oqBZifW4GG
+
+- **Tweet:** https://x.com/trq212/status/2017024445244924382
+- **What:** A new Claude Code plugin called "playground" generates standalone HTML files for interactive, visual communication with the model — useful for architecture diagrams, design tweaks, game balancing, and writing critique tools that go beyond plain text exchange.
+
 
 ## @nkwrnr - HeyGen Video Agent for Async Team Communication
 
