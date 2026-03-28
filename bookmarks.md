@@ -1,5 +1,84 @@
 # Saturday, March 28, 2026
 
+## @aleabitoreddit - Diversified AI/Tech Stock Portfolio for Sub-$250K Accounts
+
+> *Quoting @Ud197601:* @aleabitoreddit @BitcoinAIGuy Do you mind sharing a core diversified list for those looking to allocate smaller accounts?
+> Under $250k?
+>
+> Wasn't sure if your list has changed from recent macro events
+
+> Faster compounds:
+>
+> $AAOI - 10x revenue ramp from optical transceivers h2 2027
+> $NBIS - 10x revenue ramp Q4 2026
+> $ARM - 5x revenue growth from their new AI CPU
+> $MRVL - 2-3x revenue growth from $MSFT Maia Ramp.
+> $AVGO - Long hyperscaler ASIC
+> $LITE - Long OCS / Google TPU
+> Win Semi - Foundry exposure to frontier industries
+> $TSEM - Long photonics, backlogged
+> SK Hynix - Memory exposure, extreme operating income ramp
+>
+> With some barbell exposure away from Hyperscaler capex aside from Amazon:
+>
+> $VNP - Long term rare earths for Western Supply chains
+> $NEO (TCX) - Robotics Supply chains
+> $AMZN - Robotics/AI cutting opex
+> $CRCL - Stablecoin long
+> $RDDT - Ridiculously high profit
+> $GLD - Safe Hedge
+> $IBIT - Halving 2028
+> $CVX Calls - Oil Hedge
+>
+> And maybe long term (you know it's coming):
+>
+> $INTC / $AMKR - Made in America supply chains
+> $SOI - Silicon Photonics / CPO substrates.
+> $RKLB - Long term call on Space industry
+>
+> Then pick one or two small cap moonshots:
+> $SIVE - CW Laser Chokepoints or $IQE for Landmark rerating on restructuring were my two favorites.
+
+- **Tweet:** https://x.com/aleabitoreddit/status/2037915721435587028
+- **Quoted:** https://x.com/Ud197601/status/2037909226966667439
+- **What:** In response to a request for a diversified AI/tech portfolio under $250K, aleabitoreddit shares a tiered stock list: optical/AI infrastructure plays ($AAOI, $NBIS, $ARM, $MRVL, $AVGO, $LITE, SK Hynix) as core positions, a barbell of moonshots and macro hedges ($GLD, $IBIT, $CVX calls, $AMZN robotics), long-term sovereign supply chain bets ($INTC, $AMKR, $RKLB), and two small-cap moonshots ($SIVE, $IQE) — with an explicit warning against going full-port into high-beta in the current macro environment.
+
+## @techNmak - Claude Code Best Practices: Community-Distilled Workflows and the Official Guide
+
+> Someone finally documented how to actually use Claude Code.
+>
+> 22K+ stars. claude-code-best-practice.
+>
+> Direct from Boris Cherny and team:
+>
+> → Always use plan mode, give Claude a way to verify
+> → Ask Claude to interview you using AskUserQuestion tool
+> → Use Git Worktrees for parallel development
+> → /loop - schedule recurring tasks for up to 3 days
+> → Code Review - fresh context windows catch bugs the original agent missed
+> → /btw - side chain conversations while Claude works
+> → Make phase-wise gated plans with tests for each phase
+> → Use cross-model (Claude Code + Codex) to review your plan
+> → CLAUDE[.]md should target under 200 lines per file
+> → Use commands for workflows instead of sub-agents
+> → Have feature-specific sub-agents with skills instead of general QA or backend engineer
+> → Vanilla Claude Code is better than complex workflows for smaller tasks
+> → Take screenshots and share with Claude when stuck
+> → Use MCP to let Claude see Chrome console logs
+> → Ask Claude to run terminal as background task for better debugging
+> → Use cross-model for QA - e.g. Codex for plan and implementation review
+>
+> The community workflows included:
+> → Cross-Model (Claude Code + Codex) Workflow
+> → RPI (Research Plan Implement)
+> → Ralph Wiggum Loop for autonomous tasks
+> → Github Speckit (74K stars)
+> → obra/superpowers (72K stars)
+> → OpenSpec OPSX (28K stars)
+
+- **Tweet:** https://x.com/techNmak/status/2037788648691884207
+- **What:** A distillation of the 22K-star claude-code-best-practice repository, covering official Boris Cherny/Anthropic guidance (plan mode, AskUserQuestion, Git Worktrees, phase-gated plans, CLAUDE.md limits) alongside high-signal community workflows like the Ralph Wiggum Loop, RPI, and cross-model review with Codex — a practical reference for anyone trying to level up their Claude Code usage beyond vanilla prompting.
+
 ## @chamath - Product Idea: LLM-Powered Both-Sides News Briefing Using Karpathy's Argument Loop
 
 > *Quoting @karpathy:* - Drafted a blog post
