@@ -1,5 +1,270 @@
 # Saturday, March 28, 2026
 
+## @lukeigel - Pure TypeScript text measurement without the DOM
+> When Cheng first told me about this I couldn't believe what I was hearing. Turns out you can solve a lot by letting the agents just run for weeks!
+>
+> *Quoting @_chenglou:* My dear front-end developers (and anyone who's interested in the future of interfaces):
+>
+> I have crawled through depths of hell to bring you, for the foreseeable years, one of the more important foundational pieces of UI engineering (if not in implementation then certainly at least in concept):
+> Fast, accurate and comprehensive userland text measurement algorithm in pure TypeScript, usable for laying out entire web pages without CSS, bypassing DOM measurements and reflow
+
+- **Tweet:** https://x.com/lukeigel/status/2037751603793727684
+- **Quoted:** https://x.com/_chenglou/status/2037713766205608234
+- **What:** Cheng Lou shipped a pure TypeScript text measurement algorithm that can lay out entire web pages without CSS or DOM reflow — a foundational capability for UI engines that don't depend on the browser's layout system. Luke Igel's commentary reveals the backstory: it was built by letting AI agents run autonomously for weeks, suggesting that long-horizon agentic runs are unlocking work that would be impractical to do manually.
+
+## @pbakaus - Claude Skill Authoring Best Practices (updated)
+> I just wanted to tweet that Anthrophic's advice on not constraining a skills freedom is not universally good advice, but pleasantly surprised they just updated this section: https://t.co/c4N0Crn3A3
+
+- **Tweet:** https://x.com/pbakaus/status/2037763964776673494
+- **What:** Paul Bakaus flagged that Anthropic's previous blanket guidance to avoid constraining skill freedom wasn't holding up in practice, and Anthropic has updated the relevant section of their skill authoring best practices docs to add nuance. The update reflects real-world feedback that constraint decisions are context-dependent — a sign the official docs are evolving in response to practitioner experience.
+- **Filed:** [claude-skill-authoring-best-practices.md](./knowledge/articles/claude-skill-authoring-best-practices.md)
+
+## @gusik4ever - Fastest-growing finance GitHub repos this week
+> the fastest growing GitHub repos in finance this week:
+>
+> 1. TauricResearch/TradingAgents (+9.3K ★)
+>
+> multi-agent LLM framework that runs like a trading firm — analysts, researchers, risk managers all debate before a position opens. works with GPT-5, Claude, Grok, Gemini.
+>
+> 2. virattt/ai-hedge-fund (49.6K ★)
+>
+> team of LLM agents that each play a different role: bull, bear, fundamentals, technicals, risk. the closest thing to an actual AI fund on GitHub.
+>
+> 3. NoFxAiOS/nofx (11.2K ★)
+>
+> autonomous AI trading assistant. picks its own models, pulls its own market data, decides when to trade. added safe mode this week. auto-protects positions when AI fails 3+ times consecutively.
+>
+> 4. Jon-Becker/prediction-market-analysis (2.3K ★)
+>
+> largest public dataset of Polymarket + Kalshi trade history. 36GB. researchers are already publishing papers on top of it.
+>
+> 5. pmxt-dev/pmxt (1.2K ★)
+>
+> CCXT but for prediction markets. one API across Polymarket, Kalshi, Limitless, Myriad. active fixes shipping all week.
+
+- **Tweet:** https://x.com/gusik4ever/status/2037869910827618393
+- **What:** A curated snapshot of the multi-agent trading and prediction market OSS ecosystem — from debate-style LLM trading firms (TradingAgents) to autonomous position-taking systems (nofx) to a 36GB Polymarket/Kalshi dataset already generating academic papers. Shows the finance vertical of agentic AI moving fast, with prediction market infrastructure tooling (pmxt) catching up to the more established crypto trading layer.
+
+## @codyplof - Claude Customer Intelligence system with 5 APIs
+> This might be one of my favorite things I've built in Claude. I've done some more "fun" apps but this might be the most valuable.
+>
+> I have 5 APIs or MCPs that have customer insights. They all dump into a central "Customer Intelligence MD."
+>
+> Around 10 skills leverage it. Everytime they run; it pulls updates from the APIs so every day this customer intelligence file is getting smarter and stronger.
+>
+> I'll probably also build a scheduled task that refreshes this weekly.
+
+- **Tweet:** https://x.com/codyplof/status/2037899224214376699
+- **What:** Cody Plofker describes an architecture where 5 data source integrations (APIs/MCPs) feed a single central "Customer Intelligence" markdown file that 10 Claude skills then draw from — a practical pattern for maintaining a continuously-updated, agent-readable knowledge base. The self-reinforcing loop (skills pull fresh API data each run) is a concrete example of how to build long-lived agentic memory outside a vector DB.
+
+## @buccocapital - AI-Native SaaS vs. Incumbents: The Accelerate or Die Moment
+> Really enjoyed the deck @loganbartlett and team just shared on the state of Software, wanted to pull out a few things that caught my eye:
+>
+> 1. AI-native companies are growing faster AND more efficiently
+>
+> The growth rates are really staggering. And they're doing it with very few people. The demand for AI is insatiable, like nothing we have ever seen, and is diverting budget away from traditional software. This is an existential moment for the incumbents. I've been saying Accelerate or Die for months. The accelerating is unprecedented, and the growth is coming at the expense of SaaS 2.0. Only death can pay for life
+>
+> 2. They're doing it without going head-to-head with incumbents
+>
+> This is probably the most interesting slide to me. These AI-native businesses are growing so fast by using two approaches:
+>
+> A) Finding a wedge into the enterprise, scaling quickly, then trying to expand
+> B) Building AI-native Systems of Record from below. @arampell calls this "Greenfield Bingo." New businesses/SMB have zero/low switching costs, so AI-native CRM/HR/ERP companies can take share and march upmarket from below
+>
+> Both of these are particularly tricky for incumbents to defend against. They simply aren't able to move quickly enough to build compelling AI point solutions, and they're struggling to defend downmarket while also defending the enterprise (bimodal go-to-market and running multiple service models in one company is incredibly difficult)
+>
+> 3. Incumbents scale by throwing people at the problem
+>
+> This has been the dirty little secret of SaaS for 15 years. It's basically impossible to grow revenue faster than headcount. Some companies like Shopify did it by layering on payments. Consumption-based companies have been doing it. The AI native companies have this figured out. The incumbent, seat-based, companies simply have never been able to decouple revenue from headcount. They will have to learn or die
+>
+> 4. Incumbents have the right to win but they are failing to capture the moment
+>
+> As I've said before, the CIO wants to stick with their current vendors. They WANT to buy AI solutions from the incumbents. The problem is their solutions suck. @jasonlk has been all over this. These incumbents have a shrinking window of time where they have the advantage, but that window is shrinking. Rapidly.
+
+- **Tweet:** https://x.com/buccocapital/status/2037903624630595907
+- **What:** Analysis of @loganbartlett's software landscape deck: AI-native companies are growing faster with far fewer employees by finding enterprise wedges or building Systems of Record from below (SMB greenfield), while incumbents are structurally unable to decouple revenue from headcount or respond quickly enough — their window to leverage existing CIO relationships is shrinking rapidly.
+
+## @PatrickHeizer - AI-Assisted Personalized Cancer Care: Billionaire Exception, Not the Rule
+> Extremely impressive, but we need to be clear that this represents multiple tens of millions of dollars.
+>
+> This was only possible because he is a billionaire, and does not represent what current healthcare systems can provide at scale.
+>
+> *Quoting @orphcorp:* this is excellent
+>
+> >GitLab founder diagnosed with rare cancer (osteosarcoma)
+> >standard care works but cancer comes back later
+> >medical team says there's not much else to do
+> >"It became my own job to keep myself alive. Nobody else was going to do it for me at this point"
+> >starts researching, assembles his own medical team, uses AI for deep research
+> >"I'll talk to anyone, I'll go anywhere, and I can be there anytime" to collect information
+> >does as many diagnostic tests as he can find as often as he can (maximal diagnostics)
+> >develops his own therapeutic ladder with repurposed drugs, personalized medicine, etc
+> >Sid's cancer currently in remission
+
+- **Tweet:** https://x.com/PatrickHeizer/status/2037944818102399290
+- **Quoted:** https://x.com/orphcorp/status/2037907413051797623
+- **What:** GitLab founder Sid achieved cancer remission after standard care failed by self-assembling a medical team, using AI for deep research, and pursuing maximal diagnostics with repurposed drugs — a remarkable story of personalized medicine that Heizer soberly contextualizes: it cost tens of millions of dollars and is only accessible to billionaires, not a scalable model for healthcare.
+
+## @garrytan - Voice-Based UI Design Consultation in Claude Code
+> I'm using /design-consultation and the ability to just talk Claude Code is so amazing
+
+- **Tweet:** https://x.com/garrytan/status/2037951104852644224
+- **What:** Garry Tan highlights Claude Code's `/design-consultation` slash command, which enables voice-based UI design assistance — letting developers talk through design decisions conversationally rather than typing, a workflow he finds genuinely compelling.
+
+## @ChrisLangSocial - AI-Built Landing Pages vs. Agency: Early Conversion Results
+> lol claude/manus lander ugly lander vs. shopify web dev agency
+>
+> what's life rn?
+>
+> waaaay to early results but it's pushing total site conversion to 3% for this brand
+>
+> literal chad move, less thinking more testing
+
+- **Tweet:** https://x.com/ChrisLangSocial/status/2037956917478433129
+- **What:** THIN: Early A/B test pitting AI-generated landing pages (Claude/Manus) against a Shopify web dev agency shows the AI-built pages pushing total site conversion to 3% — rough aesthetics aside, the result favors shipping fast and testing over polished agency work.
+
+## @bitforth - Using TRIBE v2 Brain Activation Model to Optimize TikTok Video Editing
+> Implementé TRIBE v2 localmente en mi laptop, le pasé un video familiar, y luego le di a un LLM las imágenes de activación cerebral que generó, sin mucho contexto, y esto fue lo que dijo:
+>
+> "El patrón muestra actividad fuerte en áreas visuales y de reconocimiento, con poca participación de regiones frontales asociadas al pensamiento complejo. La inferencia es que el video muestra algo en movimiento, probablemente personas o caras, algo fácil de procesar y no muy informativo; está hecho para captar y sostener atención de forma pasiva, no para hacerte pensar."
+>
+> El clip en cuestión era un video de 15 segundos de mi hija manejando un scooter.
+>
+> Ahora, aquí es donde se pone interesante, mi esposa tiene una cuenta de TikTok que va creciendo. Voy a tomar 50 videos virales del nicho y los de ella, correrlos por TRIBE v2 y alinearlos con sus curvas de retención para ver qué cambia en el cerebro promedio unos segundos antes de que la gente haga scroll.
+>
+> De esta forma, en lugar de editar para retener atención basado en intuición y A/B testing, edita para mantener activación en las regiones correctas en los momentos correctos.
+
+- **Tweet:** https://x.com/bitforth/status/2037959310106312764
+- **What:** The author ran family videos through TRIBE v2 (a local brain activation model) and fed the resulting neural activation images to an LLM, which correctly inferred a child on a scooter from the pattern alone. He plans to run 50 viral TikTok videos plus his wife's videos through TRIBE v2 aligned with retention curves to identify which brain regions shift before viewers scroll away — replacing intuition and A/B testing with neurological signal for video editing decisions.
+
+## @ziwenxu_ - Seedance 2.0: viral content blueprint via CapCut + Indonesian VPN
+> This is pure gold.
+>
+> Not just a CapCut setup guide, but a viral content blueprint.
+>
+> If you're only bookmarking this, you're bleeding value right now.
+>
+> *Quoting @starks_arq:* seedance 2.0 can change your life, here's the complete guide
+
+- **Tweet:** https://x.com/ziwenxu_/status/2037965099625857298
+- **Quoted:** https://x.com/starks_arq/status/2037928570257903983
+- **Filed:** [seedance-2-complete-guide.md](./knowledge/articles/seedance-2-complete-guide.md)
+- **What:** A complete technical playbook for Seedance 2.0 (ByteDance's AI video model, accessible via CapCut with Indonesian VPN): 5-block prompt structure (subject/action/camera/style/quality suffix), reference image system, Chinese prompt technique for better material/environment fidelity, and a real-time trend strategy using Polymarket notifications to post AI video content while demand peaks and supply is zero.
+
+## @JoinLifespan - Aging reframed as software failure, not wear and tear
+> A major new paper reframes aging as a systems failure of epigenetic information. Not wear and tear but a software problem. This is what the Information Theory of Aging predicts and, if correct, means aging is reversible.
+>
+> Let's dive in... 🧵
+
+- **Tweet:** https://x.com/JoinLifespan/status/2037965569215828304
+- **What:** A new paper supports the Information Theory of Aging — the thesis that aging is caused by degradation of epigenetic information (a "software failure"), not irreversible physical wear. The implication is that aging could be reversible if the underlying information can be restored.
+
+## @stevehou - How Zuckerberg's undiscriminating hype cost him DeepMind
+> "Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. 'That told me what I needed to know,' Hassabis said."
+>
+> *Quoting @FutureJurvetson:* Subtext: how Zuck's obsession with VR lost him AI leadership and "the greatest deal Google ever made."
+>
+> "Facebook offered more money, but I wanted somebody who really understood why AI would be bigger than all these other things." — Demis Hassabis
+
+- **Tweet:** https://x.com/stevehou/status/2037981735103697000
+- **Quoted:** https://x.com/FutureJurvetson/status/2037925810208960965
+- **What:** When Demis Hassabis was choosing between Google and Facebook's acquisition offers for DeepMind, he tested Zuckerberg's conviction at dinner by pivoting from AI to VR, AR, and 3D printing — Zuckerberg showed equal enthusiasm for all of them. Hassabis chose Google because Zuck couldn't distinguish genuine AI conviction from general tech hype, a pattern Jurvetson argues played out again with the $80B metaverse bet and the later $14B data-labeling acquisition.
+
+## @scaling_shields - Scraping competitor 1-star reviews as a 38x cold email lead source
+> met a guy last week making $43,000/month sending cold emails to people who left 1-star reviews for his competitors
+>
+> reply rate: 11.4%
+>
+> for context the average cold email reply rate is 0.3%
+>
+> his is 38x higher
+>
+> because rather than just emailing strangers, hes emailing people who are already pissed off and actively looking for an alternative
+
+- **Tweet:** https://x.com/scaling_shields/status/2037983111091491225
+- **What:** The tactic: scrape 1- and 2-star reviews of competitors on Trustpilot/G2 (last 90 days), find the reviewer on LinkedIn, pull email via Apollo or Instantly, send one targeted email within 72 hours while they're still frustrated. The 11.4% reply rate (vs 0.3% average) and 41% close rate on calls come from the fact that these people already have budget, already understand the product category, and are actively mid-churn — the competitor's ad spend effectively generated the lead list for free.
+
+## @dotta - Paperclip AI CEO tip: batch multiple tasks in one request
+> One of my tips for working with Paperclip is that you should Ask For More
+>
+> In this single task I asked my CEO to hire a Community Manager, collaborate with the Skills Manager, create a new project, and audit the Discord
+>
+> Create an entire branch of your org with a single request
+
+- **Tweet:** https://x.com/dotta/status/2038001434118029430
+- **What:** When using Paperclip (an AI agent that acts as a CEO-layer orchestrator), bundling multiple tasks into one request causes it to spin up an entire organizational branch autonomously — hiring, project creation, cross-agent collaboration, and audits — rather than treating each as a separate interaction. The tip is to treat the AI CEO like a real executive: give it a cluster of related objectives and let it coordinate.
+
+## @8teAPi - Latency arbitrage on Polymarket using sports data pipelines
+> Incredible arbitrage opportunity. This is very similar to the early 1920s before the SEC. You can find alpha.
+>
+> *Quoting @LinusEkenstam:* Dude trying to build sports data pipelines 1. extract raw data from soccer data 2. Eight seconds ahead of streams & tv broadcast 3. Place trades on Polymarket. The world is changing by the hour. wealth is getting redistributed all over the world
+
+- **Tweet:** https://x.com/8teAPi/status/2038004576444641290
+- **Quoted:** https://x.com/LinusEkenstam/status/2037986103408427489
+- **What:** Someone is exploiting the latency gap between real-world soccer events and live broadcast streams to place trades on Polymarket 8 seconds ahead of the crowd. Prakash frames this as pre-SEC-era alpha — a window of systematic edge that exists because prediction markets haven't yet priced in real-time data pipelines as a competitive threat.
+
+## @andrewchen - Framework for distinguishing real AI-native products from bolt-on AI
+> how to tell the difference between AI-native products versus when AI is bolted on after the fact...
+>
+> fake AI products:
+> - main AI feature is an AI button with sparkle icons
+> - chat pane where you can ask LLM questions
+> - no memory/personalization beyond one chat
+> - users try it once and go back to using the app the "normal" way
+> - AI is optional not essential to the product working
+>
+> AI native products:
+> - you can spend $100 or $1000 via tokens as you use the product
+> - it gets substantially better every 6 months as base models improve
+> - core workflow is impossible without AI, not just enhanced by it
+> - creates behavior change when users try it
+
+- **Tweet:** https://x.com/andrewchen/status/2038012440332623927
+- **What:** Andrew Chen offers a sharp diagnostic for separating genuine AI-native products from superficial integrations: real AI-native products make the core workflow impossible without AI, consume meaningful token budgets, improve automatically as base models advance, and change user behavior on first contact — fake AI products are optional overlays that users quickly abandon.
+
+## @nicbstme - Deep personal and professional skill integration as counter to skills hype skepticism
+> I can't work without my /skills.
+>
+> /finance-cash: pull brex etc to tell me how much $ I have
+> /finance-vendor: vendor spending analysis company wide
+> /customers-health: review customers DAU/MAU
+> Etc
+>
+> Even in my personal life I have /pickleball to book a court at the Golden Gate Tennis center, /doctor, /groceries etc etc
+>
+> *Quoting @thdxr:* everyone made a big commotion about skills, a bunch of secondary tooling got built, standards got established and the majority of users have never installed a skill. i wish everyone would chill out, most ideas are bad, restraint is more important than ever
+
+- **Tweet:** https://x.com/nicbstme/status/2038013049714675791
+- **Quoted:** https://x.com/thdxr/status/2037934648198594908
+- **What:** Nicolas Bustamante pushes back on dax's claim that skills hype is overblown with a concrete counter-example: he has custom skills woven through both his company operations (cash balances, vendor spend, customer health) and personal life (court bookings, doctor, groceries), illustrating that skills adoption may be narrow but deep among power users rather than broadly shallow.
+
+## @petergyang - Hiring ex-founders as PMs as a culture and autonomy litmus test
+> Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.
+>
+> I think this is a good litmus test for how good your company is at attracting talent:
+>
+> 1. Do founders want to work here?
+>
+> 2. Do they have the agency to make real impact or will they get lost in your org?
+
+- **Tweet:** https://x.com/petergyang/status/2038058600715935817
+- **What:** Peter Yang reframes ex-founder PM hiring as a two-part organizational test: the first question is whether your company is compelling enough that people who could build their own thing choose to join you instead, and the second is whether your structure actually gives them the autonomy that made them founders in the first place — without that second condition, you're just attracting talent you'll quickly lose.
+
+## @pmddomingos - Claude Code's terminal interface as barrier to non-technical users
+> Why Claude Code is strictly for nerds. https://t.co/Ox4p2nRNJO
+
+- **Tweet:** https://x.com/pmddomingos/status/2038072787156488504
+- **What:** THIN: Pedro Domingos (ML professor) posts a photo — presumably of Claude Code's terminal/CLI interface — as evidence that it remains inaccessible to non-technical users, but the image content is not described in the tweet text.
+
+## @Shpigford - Fractional AI co-founder positioning in response to AI coaching opportunity
+> i know a guy: https://t.co/VqBKwgBPgU
+>
+> *Quoting @DaveRekuc:* Lucrative service right now: AI development coaching. 1:1 coaching for 1-2 hours a week where you help business leaders through technical setups & run a paid slack support channel. A developer that wants to build AI products for ecom should do this to pay the bills + gather insight into what real business leaders want to use AI for in their businesses.
+
+- **Tweet:** https://x.com/Shpigford/status/2038088778208682477
+- **Quoted:** https://x.com/DaveRekuc/status/2037907756816965792
+- **What:** Josh Pigford responds to Dave Rekuc's pitch for AI development coaching as a lucrative side service by linking to his own consulting site (initialcommit.co), positioning himself as the higher-tier version of that exact offering — a fractional AI and product co-founder at $5k for a 10-hour kickstart or $10k/month ongoing, backed by 22 years of building software and 80+ shipped products.
+
 ## @aleabitoreddit - Diversified AI/Tech Stock Portfolio for Sub-$250K Accounts
 
 > *Quoting @Ud197601:* @aleabitoreddit @BitcoinAIGuy Do you mind sharing a core diversified list for those looking to allocate smaller accounts?
@@ -224,6 +489,13 @@
 
 ---
 # Friday, March 27, 2026
+
+## @TheNoahHein - What Comes After the Pull Request
+> https://t.co/4ZHibygJM2
+
+- **Tweet:** https://x.com/TheNoahHein/status/2037573208707137639
+- **What:** Coding agents decouple code generation speed from delivery speed — the bottleneck has shifted from writing code to reviewing, verifying, and trusting it. Faros AI data across 10,000+ devs shows high-AI teams merge 98% more PRs but spend 91% more time in review. The article maps three competing bets on what replaces the pull request: AI-native review loops, upstream spec-driven development, and agent-first platform replacements — and argues all three are probably temporary scaffolding that better models will eventually absorb.
+- **Filed:** [what-comes-after-the-pull-request.md](./knowledge/articles/what-comes-after-the-pull-request.md)
 
 ## @om_patel5 - Anthropic Engineers Act as Agent Managers, Not Coders
 > THE ANTHROPIC TEAM DOESN'T WRITE CODE ANYMORE.
