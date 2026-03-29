@@ -1,5 +1,42 @@
 # Sunday, March 29, 2026
 
+## @trq212 - Bidirectional Figma↔Claude Code Workflow via Figma MCP
+> the more I've been digging into the new Figma MCP, the more excited I am about it
+>
+> something new I'm trying is starting with a very ugly sketch in Figma, and then having Claude Code flesh it out in Figma so I can tweak and edit before sending the final back to Claude Code
+>
+> *Quoting @trq212:* I'll be covering how to make the most of this in my livestream on March 31st with Figma!
+>
+> You can sign up here: https://fig-events.figma.com/claude-to-figma/
+
+- **Tweet:** https://x.com/trq212/status/2038352023633228183
+- **Quoted:** https://x.com/trq212/status/2036442894777594248
+- **What:** Demonstrates a bidirectional Figma↔Claude Code design loop enabled by the Figma MCP — rough sketch in Figma → Claude Code fleshes it out directly in Figma → human tweaks → final design sent back to Claude Code for implementation. This keeps design intent intact across iterations and gives designers a natural editing checkpoint before code generation, a workflow being presented at a Figma×Anthropic livestream on March 31, 2026.
+
+## @yishan - @philfung's End-to-End DIY mRNA Vaccine Production Guide
+> My friend @philfung was inspired by the man who built a personalized cancer vaccine for his dog, so he wrote a guide to DIY mRNA vaccine production.
+>
+> Phil used to run a lab startup, and the guide covers the entire process - from sequencing to synthesis, using open-source software and benchtop lab equipment.
+>
+> Note: This is for educational purposes only and is not intended for medical use
+>
+> um unless you have cancer
+
+- **Tweet:** https://x.com/yishan/status/2038346050130657344
+- **What:** @philfung, a former lab startup founder, wrote a complete guide to producing personalized mRNA vaccines outside traditional research settings — covering the full pipeline from DNA sequencing through mRNA synthesis using open-source bioinformatics tools and consumer benchtop equipment, inspired by a viral story of a dog cancer vaccine and motivated by the idea that the technology is now accessible to technically capable individuals.
+
+## @nummanali - Anthropic Skill Creator Has Built-in Eval Framework Running Child Agents
+> The upgraded Skill Creator from Claude Code team has built in eval framework that runs tests with child agents to determine effectiveness and drive improvement
+>
+> What you have in the skill is years of researcher experience encoded
+>
+> Very surprised by effectiveness
+
+- **Tweet:** https://x.com/nummanali/status/2038288259915116746
+- **Link:** https://github.com/anthropics/skills/tree/main/skills/skill-creator
+- **Filed:** [anthropic-skill-creator.md](./knowledge/tools/anthropic-skill-creator.md)
+- **What:** Anthropic's Skill Creator skill ships with an automated eval loop that spawns child agents to test generated skills and drive iterative improvement — notable because it embeds researcher-level expertise in skill engineering, making it far more effective than manually crafted skill files, and serves as a reference for how production Claude Code skills should be built and validated.
+
 ## @aakashgupta - Autoresearch as a universal optimization loop applicable beyond ML
 > The reason autoresearch hit 42,000 GitHub stars in a week is that the architecture ports to anything with a score.
 >
