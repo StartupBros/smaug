@@ -1,4 +1,316 @@
+# Sunday, March 29, 2026
+
+## @aakashgupta - Autoresearch as a universal optimization loop applicable beyond ML
+> The reason autoresearch hit 42,000 GitHub stars in a week is that the architecture ports to anything with a score.
+>
+> Karpathy built it for ML training. The code the agent edits. val_bpb is the metric. program.md is the human's research direction. The locked eval harness. Git commit keeps winners, git reset reverts losers.
+>
+> I ported it to prompt engineering. The mapping took about ten minutes because every component has a direct equivalent.
+>
+> The architecture holds because Karpathy made one design choice that almost nobody discusses: he separated the system into exactly four roles. A file that changes. A metric that judges. A direction that guides. And a constraint that locks. Those four roles describe every functional optimization loop in existence. A/B testing. Clinical trials. Lean manufacturing. PDCA. The scientific method itself.
+>
+> Most AI agent frameworks fail because they blur these boundaries. The agent that writes the code also evaluates the code. The system that sets the goal also measures progress toward it. Autoresearch works because the agent that mutates the file has zero control over how that mutation gets scored.
+>
+> The prompt engineering version produces the same outputs Karpathy gets. ~12 iterations per hour. ~100 overnight. ~$25 in compute.
+>
+> The locked eval is the piece most people will skip and the piece that makes everything else work. Without it, the agent optimizes the test instead of optimizing the prompt.
+>
+> If you can define 3-6 binary criteria for what 'good' looks like, you can run this loop on anything. Prompts, email sequences, landing page copy, onboarding flows, support scripts. The Karpathy loop is a universal optimization architecture disguised as an ML tool.
+>
+> *Quoting @aakashgupta:* For $25 and a single GPU, you can now run 100 experiments overnight without designing any of them.
+>
+> Karpathy open-sourced autoresearch. 42,000 GitHub stars in a week. Fortune called it 'The Karpathy Loop.'
+>
+> Every article about it focused on the ML angle. They all missed the bigger story. The pattern underneath works on anything you can score with a number. Ad copy, cold emails, video scripts, job posts, skill files.
+>
+> Three files. One the agent edits. One it can never touch. One instruction file from you. Each cycle takes 5 minutes. Score went up? Git commit. Score went down? Git reset. Twelve cycles per hour. A hundred overnight.
+>
+> Karpathy ran it on code he'd already optimized by hand for months. The agent found 20 improvements he'd missed. 11% faster. Tobi Lutke pointed it at Shopify's Liquid templating engine. 53% faster rendering from 93 automated commits.
+>
+> I spent two weeks pulling the system apart. Today's guide shows you how to use it on the things you actually make every day. Six use cases, the three-step setup, and the eval mistakes that kill runs before they start.
+
+- **Tweet:** https://x.com/aakashgupta/status/2038132294817656978
+- **Quoted:** https://x.com/aakashgupta/status/2034851259442749909
+- **Link:** https://www.aibyaakash.com/p/autoresearch-guide
+- **What:** Argues that autoresearch's viral success stems from a single architectural insight — strict separation of mutator, judge, direction, and constraint into four non-overlapping roles — and that this four-role loop is isomorphic to A/B testing, the scientific method, and lean manufacturing, making it a domain-agnostic optimization primitive applicable to prompts, copy, and onboarding flows at ~$25/100 iterations overnight.
+
+## @jasonzhou1993 - RTK (Rust Token Killer) cuts Claude Code token usage by 60%
+> Great thread on reducing Claude Code token up to 60%
+>
+> Best one is using the open-source tool RTK (Rust Token Killer)
+>
+> It automatically removes noise, merges repeated content, and strips useless blank lines and progress bars.
+>
+> More details down in @aibuilderclub_ 👇
+>
+> *Quoting @aibuilderclub_:* 1/
+>
+> Claude Code users: token-saving tactics that actually work 💰
+>
+> My Claude Code token usage started climbing fast, and my subscription limit wasn't enough.
+>
+> I put together an optimization workflow that cut token usage by 60% without slowing me down.
+>
+> Here are the core steps 👇🧵
+
+- **Tweet:** https://x.com/jasonzhou1993/status/2038215854584906078
+- **Quoted:** https://x.com/aibuilderclub_/status/2038174485053046868
+- **What:** Highlights RTK (Rust Token Killer), an open-source tool that preprocesses Claude Code context by stripping noise, deduplicating content, and removing blank lines and progress bars — surfaced as the standout technique from a broader thread claiming 60% token reduction in practice without degrading workflow speed.
+
+## @ukint_vs - Pretext canvas library for particle text and scroll trail effects
+> Messed around with pretext and literally couldn't stop. Turned my basic static page into something you actually wanna touch.
+>
+> Particle text, scroll trails, scramble transitions.
+> Pure canvas, 60fps, smooth af.
+>
+> *Quoting @_chenglou:* My dear front-end developers (and anyone who's interested in the future of interfaces):
+>
+> I have crawled through depths of hell to bring you, for the foreseeable years, one of the more important foundational pieces of UI engineering (if not in implementation then certainly at least in concept):
+> Fast, accurate and comprehensive userland text measurement algorithm in pure TypeScript, usable for laying out entire web pages without CSS, bypassing DOM measurements and reflow
+
+- **Tweet:** https://x.com/ukint_vs/status/2038236738477531636
+- **Quoted:** https://x.com/_chenglou/status/2037713766205608234
+- **Link:** https://ukint-vs.github.io/
+- **What:** A practitioner's reaction to Cheng Lou's userland text measurement library — the author used it (via the pretext wrapper) to add particle text, scroll trails, and scramble transitions to a static page at 60fps, demonstrating the library's practical upshot: interactive canvas-based UI effects that bypass CSS and DOM reflow entirely.
+
+## @ProductFaculty - The $375K AI PM who ships prototypes before her first meeting
+> Just talked to an AI Product manager making $375K at a frontier lab.
+>
+> She hasn't written a PRD in 8 months.
+>
+> Not 'she uses AI to help write them faster.' She has not opened a PRD template in eight months because she just doesn't need it anymore.
+>
+> Her day looks nothing like what PMs do:
+>
+> She wakes up, opens Claude Code, and has a working prototype running before her first meeting of the day (not a wireframe or a figma mockup someone needs to hand off to an engineer). A testable version of the idea - built/shipped by her in the same morning.
+>
+> While that prototype is running, she's pulling model outputs and running evals. She knows what hallucination looks like in her specific use case. She knows what latency threshold breaks the user experience. She knows the token cost per query and what that means for margin at scale.
+>
+> She reasons about infrastructure the way a CFO reasons about a P&L. When something needs to be built for real, she doesn't go write a ticket and wait two sprints. She ships the first version herself, hands it to engineering as a working reference implementation, not a requirements doc full of edge cases nobody reads.
+>
+> The meetings she's in aren't about alignment. They're about what's already shipped and what's blocking the next thing.
+>
+> Her mental model isn't:
+> - 'manage the roadmap.'
+> - 'be the voice of the customer.'
+> - 'facilitate cross-functional collaboration.'
+>
+> Those aren't wrong exactly, they're just from a different era.
+>
+> The mental model that gets you to $480K at a frontier lab in 2026 is simpler and harder at the same time:
+> - You are the builder.
+> - The agents are your team.
+> - Your job is to ship.
+>
+> She said the output gap between PMs who operate this way and PMs who don't is already 3-4x. And this is inside a lab where literally everyone around her is working the same way.
+>
+> Here's the thing nobody wants to say out loud: the 'I write specs and run standups' PM isn't being replaced by AI. The job isn't disappearing into a chatbot. It's being absorbed by the PM sitting two desks over who stopped waiting for engineers and started building herself.
+
+- **Tweet:** https://x.com/ProductFaculty/status/2038253060221542781
+- **What:** A concrete profile of how the PM role is being redefined at frontier labs — not AI-assisted spec writing, but PMs who ship working prototypes before standup, run their own evals, and reason about token costs and latency the way a CFO reads a P&L, handing engineering a reference implementation instead of a requirements doc.
+
+## @arvidkahl - Claude skills discovery is broken — word of mouth in tweet replies
+> The discovery of Claude skills still is an unsolved problem. I learn of the most insane high-impact skills from throwaway mentions in some reply somewhere.
+>
+> My mobile browser is full of links like these.
+>
+> What's the most impressive Claude skill you've ever installed?
+
+- **Tweet:** https://x.com/arvidkahl/status/2038269686693929318
+- **What:** The Claude skills ecosystem has a discoverability problem — high-impact skills spread only through incidental mentions in replies rather than any systematic directory, which means most users are missing tools that could substantially change how they work.
+
+## @cryptopunk7213 - Eli Lilly's $2.75B AI drug deal: 14 drugs in trials at 10% of normal cost
+> this is HUGE news. $2.75 billion ai-powered drug discovery with 14 drugs already in clinical trials and 10% of the cost!
+>
+> can you imagine how many lives this could save? the tech stack is also sick:
+>
+> - 42 ai models generate novel molecular cures from scratch. millions of potential cures in days
+>
+> - PandaOmics model helps target the exact protein to attack / cure a disease.
+>
+> - Google's alphafold AI helps structure the drug so it's most effective.
+>
+> - a prediction AI then simulates the probability that drug will succeed
+>
+> - they already discovered a drug that treats fibrosis, accelerated it to clinical trials in 18 MONTHS (usually 4-6 years)
+>
+> 14 drugs are now in trials and this new deal will accelerate even more.
+>
+> im personally a HUGE fan of targeted designer drugs + affordable healthcare
+>
+> this is so cool to see. i give it < 10 years till we have cures to 90% of diseases.
+>
+> *Quoting @business:* Eli Lilly signed an AI-powered drug development deal with Insilico Medicine that could be worth up to $2.75 billion.
+
+- **Tweet:** https://x.com/cryptopunk7213/status/2038276477247259025
+- **Quoted:** https://x.com/business/status/2038233784059847090
+- **Link:** https://www.bloomberg.com/news/articles/2026-03-29/lilly-insilico-ink-deal-on-ai-drugs-worth-up-to-2-75-billion
+- **What:** Eli Lilly's $2.75B deal with Insilico Medicine validates a multi-model AI drug discovery stack — PandaOmics for target identification, AlphaFold for structure, plus 42 generative models — that compressed one fibrosis drug's path to clinical trials from 4-6 years down to 18 months and at roughly 10% of conventional cost, with 14 candidates already in trials.
+
+## @ziwenxu_ - Anthropic ships 50+ launches in 52 days by treating coding as architecture, not syntax
+> The old way of running a tech company is dead.
+>
+> Anthropic just proved it: 50+ launches in 52 days. Most teams take two months to move a button three pixels left.
+>
+> The secret? They killed 'coding' as we knew it.
+>
+> Their CEO said it out loud: engineers don't grind syntax anymore.
+>
+> They architect systems, unleash Claude to write the bulk, then curate. Claude is literally building the next Claude.
+>
+> Here's what nobody's talking about:
+>
+> - The loop is the only moat. If your product isn't building the next version of itself, you're already outdated.
+> - Coding transformed from writing to taste. Value isn't knowing where brackets go. It's having the vision for architecture that scales.
+>
+> AI isn't a tool anymore. It's the architect. If you're still grinding manual labor, you're racing against something that never sleeps, never stops, never blinks.
+>
+> *Quoting @cgtwts:* Anthropic CEO:
+>
+> 'I have engineers within anthropic who don't write any code, they just let Claude write the code and they edit it and look it over'
+>
+> 'At anthropic writing code means designing the next version of Claude itself, so we essentially have Claude designing the next version of Claude itself, not completely but most of it'.
+>
+> In the last 52 days, the Claude team dropped 50+ major feature launches.
+>
+> This is literally INSANE.
+
+- **Tweet:** https://x.com/ziwenxu_/status/2038280856532300142
+- **Quoted:** https://x.com/cgtwts/status/2038234212160119034
+- **What:** Anthropic's 50+ launches in 52 days is the operational evidence behind the CEO's claim that engineers there no longer write code — they design systems and curate Claude's output, collapsing the traditional build cycle and making architectural taste (not syntax fluency) the scarce resource.
+
+## @Voxyz_ai - Combining gstack, Superpowers, and Compound Engineering into a single dev workflow
+> just finished a 3-hour /office-hours session using the prompt from the article:
+>
+> 'Interview me until you have 95% confidence about what I actually want, not what I think I should want.'
+>
+> it peeled back the last layer of what i actually needed. i thought i knew what i wanted. turns out i only knew the surface. the plan that came out after 3 hours was completely different from what i walked in with.
+>
+> if you take one thing from the article, try this prompt + /office-hours.
+>
+> want the full three-layer development stack? here's the order i actually run:
+>
+> 1. 95% confidence prompt
+> 2. /office-hours → /plan-ceo-review → /plan-eng-review (gstack)
+> 3. /ce:brainstorm → /ce:plan → /ce:work (CE)
+> 4. /ce:review + /qa (CE + gstack)
+> 5. /ce:compound (CE)
+> 6. ship it. next time step 3 already knows everything you learned this time.
+>
+> *Quoting @Voxyz_ai:* https://t.co/q7Q5MmqASV
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2038292854510874716
+- **Quoted:** https://x.com/Voxyz_ai/status/2038237755654783107
+- **Link:** https://x.com/i/article/2038187662260031488
+- **What:** A practitioner's hands-on comparison of three Claude Code skill suites (gstack, Superpowers, Compound Engineering) finds they address distinct layers — gstack for decision gates and browser QA, Superpowers for workflow discipline, CE for research-driven planning and knowledge compounding via /ce:compound — and that chaining all three in a specific order (clarify → review → build → QA → compound) produces compounding returns because each run writes its lessons back to docs/solutions/ for future agents.
+
+## @SandyBrandyy - Personalised oncology is a manufacturing and safety problem, not a scalability feature
+> *Replying to @vishesh_amin:* @SandyBrandyy @aleabitoreddit I think the point is more about every person receiving custom therapies, its not a scale issue since every person is N = 1. When someone is terminal and no other therapies work, the question becomes at what extent can regulation limit what a person does in order to stay alive
+>
+> It is a scale issue hahaha. But perhaps we have different impressions on what scale means in this case. It's less so the ability to treat one patient with a consistent, repeatable pipeline but it's more the physical supply chain itself in biology.
+>
+> 'N=1' in coding just means a different 'script' for each user. In oncology, 'N=1' is a manufacturing and safety nightmare, not a feature of scalability.
+>
+> We can viably break this down into 3 bottlenecks.
+>
+> >> Manufacturing: Personalised oncology often requires autologous (patient-derived) or custom-synthesised agents. Each vaccine is entirely customised per tumour. The process involves many layers of healthcare professionals, scientists, many iterations of proteins and biophysical assays. Cold Storage solutions, iterations of delivery mechanisms.
+>
+> >> Pharmacodynamic. TLDR delivery vehicles. LNPs, viral vectors, or ADCs all hits that target without causing a cytokine storm or multi-organ failure. AI can predict a binding affinity to a 50% efficacy, but it can't yet perfectly simulate how a specific patient's unique, exhausted immune system will react to a novel compound.
+>
+> >> Reasoning and Validation. Every 'N=1' case requires a massive 'tax' of human hours to verify any computer modelling + AI suggestions. You can't automate the 'human-in-the-loop' safety check at scale yet because the cost of a 'hallucination' is a life.
+>
+> We are moving toward a world of Platformized Medicine (where the process is approved, and the 'payload' is modular), but we are still in the 'mainframe' era of this tech.
+
+- **Tweet:** https://x.com/SandyBrandyy/status/2038304084495856102
+- **Parent:** https://x.com/vishesh_amin/status/2038290209683710277
+- **What:** Reframes the "N=1 personalised medicine" optimism by distinguishing software flexibility from biological manufacturing reality — three interlocking bottlenecks (autologous supply chain, delivery-vehicle pharmacodynamics, and mandatory human validation) mean each custom cancer therapy is closer to a bespoke industrial process than a software build, and AI can assist but cannot yet collapse the cost or eliminate the safety-critical human-in-the-loop at any scale.
+
+## @beffjezos - FDA overregulation is offshoring biotech R&D to China
+> The fact that drug development has to be done in China because of FDA overregulation should be alarming.
+>
+> We need to deregulate in order to accelerate biotech progress in the United States.
+>
+> Eroom's law must come to an end. Enough.
+>
+> *Quoting @AndrewCurran_:* Their CEO, Alex Zhavoronkov, told CNBC that Insilico has already developed at least 28 drugs using generative AI tools, with nearly half already at a clinical stage. They develop their models in Canada and the ME, and then conduct the early preclinical drug development in China.
+
+- **Tweet:** https://x.com/beffjezos/status/2038308129197465998
+- **Quoted:** https://x.com/AndrewCurran_/status/2038293343579549799
+- **What:** Uses Insilico Medicine's pipeline — 28 AI-generated drugs, half already in clinical trials, with preclinical work routed through China — as a concrete illustration of Eroom's Law playing out geopolitically: the regulatory overhead of the FDA is pushing the early and highest-risk stages of AI-accelerated drug discovery offshore, making the US a slower-moving observer in a race it could be leading.
+
+## @meta_alchemist - Self-evolving Claude Code via four-layer mutation and memory architecture
+> this guide will bring self-evolution mechanisms into your Claude Code
+>
+> save it, use it next time you use Claude
+>
+> *Quoting @meta_alchemist:* https://t.co/F1Q6hhyOYS
+
+- **Tweet:** https://x.com/meta_alchemist/status/2038316393201012796
+- **Quoted:** https://x.com/meta_alchemist/status/2037911194930171905
+- **Link:** https://x.com/i/article/2037911194930171905
+- **What:** A structured approach to making Claude Code genuinely self-improving across sessions: corrections you make are logged, and once a pattern recurs it mutates into a permanent rule in CLAUDE.md; path-scoped rules keep context lean by only loading security or API constraints when editing the relevant directories; and a periodic review skill graduates accumulated observations into permanent "DNA" — the net effect is natural selection for engineering norms, where useful patterns survive and outdated rules get pruned.
+
+## @danshipper - The four jobs that survive at tech companies
+> pirates, architects, hot people, grown ups
+>
+> *Quoting @chintanzalani:* The only 4 jobs that will remain at tech companies.
+>
+> Credits: @yrechtman
+
+- **Tweet:** https://x.com/danshipper/status/2038328780154958315
+- **Quoted:** https://x.com/chintanzalani/status/2038026663867330850
+- **What:** THIN: A circulating framework (credited to @yrechtman) classifying the surviving tech roles into four archetypes — pirates (scrappy builders who break rules), architects (systems thinkers), hot people (culture/brand attractors), and grown-ups (operators who keep things running) — with Dan Shipper's terse endorsement signalling he finds the taxonomy credible.
+
+## @shiri_shh - Suno AI enabling zero-experience musicians to generate streaming income
+> People with ZERO music experience are earning thousands per month using Suno AI
+>
+> - ChatGPT for lyrics + Suno for full songs then distributed to Spotify/YouTube/Soundcloud
+>
+> - selling custom jingles, birthday songs, or background tracks on Fiverr/Pond5
+>
+> - Some are hitting consistent streams with lo-fi playlists or background music
+>
+> None of this requires music skill. Just iteration, taste, and patience.
+>
+> *Quoting @shiri_shh:* Is anyone paying attention to AI MUSIC?
+>
+> Suno just hit $300M ARR with 2M PAID users.
+>
+> they're generating 7 MILLION songs per day.
+>
+> that's Spotify's entire catalog every 2 weeks.
+
+- **Tweet:** https://x.com/shiri_shh/status/2038331280715370929
+- **Quoted:** https://x.com/shiri_shh/status/2037932419656135020
+- **What:** Suno's scale ($300M ARR, 7M songs/day) is being monetised by non-musicians through two channels — passive streaming royalties via lo-fi and background music, and active gig-economy sales of custom tracks — suggesting the barrier to music income has collapsed from skill to taste and throughput, which has direct implications for professional composers and stock-music platforms alike.
+
+---
 # Saturday, March 28, 2026
+
+## @ben_burtenshaw - Multi-agent autoresearch system running live ML experiments on HuggingFace
+> gastown on @karpathy's  autoresearch is just the wildest ride. I've got a team of agents running experiments, starting h200 jobs on the hub, logging to trackio, and researching papers.
+>
+> - researcher crew that search for papers on hf and defines hypotheses
+> - planner crew that owns the job list and start or stop experiments for polecats
+> - polecat agents take an experiment hypothesis, write a script and send off the job
+> - reporters comb through running jobs, track metrics, make reports, and kill jobs
+>
+> the hugging face hub has never made more sense to me than today, but I feel like I joined a cult.
+
+- **Tweet:** https://x.com/ben_burtenshaw/status/2037976142133485848
+- **What:** A practitioner's account of building a fully autonomous ML research pipeline on top of Karpathy's autoresearch — four specialized agent crews (researcher, planner, executor, reporter) coordinate to run hypothesis-driven experiments on H200s end-to-end, with the HuggingFace Hub serving as the connective tissue between all stages.
+
+## @ericosiu - Open-sourced revenue-growth workflow skills for Claude Code agents
+> Open-sourced our skills that help grow revenues.
+>
+> Actual workflows: scripts, scoring algorithms, expert panels, and automation pipelines you can plug into Claude Code (or any AI coding agent) and run today.
+>
+> Resurrect deals, create expert panels to ship content that performs, turn visitors into pipeline, run marketing experiments autonomously, and more.
+>
+> Threw in some finance ops skills to help you recover money, too. We cut $500k in costs just by using it.
+
+- **Tweet:** https://x.com/ericosiu/status/2038039084195807570
+- **What:** A release of production-tested go-to-market automation skills for Claude Code, covering deal revival, AI-panel-based content production, pipeline generation, and autonomous marketing experiments — the author claims $500k in cost savings from their own finance ops workflows, positioning these as plug-and-play primitives for revenue operations.
 
 ## @lukeigel - Pure TypeScript text measurement without the DOM
 > When Cheng first told me about this I couldn't believe what I was hearing. Turns out you can solve a lot by letting the agents just run for weeks!
