@@ -1,5 +1,28 @@
 # Sunday, March 29, 2026
 
+## @gkisokay - OpenClaw + Hermes: Two-Agent Supervisor Pattern for Autonomous Workflows
+> There are distinct advantages to using both OpenClaw and Hermes agent (see table 1).
+>
+> The #1 question I'm getting is "why don't you just use Hermes for everything?"
+>
+> The reason I don't is because I've been working on my research tool for 3+ months. In Claude Code, Codex, and eventually using OpenClaw.
+>
+> It works wonders for very cheap, and a Hermes rebuild would require a lot of time and credits. I'd be rebuilding what 3,500+ contributors and 5,400+ skills on ClawHub have already solved.
+>
+> So I asked myself, why not try to utilize both agents? Use their strengths to boost their weaknesses.
+>
+> OpenClaw is the fastest-growing open source project in history (339k GitHub stars). That community has built a massive tool-base. Plug in a skill, configure it, and it just runs. No code required.
+>
+> Hermes is fundamentally different. It's the only agent with a built-in learning loop. It creates skills from experience, improves them during use, and builds a deeper model of who you are across sessions.
+>
+> The way I see it, OpenClaw does the work, Hermes does the thinking and building. Together, we can build anything.
+>
+> *Quoting @gkisokay:* https://t.co/nrp8QDoxgk
+
+- **Tweet:** https://x.com/gkisokay/status/2038174269604241884
+- **Quoted:** https://x.com/gkisokay/status/2037902655016804496
+- **What:** A step-by-step technical guide for pairing OpenClaw (tool-rich execution agent with 5,400+ community skills) with Hermes (a self-learning supervisor agent) in a multi-agent architecture coordinated over a dedicated Discord channel using a strict four-marker intent protocol ([STATUS_REQUEST], [REVIEW_REQUEST], [ESCALATION_NOTICE], [ACK]) — the key innovation is enforcing ACK as a terminal signal that caps every exchange at 3 messages and prevents the infinite ping-pong loops that kill most naive multi-agent setups, offloading ops-monitoring cognitive load from the human so they can stay in creator mode.
+
 ## @trq212 - Bidirectional Figma↔Claude Code Workflow via Figma MCP
 > the more I've been digging into the new Figma MCP, the more excited I am about it
 >
